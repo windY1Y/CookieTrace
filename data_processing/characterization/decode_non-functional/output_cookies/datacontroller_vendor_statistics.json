@@ -1,0 +1,4812 @@
+[
+  {
+    "datacontroller": "Google",
+    "domainCount": 709,
+    "domains": [
+      {
+        "domain": "123test.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "abcplay.online",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "abtasty.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "accountingtoday.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "accuradio.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "acog.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "adaraanalytics.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "advrider.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "afsgames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "agroklub.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "aiease.ai",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "akcios-ujsag.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "amolatina.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "amomeupet.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ana-white.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "appcues.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "appfunia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "appinfocenter.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "asam.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "astrologyanswers.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "astrostyle.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "auto-swiat.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "autocarindia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "autotriti.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "babygames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bigtvlive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bloombergquint.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bom.so",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bridgebase.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "briefly.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "brisbanetimes.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "budgetbytes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bug.hr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "buzzforme.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "canaltech.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cfl.ca",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cgv.id",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "chamberofcommerce.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "chicagoreader.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "christianity.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cifraclub.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cifraclub.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cinematoday.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cio.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "clien.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cnnbrasil.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "codapayments.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "computerwoche.de",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "computerworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "contentexchange.me",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cosme.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cosmopolitan.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "couples.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cozycozy.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cronista.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "crosswalk.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cupofjo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dailyassam.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dailysignal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "damanwoo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dating.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "davines.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "day.az",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "definition.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dentrixascend.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dimatter.ai",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "discordbotlist.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "divein.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "domusweb.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "downtoearth.org.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dream.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dsij.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dtdns.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "duq.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ebaumsworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ecodibergamo.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eldia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ellitoral.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eltrecetv.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "emerce.nl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "enjoy4fun.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "enjoysgame.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ensonhaber.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "enworld.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eponuda.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "essence.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "estadao.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eurodate.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "everand.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "exame.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "extra.ec",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "f1000research.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fact-finder.de",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fave.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fff.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "filmdaily.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fimaster.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "firstbus.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fjallraven.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "flagship.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "foodsdictionary.co.il",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "football.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "football365.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "forbes.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "foxsports.com.mx",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "freebcc.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "freetoursbyfoot.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "futureme.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fxstreet.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gametop.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gameyay.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gazetaprawna.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gazetkonosz.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gazzettadiparma.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gentosha-go.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gestion.pe",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "getwair.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gizmag.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "glamour.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gocar.be",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "godtube.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gosc.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gram.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "greenmatters.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "guru-soft.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "haber61.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hardwarezone.com.sg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hazipatika.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hbr.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hearthstonetopdecks.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hellasjournal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hfma.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hirstart.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "holiday-weather.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "holykjvbible.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "homestratosphere.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "icook.tw",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "idg.se",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "imaging-resource.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "in.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "index.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "indiatimes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "intellitest.me",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "interestingengineering.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "inventra.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "iprofesional.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "istoe.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "iwin.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jabarekspres.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jecontacte.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jigidi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jobfind.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jobillico.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jobradar24.ro",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "joj.sk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jornaldenegocios.pt",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kamen-rider-official.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kaufino.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kiskegyed.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "klik.hr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "knack.be",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kongregate.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kuioo.tw",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kurir.rs",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kurzy.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lajumate.ro",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "larparatodos.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lasalle.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "legit.ng",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lematin.ma",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "letras.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "letras.mus.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "letudiant.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "limakid.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "livehindustan.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "local10.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "loox.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "loteriasdehonduras.com",
+        "cookieHead": "__gsas"
+      },
+      {
+        "domain": "lovetoknow.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ltn.com.tw",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "luxuryestate.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lvrj.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "macobserver.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "malaymail.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "meevo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "meioemensagem.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mensxp.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "meteoblue.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "milanoo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mirrormedia.mg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "modesettravaux.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mononews.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mtsprout.nl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "my.games",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "n9.cl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nacion.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nafsa.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ncaa.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nekretnine.rs",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "newatlas.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "newsauto.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nicematin.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nin.rs",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nsctotal.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ntv.co.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ntv.com.tr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "octadesk.services",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "octopia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "okmagazine.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "okt.to",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "oktopost.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "oliberal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "olx.ba",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "omniatech.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "onlinedataentryjob.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "opovo.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "paltalk.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "paltalkconnect.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "panpacific.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "patheos.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pionline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "plantura.garden",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "politico.eu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "polygon.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "popsci.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "porofessor.gg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "president.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "profootballnetwork.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "protothema.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "punchbowl.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "putovnica.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "quiz-facts.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "quizfunia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "quizme.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "racingnews365.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "radaronline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rappler.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "receiteria.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "refinery29.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "retty.me",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "revenuewell.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "revistaforum.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rondoniaovivo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rosario3.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rusdate.de",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rvshare.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "santa.lv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sattacademy.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "savingforcollege.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "schwarzwaelder-bote.de",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sciencenews.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "screencastify.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "seositecheckup.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "setupad.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "seumundotech.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sfist.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "shopgoodwill.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "shotkit.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "shuru.co.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "skimlinks.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "skul.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "smaker.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "smartrecruiters.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sortiraparis.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "spectator.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "speedguide.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "speedtest.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sportskeeda.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sscdn.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "startlap.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "stcatharinesstandard.ca",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "strefabiznesu.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "stuttgarter-zeitung.de",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "stylevore.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sudoku-online.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "suffolk.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "techcrunch.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "techhive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "techinsights.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "themanual.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thequint.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "therecord.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thesaurus.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thisiscolossal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "timesofsandiego.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tn.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tomaticket.es",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tovima.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tradekey.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tribuneindia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tricksgame.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tryhardguides.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tuasaude.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tvnet.lv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "twistedsifter.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "unbxd.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "usfca.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vamosmisevillafc.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vanguardia.com.mx",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "velaro.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vide-greniers.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "visionarywritings.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vnexpress.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "watson.ch",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "weatherzone.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "webteb.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "webtekno.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wef.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wikiwand.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "winscp.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "winsports.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wisegeek.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wtransnet.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wuolah.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "xosodaiphat.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "xosodaiphat.vn",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yad.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yemek.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ynetnews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yourtravelmates.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "zarrue.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "zendate.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "177milkstreet.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "7jours.ca",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "abc-talks.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "accountingtools.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "activestate.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "adage.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "adam4adamsfw.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "aiptcomics.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "airfarewatchdog.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "aksam.com.tr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "alerabat.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "amarujala.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "andalucia.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "androidauthority.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "apponbest.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "arabtimesonline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "artmajeur.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "asoview.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "aviationweek.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "awilime.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "be.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "benefitnews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bestgames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bigissue.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bigsoccer.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bikehub.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bizzbuzz.news",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bluedot.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bolha.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bookriot.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "boston.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "breezechms.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "broadstreetads.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bsport.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "bumble.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "businessinsider.com.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "businesslive.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "buzzle.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "buzztests.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "calculator.academy",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "caninejournal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cargames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "carmag.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cartstack.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cinemasunshine.co.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "clipmyhorse.tv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "computerworld.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "conjur.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "crazyforcrust.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cricheroes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cricket.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "csoonline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cucchiaio.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "daily.co.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dailydictation.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dailytrust.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "datemyage.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dba.dk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "deccoria.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "deepai.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "diabetes.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "diariovagas.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dictionary.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "didna.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "diena.lt",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "digitalmatter.ai",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "digitaltrends.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "directbooking.ro",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "discovernorthernireland.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "disneyfoodblog.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "diverto.tv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dmarge.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dmv-written-test.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dnevnik.rs",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dnevnik.si",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "domikids.tv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "doshinsports.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "drf.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dropout.tv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dziennik.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "earth.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ebc.net.tw",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "echolive.ie",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ecocert.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "economico.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "editorialedomani.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "educba.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elcaribe.com.do",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elclasificado.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elcomercio.pe",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elenta.lt",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eliteprospects.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elle.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elnashra.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eltropy.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eluniversal.com.mx",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "entreparticuliers.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "epreselec.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "etnownews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "etuovi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eu-startups.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "eurohoops.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "euromoney.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "expatica.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "expeditionportal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "expertreviews.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "expreso.ec",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "exyuradio.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fakty.com.ua",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fashionsnap.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fcupdate.nl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fightingillini.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "financebuzz.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fincaraiz.com.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fixthephoto.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "flip.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "flipboard.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "fok.nl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "folhadeemprego.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "forsal.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "forum24.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "freegames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gagadget.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gamepix.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "garagegymreviews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "generated.photos",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "grabo.bg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gradesaver.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "grandforksherald.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "guideautoweb.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gulfnews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "gzt.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "harbortouch.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "haribhoomi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "haynes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hec.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hip2save.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "histock.tw",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hitprace.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hokkaido-np.co.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "homebasework.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "homebaseworks.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "homify.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hostasaurus.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "huffingtonpost.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hypestat.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ibero.edu.co",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "icy-veins.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "igram.website",
+        "cookieHead": "GoogleAdServingTest"
+      },
+      {
+        "domain": "iihs.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "imresizer.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "indiaimagine.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "indiatimes.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "inforum.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "infoworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "insertlive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "islamicfinder.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "itnews.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "itworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "iwu.edu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jarir.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jugandoonline.com.ar",
+        "cookieHead": "GoogleAdServingTest"
+      },
+      {
+        "domain": "junaidjamshed.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kapanlagi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kdhnews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kdnuggets.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "keepeek.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kikibom.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kingbet.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kisskiss.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kochava.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "konnektive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kshb.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "kw.be",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lapaginamillonaria.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lapatria.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "latestspecials.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "leagueofgraphs.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lejournaldelamaison.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lemedecin.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "levif.be",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "livemint.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lodz.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "lopinion.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "losandes.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "losarcanos.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "luxerone.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mackenzie.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "macworld.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "macworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "maddyness.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "magazines.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "magicmaman.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "marieclaire.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mediotiempo.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "meetelise.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "memes.co.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "menicka.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "militarnyi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mindmegette.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "minfin.com.ua",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mixmag.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mobalytics.gg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "modernhealthcare.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mojewypieki.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mondo.rs",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "monedata.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "moneyinc.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mp.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mstar.com.my",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "myastro.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mychasma.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "myfinal11.in",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "mynorthwest.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ncte.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ndtvprofit.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "networkworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "newsweek.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nextdoor.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nintendoworldreport.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nlc.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nltimes.nl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nosalty.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "noticiasagricolas.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nrl.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nyctourism.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "o0bc.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "omie.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "oneplace.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "optidigital.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "orami.co.id",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "organizzei.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "oslobodjenje.ba",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pagina12.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pandai.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pattayamail.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pcworld.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "penize.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "phillymag.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "piclumen.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "playnetwork.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pocketapk.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pointi.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pokebip.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "police1.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ponly.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "portalgoodnews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "prensalibre.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "price.com.hk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "privateschoolreview.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "proff.no",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "psicologiaymente.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "publico.pt",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "publicschoolreview.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "puhutv.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pulse.ng",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "pulsepoint.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "puzzlegarage.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "racked.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "raidrive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "readworks.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "restaurantbusinessonline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ringpublishing.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rtl.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rustica.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rvlife.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rybnik.com.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "saffire.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "scoopwhoop.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "scorenga.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sdpnoticias.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "seznamka.cz",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "shellshock.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sinarharian.com.my",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sixtyandme.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sleepopolis.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "smh.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "snow-forecast.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "softonic.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "solitaired.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sonobi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "spoki.lv",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sportdog.gr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sportinfo.az",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sporx.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sprzedajemy.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "stacees.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "standsapp.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "straitstimes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sudaray.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "suedostschweiz.ch",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sumicity.net.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "suntimes.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "surf-forecast.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tastesbetterfromscratch.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "teachertube.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "telva.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "theatermania.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thecookierookie.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thegrocer.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thehindu.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thekennelclub.org.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thepeterboroughexaminer.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "therealdeal.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thespec.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thestar.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tiengdong.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "timeslive.co.za",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "timesnownews.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "todotest.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tomshw.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "topgames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tradeshift.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tradier.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "truity.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tuko.co.ke",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tutorialviagem.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tv9marathi.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tvanouvelles.ca",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "tvnoviny.sk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "twentytwowords.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "uai.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ufreegames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "unovacursos.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "upmedia.mg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "utrsports.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "varmatin.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vegoutmag.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "venatusmedia.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "verloop.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vesty.co.il",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vezess.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "viapais.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "video-facts.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "vnda.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wafflegame.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "watoday.com.au",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "webbeteg.hu",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "webun.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "wegow.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "worldanimalfoundation.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "writersdigest.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yallakora.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yapigames.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ycharts.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yellowpages.ca",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yen.com.gh",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yiv.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "ytel.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "yugatech.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "allabout.co.jp",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "antena1.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "blavity.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "calculoexato.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "cartaodetodos.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "chileautos.cl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "domiporta.pl",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "doveconviene.it",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "dzfoot.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "elterritorio.com.ar",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "folhape.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "hisawyer.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "idiva.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "isagha.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "isinolsun.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "koha.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "landrysinc.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "minijuegos.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "myanimelist.net",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "nau.ch",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rackspace.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rci.fm",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sigmalive.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "sophi.io",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "straitstimes.com.sg",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "thehindubusinessline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "theobjective.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "toronto.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "usalearns.org",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "architectsjournal.co.uk",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "etonline.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "jagran.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "matchendirect.fr",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "rackspace.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "saboresajinomoto.com.br",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "slurrp.com",
+        "cookieHead": "_gcl_au"
+      },
+      {
+        "domain": "stuttgarter-nachrichten.de",
+        "cookieHead": "_gcl_au"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Adobe",
+    "domainCount": 88,
+    "domains": [
+      {
+        "domain": "3cat.cat",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "49ers.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "accuradio.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "antena3.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "as.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "atresplayer.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "azcardinals.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "barcelo.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "bengals.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "caracol.com.co",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "ccma.cat",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "chargers.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "chicagobears.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "clevelandbrowns.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "dailysignal.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "ddj.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "detroitlions.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "diariosur.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "diariovasco.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "elcorreo.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "eldiariomontanes.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "elnortedecastilla.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "eonline.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "giants.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "hbr.org",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "hoy.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "huffingtonpost.es",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "larioja.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "lasexta.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "lasprovincias.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "lavozdigital.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "neworleanssaints.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "newyorkjets.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "nfl.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "ondacero.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "packers.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "patriots.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "philadelphiaeagles.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "pionline.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "raiders.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "rxlist.com",
+        "cookieHead": "aam_uuid"
+      },
+      {
+        "domain": "seahawks.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "steelers.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "stheadline.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "surinenglish.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "therams.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "veeam.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "vikings.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "visitsaudi.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "vocento.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "adage.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "africanews.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "antena3tv.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "atlantafalcons.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "aupaathletic.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "baltimoreravens.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "cadenaser.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "canarias7.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "chiefs.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "colts.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "dallascowboys.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "dayviews.com",
+        "cookieHead": "dst"
+      },
+      {
+        "domain": "denverbroncos.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "diariomotor.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "drdobbs.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "elcomercio.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "elpais.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "emedicinehealth.com",
+        "cookieHead": "aam_uuid"
+      },
+      {
+        "domain": "euronews.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "granadablogs.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "houstontexans.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "ideal.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "jaguars.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "lagacetadesalamanca.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "laverdad.es",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "leonoticias.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "los40.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "miamidolphins.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "modernhealthcare.com",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "mujerhoy.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "panthers.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "pisos.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "rac.co.uk",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "relevo.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "thegrocer.co.uk",
+        "cookieHead": "mbox"
+      },
+      {
+        "domain": "commanders.com",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "adnradio.cl",
+        "cookieHead": "dextp"
+      },
+      {
+        "domain": "buccaneers.com",
+        "cookieHead": "dextp"
+      }
+    ]
+  },
+  {
+    "datacontroller": "TikTok",
+    "domainCount": 85,
+    "domains": [
+      {
+        "domain": "animalpolitico.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "casar.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "conforama.es",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "conforama.pt",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "dazeddigital.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "depor.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "diariocorreo.pe",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "duq.edu",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "enworld.org",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "eponuda.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "essence.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "eurodate.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "extra.ec",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "frontofficesports.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "futureme.org",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "gestion.pe",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "gg.pl",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "giroditalia.it",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "hardwarezone.com.sg",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "hbr.org",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "holykjvbible.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "lajumate.ro",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "larparatodos.net",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "lematin.ma",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "letudiant.fr",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "limakid.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "malaymail.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "meevo.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "meloradio.pl",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "monkey.app",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "monkey.cool",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "njuskalo.hr",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "portaldecompraspublicas.com.br",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "rds.it",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "snopes.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "sportal.gr",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "trome.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "tubebuddy.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "105.net",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "177milkstreet.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "americansongwriter.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "bazar.bg",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "bigissue.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "bikehub.co.za",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "bookriot.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "breakout.com.pk",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "cricket.com.au",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "dynamiteclothing.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "elcomercio.pe",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "eurohandball.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "finance.si",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "freegames.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "gamepix.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "gamin4.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "garageclothing.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "ibero.edu.co",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "junaidjamshed.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "knvb.nl",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "magazines.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "markiza.sk",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "monobala.gr",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "mundo.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "mymovies.it",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "omie.com.br",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "orami.co.id",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "pff.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "pimeyes.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "queen.gr",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "rotikaya.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "saffire.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "sandiegoreader.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "sinarharian.com.my",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "soyacincau.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "squidapp.co",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "star.gr",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "stopots.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "superencontre.com",
+        "cookieHead": "_ttp"
+      },
+      {
+        "domain": "worldanimalfoundation.org",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "yiv.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "ysu.edu",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "elterritorio.com.ar",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "gagaoolala.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "mamanatural.com",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "nordkurier.de",
+        "cookieHead": "_tt_enable_cookie"
+      },
+      {
+        "domain": "wakacje.pl",
+        "cookieHead": "_ttp"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Sailthru",
+    "domainCount": 60,
+    "domains": [
+      {
+        "domain": "blikk.hu",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "boardroom.tv",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "crunchgear.com",
+        "cookieHead": "sailthru_content"
+      },
+      {
+        "domain": "defenseone.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "eater.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "eweek.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "futurism.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "gsp.ro",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "hbr.org",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "htmlgoodies.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "internetnews.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "katiecouric.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "kiskegyed.hu",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "melmagazine.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "newsweek.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "pionline.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "polygon.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "popphoto.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "popsci.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "postbulletin.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "raconteur.net",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "ranker.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "refinery29.com",
+        "cookieHead": "sailthru_content"
+      },
+      {
+        "domain": "techcrunch.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "the-tls.co.uk",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "thesaurus.com",
+        "cookieHead": "sailthru_content"
+      },
+      {
+        "domain": "theverge.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "twz.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "wnyt.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "adage.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "airforcetimes.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "androidauthority.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "bobvila.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "brooklynpaper.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "dictionary.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "domino.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "gadgethacks.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "grandforksherald.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "inforum.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "j-14.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "metro.us",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "modernhealthcare.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "motherjones.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "nyctourism.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "observer.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "on3.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "pehub.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "pulse.ng",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "punchdrink.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "purewow.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "qns.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "recode.net",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "soundguys.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "taskandpurpose.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "usmagazine.com",
+        "cookieHead": "sailthru_visitor"
+      },
+      {
+        "domain": "vox.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "wearethemighty.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "wonderhowto.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "datamation.com",
+        "cookieHead": "sailthru_pageviews"
+      },
+      {
+        "domain": "outdoorlife.com",
+        "cookieHead": "sailthru_visitor"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Blueconic.com",
+    "domainCount": 49,
+    "domains": [
+      {
+        "domain": "bostonglobe.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailycamera.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailyfreeman.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailynews.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "denverpost.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "diariolibre.com",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "eastbaytimes.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "greeleytribune.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "iex.nl",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "knack.be",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "lowellsun.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "plusonline.nl",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "sbsun.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "siliconvalley.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "theoaklandpress.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "thereporter.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "thereporteronline.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "thetimes-tribune.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "trentonian.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "whittierdailynews.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "adage.com",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "bostonherald.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "citizensvoice.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailybreeze.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailybulletin.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "dailylocal.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "delcotimes.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "grandforksherald.com",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "kw.be",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "levif.be",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "libelle-lekker.be",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "macombdaily.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "marinij.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "modernhealthcare.com",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "morningjournal.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "news-herald.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "police1.com",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "pottsmerc.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "presstelegram.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "readingeagle.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "reporterherald.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "roularta.be",
+        "cookieHead": "BCSessionID"
+      },
+      {
+        "domain": "sgvtribune.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "times-standard.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "timescall.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "chicoer.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "pasadenastarnews.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "sandiegouniontribune.com",
+        "cookieHead": "bc_tstgrp"
+      },
+      {
+        "domain": "twincities.com",
+        "cookieHead": "bc_tstgrp"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Optinmonster",
+    "domainCount": 32,
+    "domains": [
+      {
+        "domain": "exotel.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "fitandwell.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "mtsprout.nl",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "octadesk.services",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "radiolab.org",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "road.cc",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "royal-elementor-addons.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "saturdaydownsouth.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "spendwithpennies.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "thebigmansworld.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "tubebuddy.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "wellplated.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "wisegeek.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "americansongwriter.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "averiecooks.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "bassmaster.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "breezechms.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "collegefactual.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "cookieandkate.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "cookingclassy.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "fixthephoto.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "gearspace.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "iheartnaptime.net",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "insidethemagic.net",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "jocooks.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "mymodernmet.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "phillyvoice.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "preppykitchen.com",
+        "cookieHead": "_omappvs"
+      },
+      {
+        "domain": "sixtyandme.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "sportsbettingdime.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "suntimes.com",
+        "cookieHead": "_omappvp"
+      },
+      {
+        "domain": "therecipecritic.com",
+        "cookieHead": "_omappvs"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Snapchat",
+    "domainCount": 24,
+    "domains": [
+      {
+        "domain": "buzzsight.co",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "cosmopolitan.fr",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "duq.edu",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "futureme.org",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "hercampus.com",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "letudiant.fr",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "maxim.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "meloradio.pl",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "monkey.app",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "monkey.cool",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "pinknews.co.uk",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "quiztest.me",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "thepinknews.com",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "diggfun.co",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "domino.com",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "drf.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "dynamiteclothing.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "garageclothing.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "jarir.com",
+        "cookieHead": "_scid"
+      },
+      {
+        "domain": "magazines.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "pff.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "sheerluxe.com",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "tntech.edu",
+        "cookieHead": "_scid_r"
+      },
+      {
+        "domain": "twentytwowords.com",
+        "cookieHead": "_scid_r"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Optimizely",
+    "domainCount": 23,
+    "domains": [
+      {
+        "domain": "brusheezy.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "economist.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "finanzen100.de",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "fortune.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "holidaycheck.de",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "mitula.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "mitula.fr",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "mitula.it",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "nowtv.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "routledge.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "sky.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "skyshowtime.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "wowtv.de",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "ctv.ca",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "holidaycheck.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "igamingbusiness.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "ltur.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "nowtv.it",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "nrl.com",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "rhs.org.uk",
+        "cookieHead": "optimizelyEndUserId"
+      },
+      {
+        "domain": "sleepopolis.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "techtarget.com",
+        "cookieHead": "optimizelyDomainTestCookie"
+      },
+      {
+        "domain": "crcpress.com",
+        "cookieHead": "optimizelyEndUserId"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Reddit",
+    "domainCount": 20,
+    "domains": [
+      {
+        "domain": "appcues.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "cdkeys.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "duq.edu",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "ptvgroup.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "rawstory.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "revenuewell.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "spectator.co.uk",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "tvtropes.org",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "wondershare.net",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "adage.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "buff.game",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "didna.io",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "drf.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "funnyordie.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "hellopearl.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "kicksonfire.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "prospectmagazine.co.uk",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "thebrag.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "truity.com",
+        "cookieHead": "_rdt_uuid"
+      },
+      {
+        "domain": "alison.com",
+        "cookieHead": "_rdt_uuid"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Leadfeeder",
+    "domainCount": 15,
+    "domains": [
+      {
+        "domain": "exotel.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "flip-pay.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "portaldecompraspublicas.com.br",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "romania-insider.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "setupad.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "unbxd.io",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "zerotier.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "cartstack.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "eltropy.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "northdata.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "northdata.de",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "oxinst.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "refinery89.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "relevant-digital.com",
+        "cookieHead": "_lfa"
+      },
+      {
+        "domain": "tillster.com",
+        "cookieHead": "_lfa"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Klaviyo",
+    "domainCount": 14,
+    "domains": [
+      {
+        "domain": "astrostyle.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "monocle.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "whichcar.com.au",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "177milkstreet.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "bluebrixx.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "fangoria.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "filmthreat.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "grabo.bg",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "hibridosyelectricos.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "pff.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "showbiz411.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "t-nation.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "themediterraneandish.com",
+        "cookieHead": "__kla_id"
+      },
+      {
+        "domain": "wearethemighty.com",
+        "cookieHead": "__kla_id"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Outbrain",
+    "domainCount": 12,
+    "domains": [
+      {
+        "domain": "definition.org",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "entertainmentglow.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "intellitest.me",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "lanouvelletribune.info",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "pflanzmich.de",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "quiz-facts.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "quiz-universe.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "artmajeur.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "metropolitan.si",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "novelodge.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "video-facts.com",
+        "cookieHead": "dicbo_id"
+      },
+      {
+        "domain": "blavity.com",
+        "cookieHead": "dicbo_id"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Amazon",
+    "domainCount": 9,
+    "domains": [
+      {
+        "domain": "brasildefato.com.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "cifraclub.com.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "cifraclub.com",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "letras.mus.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "nsctotal.com.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "opovo.com.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "sscdn.co",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "sumicity.net.br",
+        "cookieHead": "__trf.src"
+      },
+      {
+        "domain": "contabeis.com.br",
+        "cookieHead": "__trf.src"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Active Campaign",
+    "domainCount": 6,
+    "domains": [
+      {
+        "domain": "allears.net",
+        "cookieHead": "ac_enable_tracking"
+      },
+      {
+        "domain": "elfinanciero.com.mx",
+        "cookieHead": "ac_enable_tracking"
+      },
+      {
+        "domain": "foxsports.com.mx",
+        "cookieHead": "ac_enable_tracking"
+      },
+      {
+        "domain": "americansongwriter.com",
+        "cookieHead": "ac_enable_tracking"
+      },
+      {
+        "domain": "weltwoche.ch",
+        "cookieHead": "ac_enable_tracking"
+      },
+      {
+        "domain": "whole-dog-journal.com",
+        "cookieHead": "ac_enable_tracking"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Piano",
+    "domainCount": 6,
+    "domains": [
+      {
+        "domain": "kanaloco.jp",
+        "cookieHead": "_pcus"
+      },
+      {
+        "domain": "lavozdealmeria.com",
+        "cookieHead": "_pcus"
+      },
+      {
+        "domain": "herefordtimes.com",
+        "cookieHead": "cX_G"
+      },
+      {
+        "domain": "ledevoir.com",
+        "cookieHead": "_pcus"
+      },
+      {
+        "domain": "nn.de",
+        "cookieHead": "_pcus"
+      },
+      {
+        "domain": "pb.pl",
+        "cookieHead": "_pcus"
+      }
+    ]
+  },
+  {
+    "datacontroller": "WordPress",
+    "domainCount": 6,
+    "domains": [
+      {
+        "domain": "makanbola.com",
+        "cookieHead": "tk_or"
+      },
+      {
+        "domain": "thephoblographer.com",
+        "cookieHead": "tk_lr"
+      },
+      {
+        "domain": "americansongwriter.com",
+        "cookieHead": "tk_or"
+      },
+      {
+        "domain": "hechingerreport.org",
+        "cookieHead": "tk_or"
+      },
+      {
+        "domain": "independent.com",
+        "cookieHead": "tk_lr"
+      },
+      {
+        "domain": "kosmo.com.my",
+        "cookieHead": "tk_or"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Media.net",
+    "domainCount": 3,
+    "domains": [
+      {
+        "domain": "dogbreedinfo.com",
+        "cookieHead": "mnet_session_depth"
+      },
+      {
+        "domain": "emedicine.com",
+        "cookieHead": "mnet_session_depth"
+      },
+      {
+        "domain": "medscape.com",
+        "cookieHead": "mnet_session_depth"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Constant Contact",
+    "domainCount": 2,
+    "domains": [
+      {
+        "domain": "paltalkconnect.com",
+        "cookieHead": "__ss_referrer"
+      },
+      {
+        "domain": "seoclerk.com",
+        "cookieHead": "__ss_referrer"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Command Act X",
+    "domainCount": 1,
+    "domains": [
+      {
+        "domain": "fff.fr",
+        "cookieHead": "CAID"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Customer.io",
+    "domainCount": 1,
+    "domains": [
+      {
+        "domain": "hvg.hu",
+        "cookieHead": "_cioanonid"
+      }
+    ]
+  },
+  {
+    "datacontroller": "OpenX",
+    "domainCount": 1,
+    "domains": [
+      {
+        "domain": "geenstijl.nl",
+        "cookieHead": "OAID"
+      }
+    ]
+  },
+  {
+    "datacontroller": "Quantcast",
+    "domainCount": 1,
+    "domains": [
+      {
+        "domain": "gmanews.tv",
+        "cookieHead": "__qca"
+      }
+    ]
+  },
+  {
+    "datacontroller": "ZOHO",
+    "domainCount": 1,
+    "domains": [
+      {
+        "domain": "halaltrip.com",
+        "cookieHead": "zc_show"
+      }
+    ]
+  }
+]

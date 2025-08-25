@@ -1,0 +1,282 @@
+[
+  {
+    "cookieHead": "_gcl_au",
+    "domainCount": 706,
+    "descriptions": [
+      "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services."
+    ]
+  },
+  {
+    "cookieHead": "_ttp",
+    "domainCount": 79,
+    "descriptions": [
+      "Tracking cookie used by TikTok to identify a visitor"
+    ]
+  },
+  {
+    "cookieHead": "_tt_enable_cookie",
+    "domainCount": 76,
+    "descriptions": [
+      "Tracking cookie used by TikTok to identify a visitor"
+    ]
+  },
+  {
+    "cookieHead": "dextp",
+    "domainCount": 70,
+    "descriptions": [
+      "Registers the date plus time (timestamp) on which a data synchronization was last performed by the Audience Manager."
+    ]
+  },
+  {
+    "cookieHead": "sailthru_pageviews",
+    "domainCount": 56,
+    "descriptions": [
+      "This cookie is set by Sailthru to tracks the number of page views for each user."
+    ]
+  },
+  {
+    "cookieHead": "sailthru_visitor",
+    "domainCount": 42,
+    "descriptions": [
+      "This cookie is set by Sailthru. The cookie contains an id that is used to identify a user's pageviews within a session."
+    ]
+  },
+  {
+    "cookieHead": "bc_tstgrp",
+    "domainCount": 37,
+    "descriptions": [
+      "Gathers information on the user’s behavior, preferences and other personal data, which is sent to a third-party marketing and analysis service, for optimization of the website’s advertisement, analysis and general traffic."
+    ]
+  },
+  {
+    "cookieHead": "_omappvp",
+    "domainCount": 31,
+    "descriptions": [
+      "Cookie is used to identify returning visitors"
+    ]
+  },
+  {
+    "cookieHead": "_omappvs",
+    "domainCount": 30,
+    "descriptions": [
+      "Cookie is used to identify returning visitors"
+    ]
+  },
+  {
+    "cookieHead": "_scid_r",
+    "domainCount": 23,
+    "descriptions": [
+      "Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers."
+    ]
+  },
+  {
+    "cookieHead": "_scid",
+    "domainCount": 23,
+    "descriptions": [
+      "Used to help identify a visitor."
+    ]
+  },
+  {
+    "cookieHead": "mbox",
+    "domainCount": 22,
+    "descriptions": [
+      "Adobe Target uses cookies to give website operators the ability to test which online content and offers are more relevant to visitors."
+    ]
+  },
+  {
+    "cookieHead": "optimizelyEndUserId",
+    "domainCount": 22,
+    "descriptions": [
+      "Stores a visitor's unique Optimizely identifier. It's a combination of a timestamp and random number. No other information about you or your visitors is stored inside."
+    ]
+  },
+  {
+    "cookieHead": "sailthru_content",
+    "domainCount": 22,
+    "descriptions": [
+      "Tracks recent pageviews for all visitors, and can be used to populate a new user profile."
+    ]
+  },
+  {
+    "cookieHead": "_rdt_uuid",
+    "domainCount": 20,
+    "descriptions": [
+      "This cookie is set by Reddit and is used for remarketing on reddit.com."
+    ]
+  },
+  {
+    "cookieHead": "optimizelyDomainTestCookie",
+    "domainCount": 18,
+    "descriptions": [
+      "When Optimizely loads a URL, the snippet places the cookie to get the current domain, for the purpose of whether cross-domain syncing is possible. If successful, the cookie is immediately removed. "
+    ]
+  },
+  {
+    "cookieHead": "_lfa",
+    "domainCount": 15,
+    "descriptions": [
+      "Leadfeeder cookie collects the behavioral data of all website visitors. This includes; pages viewed, visitor source and time spent on the site"
+    ]
+  },
+  {
+    "cookieHead": "__kla_id",
+    "domainCount": 14,
+    "descriptions": [
+      "When Klaviyo’s JavaScript is enabled, the __kla_id cookie can track and identify site visitors through an auto-generated ID. This cookie can temporarily hold personally identifiable information. Once a visitor is identified, the cookie can pass their data into Klaviyo."
+    ]
+  },
+  {
+    "cookieHead": "dicbo_id",
+    "domainCount": 12,
+    "descriptions": [
+      "Collects statistics concerning the visitors' use of the website and its general functionality. This is used to optimize and compile reports on the website for comparison through a third party analysis service."
+    ]
+  },
+  {
+    "cookieHead": "BCSessionID",
+    "domainCount": 12,
+    "descriptions": [
+      "Unique identifier for the BlueConic profile."
+    ]
+  },
+  {
+    "cookieHead": "__trf.src",
+    "domainCount": 9,
+    "descriptions": [
+      "Registers how the user has reached the website to enable pay-out of referral commission fees to partners."
+    ]
+  },
+  {
+    "cookieHead": "ac_enable_tracking",
+    "domainCount": 6,
+    "descriptions": [
+      "This cookie is associated with Active Campaign and is set to confirm that tracking has been enabled for the website. Tracking is used to create reports of our web traffic and improve the user experience of the website."
+    ]
+  },
+  {
+    "cookieHead": "tk_or",
+    "domainCount": 6,
+    "descriptions": [
+      "Jetpack - Stores the unique identifier for the publisher to enable Jetpack to collect data."
+    ]
+  },
+  {
+    "cookieHead": "tk_lr",
+    "domainCount": 6,
+    "descriptions": [
+      "Jetpack - Stores the unique identifier for the publisher to enable Jetpack to collect data."
+    ]
+  },
+  {
+    "cookieHead": "_pcus",
+    "domainCount": 5,
+    "descriptions": [
+      "This cookie is used to User segmentation"
+    ]
+  },
+  {
+    "cookieHead": "__gsas",
+    "domainCount": 3,
+    "descriptions": [
+      "Provides ad delivery or retargeting."
+    ]
+  },
+  {
+    "cookieHead": "GoogleAdServingTest",
+    "domainCount": 3,
+    "descriptions": [
+      "Used to register what ads have been displayed to the user."
+    ]
+  },
+  {
+    "cookieHead": "mnet_session_depth",
+    "domainCount": 3,
+    "descriptions": [
+      "Contains the scroll-depth across the website's sub-pages."
+    ]
+  },
+  {
+    "cookieHead": "__ss_referrer",
+    "domainCount": 2,
+    "descriptions": [
+      "This cookie contains information about where the visitor came from, called the source for the visit."
+    ]
+  },
+  {
+    "cookieHead": "aam_uuid",
+    "domainCount": 2,
+    "descriptions": [
+      "Adobe Audience Manager - data management platform uses these cookies to assign a unique ID when users visit a website."
+    ]
+  },
+  {
+    "cookieHead": "CAID",
+    "domainCount": 1,
+    "descriptions": [
+      "The CAID is the user identifier for cookie 1st"
+    ]
+  },
+  {
+    "cookieHead": "_cioanonid",
+    "domainCount": 1,
+    "descriptions": [
+      "Used to identify visitors in order to send transactional and targeted email messages."
+    ]
+  },
+  {
+    "cookieHead": "_cio",
+    "domainCount": 1,
+    "descriptions": [
+      "Used to identify visitors in order to send transactional and targeted email messages."
+    ]
+  },
+  {
+    "cookieHead": "__ss",
+    "domainCount": 1,
+    "descriptions": [
+      "This cookie is storing the session ID for your visit. It is used in combination with _ss_tk to group website visits in reports for a single user."
+    ]
+  },
+  {
+    "cookieHead": "__ss_tk",
+    "domainCount": 1,
+    "descriptions": [
+      "This is Sharspring’s token cookie which enables user tracking. It ensures that the visit to website is connected to the user independent of the session and the source."
+    ]
+  },
+  {
+    "cookieHead": "dst",
+    "domainCount": 1,
+    "descriptions": [
+      "Used to register a possible error message when sending data to a linked system."
+    ]
+  },
+  {
+    "cookieHead": "OAID",
+    "domainCount": 1,
+    "descriptions": [
+      "This cookie is used by the ad server software to manage which ads are placed on our website, and to capture clicks on those ads. Information is collected in anonymous form, and we do not use this data to deliver specific content, advertising or otherwise, to your browser."
+    ]
+  },
+  {
+    "cookieHead": "__qca",
+    "domainCount": 1,
+    "descriptions": [
+      "This cookie is set by Quantcast, who present targeted advertising. Stores browser and HTTP request information."
+    ]
+  },
+  {
+    "cookieHead": "zc_show",
+    "domainCount": 1,
+    "descriptions": [
+      "Collects data on visitors' preferences and behaviour on the website - This information is used make content and advertisement more relevant to the specific visitor."
+    ]
+  },
+  {
+    "cookieHead": "cX_G",
+    "domainCount": 1,
+    "descriptions": [
+      "This cookie is a Global ID mapping different IDs together into one ID. Used for building user profile information across all sites of a single customer where cx.js is implemented"
+    ]
+  }
+]

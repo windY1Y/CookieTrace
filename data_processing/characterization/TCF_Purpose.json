@@ -1,0 +1,57 @@
+{
+  "1": {
+    "purpose": "Store and/or access information on a device",
+    "legalBasis": ["Consent"],
+    "description": "Vendors can store and access information on the device such as cookies and device identifiers presented to an end-user."
+  },
+  "2": {
+    "purpose": "Select basic ads",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To select basic ads vendors can use real-time information about the context in which the ad will be shown, such as device type, user agent, URL, and IP address. Vendors can also use a user’s non-precise geolocation data and control the frequency of ads shown."
+  },
+  "3": {
+    "purpose": "Create a personalized ads profile",
+    "legalBasis": ["Consent"],
+    "description": "To create a personalized ads profile vendors can collect information about a user, including a user's activity, interests, visits to sites or apps, demographic information, or location to create, or edit a user profile for use in personalized advertising."
+  },
+  "4": {
+    "purpose": "Select personalized ads",
+    "legalBasis": ["Consent"],
+    "description": "To select personalized ads vendors can select ads based on a user profile or other historical user data, including activity, interests, visits to sites or apps, location, or demographic information."
+  },
+  "5": {
+    "purpose": "Create a personalized content profile",
+    "legalBasis": ["Consent"],
+    "description": "To create a personalized content profile vendors can collect information about a user, including a user's activity, interests, visits to sites or apps, demographic information, or location, and combine this information with previously collected data to create or edit a user profile for content personalization."
+  },
+  "6": {
+    "purpose": "Select personalized content",
+    "legalBasis": ["Consent"],
+    "description": "To select personalized content vendors can select content based on a user profile or other historical user data, including prior activity, interests, visits to sites or apps, location, or demographic information."
+  },
+  "7": {
+    "purpose": "Measure ad performance",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To measure ad performance vendors can measure whether and how ads were delivered to and interacted with by a user, and provide reporting about the ads' effectiveness and performance."
+  },
+  "8": {
+    "purpose": "Measure content performance",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To measure content performance vendors can measure how content was delivered to and interacted with by users and provide reporting about users who interacted with the content."
+  },
+  "9": {
+    "purpose": "Apply market research to generate audience insights",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To apply market research to generate audience insights vendors can provide aggregate reporting to advertisers about the audiences reached by their ads, and associate offline data with an online user for the purposes of market research."
+  },
+  "10": {
+    "purpose": "Develop and improve products",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To develop and improve products vendors can use information to improve their existing products, create new features, and develop new products, including through machine learning models."
+  },
+  "11": {
+    "purpose": "Use limited data to select content",
+    "legalBasis": ["Consent", "Legitimate Interests"],
+    "description": "To use limited data to select content vendors can select and deliver content based on real-time data, such as information about the page content, app type, and non-precise geolocation data."
+  }
+}
