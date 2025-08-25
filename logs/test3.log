@@ -1,0 +1,937 @@
+[adding to object_map], fp: 0x7fffaa583548, position: 2328, type: 29, object: 0x2fa306b0cdb1 <JSArray[8]>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 15, type: 52, object: 0x2fa306b17149 <JSArray[3]>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 43, type: 52, object: 0x2fa306b17201 <JSFunction X (sfi = 0x1b58c8241361)>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 624, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 648, type: 52, object: 0x0cba173c1721 <true>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 669, type: 52, object: 0x2fa306b17311 <HeapNumber 3.0>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 683, type: 52, object: 0x0d014b9dfe29 <HTMLDocument map = 0xd014b9dfbf9>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 701, type: 52, object: 0x2fa306b17201 <JSFunction X (sfi = 0x1b58c8241361)>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 703, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 703, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+function: 0x1b58c8241361 <SharedFunctionInfo X>
+add to caller map: 701, 1473136031
+[adding to object_map], fp: 0x7fffaa584310, position: 434, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584310, position: 434, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+function: 0x1b58c8241731 <SharedFunctionInfo>
+add to caller map: 433, 1444529132
+[adding to object_map], fp: 0x7fffaa584240, position: 100, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 102, type: 44, object: 5, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 183, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 185, type: 44, object: 5, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 179, type: 52, object: 0x2fa306b176c9 <HeapNumber 3.0>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 271, type: 52, object: 0x2fa306b17149 <JSArray[3]>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 273, type: 44, object: 0x0d014b9dc489 <JSFunction indexOf (sfi = 0xdd3c0af3341)>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 273, type: 44, object: 0x0d014b9dc489 <JSFunction indexOf (sfi = 0xdd3c0af3341)>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 281, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 283, type: 52, object: 0x2fa306b176c9 <HeapNumber 3.0>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 282, type: 44, object: 0x2fa306b17851 <String[1]: "x">, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584240, position: 282, type: 52, object: 0x2fa306b17851 <String[1]: "x">, isolate: 0x277000308000
+function: 0x0dd3c0af3341 <SharedFunctionInfo indexOf>
+add to caller map: 273, 2746994972
+now in Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: 264
+0
+0
+0
+function: 0x2fa306b17489 <JSFunction (sfi = 0x1b58c8241731)>
+[adding to object_map], fp: 0x7fffaa584240, position: 264, type: 15, object: 0x0cba173c1721 <true>, isolate: 0x277000308000
+add to function map, function_shared_info: 1444529132, position: 75, fp:0x7fffaa584240, size: 1
+end of Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: 264
+[adding to object_map], fp: 0x7fffaa584310, position: 433, type: 29, object: 0x0cba173c1721 <true>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584310, position: 451, type: 52, object: 0x1b58c82411b1 <String[5]: #abcxz>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa584310, position: 453, type: 44, object: 5, isolate: 0x277000308000
+now in Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: 598
+0
+0
+0
+function: 0x2fa306b17201 <JSFunction X (sfi = 0x1b58c8241361)>
+[adding to object_map], fp: 0x7fffaa584310, position: 598, type: 15, object: 0x2fa306b17b99 <HeapNumber 2.0>, isolate: 0x277000308000
+add to function map, function_shared_info: 1473136031, position: 47, fp:0x7fffaa584310, size: 1
+end of Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: 598
+[adding to object_map], fp: 0x7fffaa5843f0, position: 701, type: 29, object: 0x2fa306b17b99 <HeapNumber 2.0>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 717, type: 52, object: 0x0cba173c1721 <true>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 721, type: 52, object: 0x2fa306b17311 <HeapNumber 3.0>, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: 692, type: 44, object: 0x2fa306b17c21 <String[10]: "2inittrue3">, isolate: 0x277000308000
+WRITING DOCUMENT.COOKIE!!!
+object::setpropertyinternal, receiver: 0x0d014b9dfe29 <HTMLDocument map = 0xd014b9dfbf9>, name: 0x1ae2c67ca201 <String[6]: #cookie>, value: 0x2fa306b17c21 <String[10]: "2inittrue3">
+value as Handle<Object> is 0x2fa306b17c21 <String[10]: "2inittrue3">
+current script name 0x304dba702861 <String[95]: e"file:///data/backtrack/nature_com/instant_function2.html">
+now in CaptureBacktrackStackTrace
+script id: 0x304dba702861 <String[95]: e"file:///data/backtrack/nature_com/instant_function2.html">
+NOOFFSET: line: 0, column: 0
+WITHOFFSET: line: 8, column: 12
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x0cba173c17c9 <String[0]: #>
+START, info: 0x277000beeb70, position: 0, isolate: 0x277000308000, fp: 0x7fffaa5843f0, paras: 0x0cba173c1321 <FixedArray[0]>, 0x2770003081e0
+dfg already exist? 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 19, to: 15
+node_type: from: , to: 4
+=== TO ASTNode ===
+VAR PROXY context[2] (0x277000cbee50) (mode = CONST, assigned = false) "K"
+=== FROM ASTNode ===
+ARRAY LITERAL at 19
+. VALUES at 19
+. . LITERAL "x"
+. . LITERAL "y"
+. . LITERAL "z"
+from addr: 0, to addr: 52377238466889
+
+position: from: 20, to: 15
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY context[2] (0x277000cbee50) (mode = CONST, assigned = false) "K"
+=== FROM ASTNode ===
+LITERAL "x"
+from addr: 0, to addr: 52377238466889
+
+position: from: 25, to: 15
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY context[2] (0x277000cbee50) (mode = CONST, assigned = false) "K"
+=== FROM ASTNode ===
+LITERAL "y"
+from addr: 0, to addr: 52377238466889
+
+position: from: 30, to: 15
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY context[2] (0x277000cbee50) (mode = CONST, assigned = false) "K"
+=== FROM ASTNode ===
+LITERAL "z"
+from addr: 0, to addr: 52377238466889
+Now in populatedfgedges, rhs empty: 1,lhs empty: 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 628, to: 624
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x277000cbfba0) (mode = VAR, assigned = true) "a"
+=== FROM ASTNode ===
+LITERAL "abcxz"
+from addr: 0, to addr: 30068128879025
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 652, to: 648
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x277000cbfc60) (mode = VAR, assigned = true) "b"
+=== FROM ASTNode ===
+LITERAL true
+from addr: 0, to addr: 13993393264417
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 673, to: 669
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x277000cbfd20) (mode = VAR, assigned = true) "c"
+=== FROM ASTNode ===
+LITERAL 3
+from addr: 0, to addr: 52377238467345
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 703, to: 703
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+VAR PROXY unallocated (0x277000cbfba0) (mode = VAR, assigned = true) "a"
+from addr: 30068128879025, to addr: 30068128879025
+*** found direct assign with same addr: 30068128879025
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 701, to: 692
+node_type: from: , to: ,
+=== TO ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+CALL
+. VAR PROXY unallocated (0x277000cc0138) (mode = DYNAMIC_GLOBAL, assigned = true) "X"
+. ASSIGN at 703
+. . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . VAR PROXY unallocated (0x277000cbfba0) (mode = VAR, assigned = true) "a"
+from addr: 52377238469529, to addr: 52377238469665
+
+position: from: 703, to: 692
+node_type: from: 4, to: ,
+=== TO ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+from addr: 30068128879025, to addr: 52377238469665
+
+position: from: 708, to: 692
+node_type: from: ), to: ,
+=== TO ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+LITERAL "init"
+from addr: 0, to addr: 52377238469665
+
+position: from: 717, to: 692
+node_type: from: 4, to: ,
+=== TO ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+VAR PROXY unallocated (0x277000cbfc60) (mode = VAR, assigned = true) "b"
+from addr: 13993393264417, to addr: 52377238469665
+
+position: from: 721, to: 692
+node_type: from: 4, to: ,
+=== TO ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+VAR PROXY unallocated (0x277000cbfd20) (mode = VAR, assigned = true) "c"
+from addr: 52377238467345, to addr: 52377238469665
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 692, to: -1
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000cc0028) (mode = TEMPORARY, assigned = true) ".result"
+=== FROM ASTNode ===
+PROPERTY at 692
+. VAR PROXY unallocated (0x277000cc02e8) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: -1, to: -1
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at -1
+. VAR PROXY local[0] (0x277000cc0028) (mode = TEMPORARY, assigned = true) ".result"
+=== FROM ASTNode ===
+VAR PROXY local[0] (0x277000cc0028) (mode = TEMPORARY, assigned = true) ".result"
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 0
+123
+Script URL: 0x304dba702861 <String[95]: e"file:///data/backtrack/yangyi-experiments/windY_trying_fixing/nature_com/instant_function2.html">
+456
+runtime::onfinishassignment, v8obj tainted: 0, expr_position: 692, obj: 0x2fa306b17c21 <String[10]: "2inittrue3">
+---now in 1 th dfg : 0x0cba173c17c9 <String[0]: #>
+first track
+now in BacktrackDFG, position: 692, obj: 52377238469665, recur? 0
+node in hash table, size: 5
+now in BacktrackDFG, position: 701, obj: 52377238469529, recur? 0
+now in BacktrackDFG, position: 703, obj: 30068128879025, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 628, obj: 0, recur? 0
+iterative search finished for position: 703
+now in BacktrackDFG, position: 708, obj: 0, recur? 0
+now in BacktrackDFG, position: 717, obj: 13993393264417, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 652, obj: 0, recur? 0
+iterative search finished for position: 717
+now in BacktrackDFG, position: 721, obj: 52377238467345, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 673, obj: 0, recur? 0
+iterative search finished for position: 721
+iterative search finished for position: 692
+now in BacktrackDFG, position: 703, obj: 30068128879025, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 717, obj: 13993393264417, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 721, obj: 52377238467345, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 692, obj: 52377238469665, recur? 0
+this position-obj has been searched
+now in ForwardTracking, caller position: 701
+func_name: 0x0cba173c17c9 <String[0]: #>
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x0cba173c17c9 <String[0]: #>
+START, info: 0x277000befe90, position: 47, isolate: 0x277000308000, fp: 0x7fffaa584310, paras: 0x0cba173c1321 <FixedArray[0]>, 0x2770003081e0
+dfg already exist? 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 434, to: 434
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+from addr: 30068128879025, to addr: 30068128879025
+*** found direct assign with same addr: 30068128879025
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 433, to: 598
+node_type: from: , to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+CALL
+. FUNC LITERAL at 75
+. . LITERAL ID 2
+. . NAME 
+. . INFERRED NAME 
+. ASSIGN at 434
+. . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+from addr: 13993393264417, to addr: 52377238469529
+
+position: from: 434, to: 598
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+from addr: 30068128879025, to addr: 52377238469529
+
+position: from: 453, to: 598
+node_type: from: ,, to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+PROPERTY at 453
+. VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. NAME length
+from addr: 21474836480, to addr: 52377238469529
+
+position: from: 451, to: 598
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+edge has existed
+from: 30068128879025, to: 52377238469529
+
+position: from: 462, to: 598
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+LITERAL 2
+from addr: 0, to addr: 52377238469529
+
+position: from: 529, to: 598
+node_type: from: ,, to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+PROPERTY at 529
+. VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. NAME length
+from addr: 0, to addr: 52377238469529
+
+position: from: 527, to: 598
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+from addr: 0, to addr: 52377238469529
+
+position: from: 538, to: 598
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+LITERAL 1
+from addr: 0, to addr: 52377238469529
+
+position: from: 600, to: 598
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 598
+. SUB at 598
+. . CONDITIONAL at 74
+. . . CONDITION at 433
+. . . . CALL
+. . . . . FUNC LITERAL at 75
+. . . . . . LITERAL ID 2
+. . . . . . NAME 
+. . . . . . INFERRED NAME 
+. . . . . ASSIGN at 434
+. . . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . THEN at 460
+. . . . SUB at 460
+. . . . . PROPERTY at 453
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 2
+. . . ELSE at 536
+. . . . SUB at 536
+. . . . . PROPERTY at 529
+. . . . . . VAR PROXY parameter[0] (0x277000cb8410) (mode = VAR, assigned = false) "e"
+. . . . . . NAME length
+. . . . . LITERAL 1
+. . LITERAL 1
+=== FROM ASTNode ===
+LITERAL 1
+from addr: 0, to addr: 52377238469529
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 47
+now in BacktrackDFG, position: 703, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 717, obj: 13993393264417, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 721, obj: 52377238467345, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 692, obj: 52377238469665, recur? 0
+node not in hash table
+search return node, length: 1
+position: 598
+now in BacktrackDFG, position: 598, obj: 52377238469529, recur? 0
+node in hash table, size: 8
+now in BacktrackDFG, position: 433, obj: 13993393264417, recur? 0
+now in BacktrackDFG, position: 434, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 453, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 462, obj: 0, recur? 0
+now in BacktrackDFG, position: 529, obj: 0, recur? 0
+now in BacktrackDFG, position: 527, obj: 0, recur? 0
+now in BacktrackDFG, position: 538, obj: 0, recur? 0
+now in BacktrackDFG, position: 600, obj: 0, recur? 0
+iterative search finished for position: 598
+return node ended
+inner forward function
+now in ForwardTracking, caller position: 433
+func_name: 0x0cba173c17c9 <String[0]: #>
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x0cba173c17c9 <String[0]: #>
+START, info: 0x277000befaa0, position: 75, isolate: 0x277000308000, fp: 0x7fffaa584240, paras: 0x0cba173c1321 <FixedArray[0]>, 0x2770003081e0
+dfg already exist? 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 185, to: 179
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+=== FROM ASTNode ===
+PROPERTY at 185
+. VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. NAME length
+from addr: 21474836480, to addr: 52377238468297
+
+position: from: 183, to: 179
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+from addr: 30068128879025, to addr: 52377238468297
+
+position: from: 194, to: 179
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+=== FROM ASTNode ===
+LITERAL 2
+from addr: 0, to addr: 52377238468297
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 282, to: 282
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+PROPERTY at 282
+. VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. KEY at 283
+. . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+from addr: 52377238468689, to addr: 52377238468689
+*** found direct assign with same addr: 52377238468689
+
+position: from: 281, to: 282
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+from addr: 30068128879025, to addr: 52377238468689
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 273, to: 264
+node_type: from: , to: 
+=== TO ASTNode ===
+RETURN at 264
+. NOT at 287
+. . EQ_STRICT at 287
+. . . CALL
+. . . . PROPERTY at 273
+. . . . . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . . . . NAME indexOf
+. . . . ASSIGN at 282
+. . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . PROPERTY at 282
+. . . . . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . . . . KEY at 283
+. . . . . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+. . . LITERAL -1
+=== FROM ASTNode ===
+CALL
+. PROPERTY at 273
+. . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . NAME indexOf
+. ASSIGN at 282
+. . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . PROPERTY at 282
+. . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . KEY at 283
+. . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+from addr: 0, to addr: 13993393264417
+
+position: from: 273, to: 264
+node_type: from: ,, to: 
+=== TO ASTNode ===
+RETURN at 264
+. NOT at 287
+. . EQ_STRICT at 287
+. . . CALL
+. . . . PROPERTY at 273
+. . . . . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . . . . NAME indexOf
+. . . . ASSIGN at 282
+. . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . PROPERTY at 282
+. . . . . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . . . . KEY at 283
+. . . . . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+. . . LITERAL -1
+=== FROM ASTNode ===
+PROPERTY at 273
+. VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. NAME indexOf
+from addr: 14299214759049, to addr: 13993393264417
+
+position: from: 271, to: 264
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 264
+. NOT at 287
+. . EQ_STRICT at 287
+. . . CALL
+. . . . PROPERTY at 273
+. . . . . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . . . . NAME indexOf
+. . . . ASSIGN at 282
+. . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . PROPERTY at 282
+. . . . . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . . . . KEY at 283
+. . . . . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+. . . LITERAL -1
+=== FROM ASTNode ===
+VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+from addr: 52377238466889, to addr: 13993393264417
+
+position: from: 282, to: 264
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 264
+. NOT at 287
+. . EQ_STRICT at 287
+. . . CALL
+. . . . PROPERTY at 273
+. . . . . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . . . . NAME indexOf
+. . . . ASSIGN at 282
+. . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . PROPERTY at 282
+. . . . . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . . . . KEY at 283
+. . . . . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+. . . LITERAL -1
+=== FROM ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+from addr: 52377238468689, to addr: 13993393264417
+
+position: from: 291, to: 264
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 264
+. NOT at 287
+. . EQ_STRICT at 287
+. . . CALL
+. . . . PROPERTY at 273
+. . . . . VAR PROXY context[2] (0x277000baad60) (mode = CONST, assigned = false) "K"
+. . . . . NAME indexOf
+. . . . ASSIGN at 282
+. . . . . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . . . . PROPERTY at 282
+. . . . . . VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. . . . . . KEY at 283
+. . . . . . . VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+. . . LITERAL -1
+=== FROM ASTNode ===
+LITERAL -1
+from addr: 0, to addr: 13993393264417
+
+position: from: 102, to: 179
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+=== FROM ASTNode ===
+PROPERTY at 102
+. VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. NAME length
+edge has existed
+from: 21474836480, to: 52377238468297
+
+position: from: 111, to: 179
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x277000baaa78) (mode = VAR, assigned = false) "t"
+=== FROM ASTNode ===
+LITERAL 3
+from addr: 0, to addr: 52377238468297
+
+position: from: 102, to: 282
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+PROPERTY at 102
+. VAR PROXY parameter[0] (0x277000baa810) (mode = VAR, assigned = false) "e"
+. NAME length
+from addr: 21474836480, to addr: 52377238468689
+
+position: from: 111, to: 282
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+LITERAL 3
+from addr: 0, to addr: 52377238468689
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 75
+now in BacktrackDFG, position: 703, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 717, obj: 13993393264417, recur? 0
+node in hash table, size: 5
+now in BacktrackDFG, position: 273, obj: 0, recur? 0
+now in BacktrackDFG, position: 273, obj: 14299214759049, recur? 0
+now in BacktrackDFG, position: 271, obj: 52377238466889, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 282, obj: 52377238468689, recur? 0
+node in hash table, size: 3
+now in BacktrackDFG, position: 281, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 102, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 111, obj: 0, recur? 0
+iterative search finished for position: 282
+now in BacktrackDFG, position: 291, obj: 0, recur? 0
+iterative search finished for position: 717
+now in BacktrackDFG, position: 721, obj: 52377238467345, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 692, obj: 52377238469665, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 434, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 453, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 598, obj: 52377238469529, recur? 0
+node not in hash table
+search return node, length: 1
+position: 264
+now in BacktrackDFG, position: 264, obj: 13993393264417, recur? 0
+node in hash table, size: 5
+now in BacktrackDFG, position: 273, obj: 0, recur? 0
+now in BacktrackDFG, position: 273, obj: 14299214759049, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 271, obj: 52377238466889, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 282, obj: 52377238468689, recur? 0
+this position-obj has been searched
+now in BacktrackDFG, position: 291, obj: 0, recur? 0
+iterative search finished for position: 264
+return node ended
+inner forward function
+now in ForwardTracking, caller position: 273
+cannot find info to build forward tracking DFG
+end of ForwardTracking, position: 273
+try to find them in current dfg
+end of ForwardTracking, position: 433
+try to find them in current dfg
+now in BacktrackDFG, position: 271, obj: 52377238466889, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 281, obj: 30068128879025, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 102, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 282, obj: 52377238468689, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 273, obj: 14299214759049, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 264, obj: 13993393264417, recur? 0
+node not in hash table
+end of ForwardTracking, position: 701
+now in BacktrackDFG, position: 434, obj: 30068128879025, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 628, obj: 0, recur? 0
+iterative search finished for position: 434
+now in BacktrackDFG, position: 453, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 598, obj: 52377238469529, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 271, obj: 52377238466889, recur? 0
+node in hash table, size: 4
+now in BacktrackDFG, position: 19, obj: 0, recur? 0
+now in BacktrackDFG, position: 20, obj: 0, recur? 0
+now in BacktrackDFG, position: 25, obj: 0, recur? 0
+now in BacktrackDFG, position: 30, obj: 0, recur? 0
+iterative search finished for position: 271
+now in BacktrackDFG, position: 281, obj: 30068128879025, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 628, obj: 0, recur? 0
+iterative search finished for position: 281
+now in BacktrackDFG, position: 102, obj: 21474836480, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 282, obj: 52377238468689, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 273, obj: 14299214759049, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 264, obj: 13993393264417, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 652, obj: 0, recur? 0
+iterative search finished for position: 264
+finished backtracking, result size: 29
+[final result], 0x7fffaa5843f0, 41, 628, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 52, 703, addr: 30068128879025, function position: 0, 736
+object: 0x1b58c82411b1 <String[5]: #abcxz>
+[final result], 0x7fffaa5843f0, 41, 708, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 41, 652, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 52, 717, addr: 13993393264417, function position: 0, 736
+object: 0x0cba173c1721 <true>
+[final result], 0x7fffaa5843f0, 41, 673, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 52, 721, addr: 52377238467345, function position: 0, 736
+object: 0x2fa306b17311 <HeapNumber 3.0>
+[final result], 0x7fffaa5843f0, 44, 692, addr: 52377238469665, function position: 0, 736
+object: 0x2fa306b17c21 <String[10]: "2inittrue3">
+[final result], 0x7fffaa584310, 52, 434, addr: 30068128879025, function position: 47, 601
+object: 0x1b58c82411b1 <String[5]: #abcxz>
+[final result], 0x7fffaa584310, 44, 453, addr: 21474836480, function position: 47, 601
+object: 5
+[final result], 0x7fffaa584310, 41, 462, addr: 0, function position: 47, 601
+[final result], 0x7fffaa584310, 44, 529, addr: 0, function position: 47, 601
+[final result], 0x7fffaa584310, 52, 527, addr: 0, function position: 47, 601
+[final result], 0x7fffaa584310, 41, 538, addr: 0, function position: 47, 601
+[final result], 0x7fffaa584310, 41, 600, addr: 0, function position: 47, 601
+[final result], 0x7fffaa5843f0, 15, 598, addr: 52377238469529, function position: 0, 736
+[final result], 0x7fffaa5843f0, 24, 19, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 41, 20, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 41, 25, addr: 0, function position: 0, 736
+[final result], 0x7fffaa5843f0, 41, 30, addr: 0, function position: 0, 736
+[final result], 0x7fffaa584240, 52, 271, addr: 52377238466889, function position: 75, 432
+object: 0x2fa306b17149 <JSArray[3]>
+[final result], 0x7fffaa584240, 52, 281, addr: 30068128879025, function position: 75, 432
+object: 0x1b58c82411b1 <String[5]: #abcxz>
+[final result], 0x7fffaa584240, 44, 102, addr: 21474836480, function position: 75, 432
+object: 5
+[final result], 0x7fffaa584240, 41, 111, addr: 0, function position: 75, 432
+[final result], 0x7fffaa584240, 52, 282, addr: 52377238468689, function position: 75, 432
+object: 0x2fa306b17851 <String[1]: "x">
+[final result], 0x7fffaa584240, 41, 291, addr: 0, function position: 75, 432
+[final result], 0x7fffaa584240, 44, 273, addr: 14299214759049, function position: 75, 432
+object: 0x0d014b9dc489 <JSFunction indexOf (sfi = 0xdd3c0af3341)>
+[final result], 0x7fffaa584310, 15, 264, addr: 13993393264417, function position: 47, 601
+[final result], 0x7fffaa584240, 29, 273, addr: 0, function position: 75, 432
+0x2fa306b17c21 <String[10]: "2inittrue3">
+[adding to object_map], fp: 0x7fffaa5843f0, position: -1, type: 52, object: 0x2fa306b17c21 <String[10]: "2inittrue3">, isolate: 0x277000308000
+[adding to object_map], fp: 0x7fffaa5843f0, position: -1, type: 52, object: 0x2fa306b17c21 <String[10]: "2inittrue3">, isolate: 0x277000308000
+now in Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: -1
+0
+0
+0
+function: 0x304dba7028c1 <JSFunction (sfi = 0x1b58c8241209)>
+[adding to object_map], fp: 0x7fffaa5843f0, position: -1, type: 15, object: 0x2fa306b17c21 <String[10]: "2inittrue3">, isolate: 0x277000308000
+end of Runtime_BacktrackAnalysis_OnVisitReturnStatement, position: -1

@@ -1,0 +1,302 @@
+[adding to object_map], fp: 0x7ffe5d304c68, position: 2328, type: 29, object: 0x21391120cdb1 <JSArray[8]>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 154, type: 52, object: 0x06c542682969 <JSFunction myfun2 (sfi = 0x2dcfaacc1349)>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 161, type: 52, object: 0x2d9e91704319 <String[1]: #1>, isolate: 0x19a800308000
+function: 0x2dcfaacc1349 <SharedFunctionInfo myfun2>
+add to caller map: 154, 4185217166
+[adding to object_map], fp: 0x7ffe5d305a30, position: 48, type: 52, object: 0x2d9e91704319 <String[1]: #1>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305a30, position: 41, type: 15, object: 0x213911217289 <String[7]: "1myfun2">, isolate: 0x19a800308000
+add to function map, position: 24, fp:0x7ffe5d305a30
+[adding to object_map], fp: 0x7ffe5d305b08, position: 154, type: 29, object: 0x213911217289 <String[7]: "1myfun2">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 150, type: 52, object: 0x213911217289 <String[7]: "1myfun2">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 178, type: 52, object: 0x06c5426829d1 <JSFunction myfun3 (sfi = 0x2dcfaacc1389)>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 185, type: 52, object: 0x2d9e91704331 <String[1]: #2>, isolate: 0x19a800308000
+function: 0x2dcfaacc1389 <SharedFunctionInfo myfun3>
+add to caller map: 178, 2641990783
+[adding to object_map], fp: 0x7ffe5d305a30, position: 118, type: 52, object: 0x2d9e91704331 <String[1]: #2>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305a30, position: 111, type: 15, object: 0x2139112174d1 <String[7]: "2myfun3">, isolate: 0x19a800308000
+add to function map, position: 94, fp:0x7ffe5d305a30
+[adding to object_map], fp: 0x7ffe5d305b08, position: 178, type: 29, object: 0x2139112174d1 <String[7]: "2myfun3">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 174, type: 52, object: 0x2139112174d1 <String[7]: "2myfun3">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 198, type: 52, object: 0x0e58f961fe29 <HTMLDocument map = 0xe58f961fbf9>, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 216, type: 52, object: 0x213911217289 <String[7]: "1myfun2">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 220, type: 52, object: 0x2139112174d1 <String[7]: "2myfun3">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: 207, type: 44, object: 0x2139112175f1 <String[14]: c"1myfun22myfun3">, isolate: 0x19a800308000
+WRITING DOCUMENT.COOKIE!!!
+object::setpropertyinternal, receiver: 0x0e58f961fe29 <HTMLDocument map = 0xe58f961fbf9>, name: 0x21901f14a201 <String[6]: #cookie>, value: 0x2139112175f1 <String[14]: c"1myfun22myfun3">
+value as Handle<Object> is 0x2139112175f1 <String[14]: c"1myfun22myfun3">
+current script name 0x06c542682861 <String[84]: e"file:///data/backtrack/fp_allocate_test1.html">
+now in CaptureBacktrackStackTrace
+script id: 0x06c542682861 <String[84]: e"file:///data/backtrack/fp_allocate_test1.html">
+NOOFFSET: line: 0, column: 0
+WITHOFFSET: line: 9, column: 12
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x2d9e917017c9 <String[0]: #>
+START, info: 0x19a800c277d0, position: 0, isolate: 0x19a800308000, fp: 0x7ffe5d305b08, paras: 0x2d9e91701321 <FixedArray[0]>, 0x19a8003081e0
+dfg already exist? 0
+now in visitforLHS
+VAR PROXY unresolved "call_arguments_assign_LHS"
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 161, to: 161
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+LITERAL "1"
+from addr: 0, to addr: 50159068136217
+now in visitforLHS
+VAR PROXY unallocated (0x19a800cc75b0) (mode = DYNAMIC_GLOBAL, assigned = true) "m"
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 154, to: 150
+node_type: from: , to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x19a800cc75b0) (mode = DYNAMIC_GLOBAL, assigned = true) "m"
+=== FROM ASTNode ===
+CALL
+. VAR PROXY unallocated (0x19a800cc6fe0) (mode = VAR, assigned = true) "myfun2"
+. ASSIGN at 161
+. . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . LITERAL "1"
+from addr: 36528984257161, to addr: 36528984257161
+
+position: from: 161, to: 150
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x19a800cc75b0) (mode = DYNAMIC_GLOBAL, assigned = true) "m"
+=== FROM ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+from addr: 50159068136217, to addr: 36528984257161
+now in visitforLHS
+VAR PROXY unresolved "call_arguments_assign_LHS"
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 185, to: 185
+node_type: from: ), to: 4
+=== TO ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+=== FROM ASTNode ===
+LITERAL "2"
+from addr: 0, to addr: 50159068136241
+now in visitforLHS
+VAR PROXY unallocated (0x19a800cc75e0) (mode = DYNAMIC_GLOBAL, assigned = true) "n"
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 178, to: 174
+node_type: from: , to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x19a800cc75e0) (mode = DYNAMIC_GLOBAL, assigned = true) "n"
+=== FROM ASTNode ===
+CALL
+. VAR PROXY unallocated (0x19a800cc71d0) (mode = VAR, assigned = true) "myfun3"
+. ASSIGN at 185
+. . VAR PROXY unresolved "call_arguments_assign_LHS"
+. . LITERAL "2"
+from addr: 36528984257745, to addr: 36528984257745
+
+position: from: 185, to: 174
+node_type: from: 4, to: 4
+=== TO ASTNode ===
+VAR PROXY unallocated (0x19a800cc75e0) (mode = DYNAMIC_GLOBAL, assigned = true) "n"
+=== FROM ASTNode ===
+VAR PROXY unresolved "call_arguments_assign_LHS"
+from addr: 50159068136241, to addr: 36528984257745
+now in visitforLHS
+PROPERTY at 207
+. VAR PROXY unallocated (0x19a800cc7610) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 216, to: 207
+node_type: from: 4, to: ,
+=== TO ASTNode ===
+PROPERTY at 207
+. VAR PROXY unallocated (0x19a800cc7610) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+VAR PROXY unallocated (0x19a800cc75b0) (mode = DYNAMIC_GLOBAL, assigned = true) "m"
+from addr: 36528984257161, to addr: 36528984258033
+
+position: from: 220, to: 207
+node_type: from: 4, to: ,
+=== TO ASTNode ===
+PROPERTY at 207
+. VAR PROXY unallocated (0x19a800cc7610) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+=== FROM ASTNode ===
+VAR PROXY unallocated (0x19a800cc75e0) (mode = DYNAMIC_GLOBAL, assigned = true) "n"
+from addr: 36528984257745, to addr: 36528984258033
+now in visitforLHS
+VAR PROXY local[0] (0x19a800cc74d0) (mode = TEMPORARY, assigned = true) ".result"
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 207, to: -1
+node_type: from: ,, to: 4
+=== TO ASTNode ===
+VAR PROXY local[0] (0x19a800cc74d0) (mode = TEMPORARY, assigned = true) ".result"
+=== FROM ASTNode ===
+PROPERTY at 207
+. VAR PROXY unallocated (0x19a800cc7610) (mode = DYNAMIC_GLOBAL, assigned = false) "document"
+. NAME cookie
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: -1, to: -1
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at -1
+. VAR PROXY local[0] (0x19a800cc74d0) (mode = TEMPORARY, assigned = true) ".result"
+=== FROM ASTNode ===
+VAR PROXY local[0] (0x19a800cc74d0) (mode = TEMPORARY, assigned = true) ".result"
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 0
+123
+Script URL: 0x06c542682861 <String[84]: e"file:///data/backtrack/fp_allocate_test1.html">
+456
+runtime::onfinishassignment, v8obj tainted: 0, expr_position: 207, obj: 0x2139112175f1 <String[14]: c"1myfun22myfun3">
+---now in 1 th dfg : 0x2d9e917017c9 <String[0]: #>
+first track
+now in BacktrackDFG, position: 207, obj: 36528984258033, recur? 0
+node in hash table, size: 2
+now in BacktrackDFG, position: 216, obj: 36528984257161, recur? 0
+node in hash table, size: 2
+now in BacktrackDFG, position: 154, obj: 36528984257161, recur? 1
+now in BacktrackDFG, position: 161, obj: 50159068136217, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 161, obj: 0, recur? 0
+iterative search finished for position: 161
+iterative search finished for position: 216
+now in BacktrackDFG, position: 220, obj: 36528984257745, recur? 0
+node in hash table, size: 2
+now in BacktrackDFG, position: 178, obj: 36528984257745, recur? 1
+now in BacktrackDFG, position: 185, obj: 50159068136241, recur? 0
+node in hash table, size: 1
+now in BacktrackDFG, position: 185, obj: 0, recur? 0
+iterative search finished for position: 185
+iterative search finished for position: 220
+iterative search finished for position: 207
+now in BacktrackDFG, position: 161, obj: 50159068136217, recur? 0
+now in BacktrackDFG, position: 216, obj: 36528984257161, recur? 0
+now in BacktrackDFG, position: 185, obj: 50159068136241, recur? 0
+now in BacktrackDFG, position: 220, obj: 36528984257745, recur? 0
+now in BacktrackDFG, position: 207, obj: 36528984258033, recur? 0
+now in ForwardTracking, caller position: 154
+func_name: 0x2dcfaacc11b1 <String[6]: #myfun2>
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x2dcfaacc11b1 <String[6]: #myfun2>
+START, info: 0x19a800c273e0, position: 24, isolate: 0x19a800308000, fp: 0x7ffe5d305a30, paras: 0x2d9e91701321 <FixedArray[0]>, 0x19a8003081e0
+dfg already exist? 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 48, to: 41
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 41
+. ADD at 50
+. . VAR PROXY parameter[0] (0x19a800bc7070) (mode = VAR, assigned = false) "a"
+. . LITERAL "myfun2"
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x19a800bc7070) (mode = VAR, assigned = false) "a"
+from addr: 50159068136217, to addr: 36528984257161
+
+position: from: 52, to: 41
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 41
+. ADD at 50
+. . VAR PROXY parameter[0] (0x19a800bc7070) (mode = VAR, assigned = false) "a"
+. . LITERAL "myfun2"
+=== FROM ASTNode ===
+LITERAL "myfun2"
+from addr: 0, to addr: 36528984257161
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 24
+now in BacktrackDFG, position: 161, obj: 50159068136217, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 216, obj: 36528984257161, recur? 0
+node in hash table, size: 2
+now in BacktrackDFG, position: 48, obj: 50159068136217, recur? 0
+now in BacktrackDFG, position: 52, obj: 0, recur? 0
+iterative search finished for position: 216
+now in BacktrackDFG, position: 185, obj: 50159068136241, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 220, obj: 36528984257745, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 207, obj: 36528984258033, recur? 0
+node not in hash table
+search return node, length: 1
+position: 41
+now in BacktrackDFG, position: 41, obj: 36528984257161, recur? 0
+return node ended
+end of ForwardTracking, position: 154
+now in ForwardTracking, caller position: 178
+func_name: 0x2dcfaacc11c9 <String[6]: #myfun3>
+now in Isolate::GetBacktrackScopeDFG, function_name is 0x2dcfaacc11c9 <String[6]: #myfun3>
+START, info: 0x19a800c27230, position: 94, isolate: 0x19a800308000, fp: 0x7ffe5d305a30, paras: 0x2d9e91701321 <FixedArray[0]>, 0x19a8003081e0
+dfg already exist? 0
+Now in populatedfgedges, rhs empty: 0,lhs empty: 0
+
+position: from: 118, to: 111
+node_type: from: 4, to: 
+=== TO ASTNode ===
+RETURN at 111
+. ADD at 120
+. . VAR PROXY parameter[0] (0x19a800cc0470) (mode = VAR, assigned = false) "a"
+. . LITERAL "myfun3"
+=== FROM ASTNode ===
+VAR PROXY parameter[0] (0x19a800cc0470) (mode = VAR, assigned = false) "a"
+from addr: 50159068136241, to addr: 36528984257745
+
+position: from: 122, to: 111
+node_type: from: ), to: 
+=== TO ASTNode ===
+RETURN at 111
+. ADD at 120
+. . VAR PROXY parameter[0] (0x19a800cc0470) (mode = VAR, assigned = false) "a"
+. . LITERAL "myfun3"
+=== FROM ASTNode ===
+LITERAL "myfun3"
+from addr: 0, to addr: 36528984257745
+end of Isolate::GetBacktrackScopeDFG, BacktrackScopeDFG cached, pos: 94
+now in BacktrackDFG, position: 161, obj: 50159068136217, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 216, obj: 36528984257161, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 185, obj: 50159068136241, recur? 0
+node not in hash table
+now in BacktrackDFG, position: 220, obj: 36528984257745, recur? 0
+node in hash table, size: 2
+now in BacktrackDFG, position: 118, obj: 50159068136241, recur? 0
+now in BacktrackDFG, position: 122, obj: 0, recur? 0
+iterative search finished for position: 220
+now in BacktrackDFG, position: 207, obj: 36528984258033, recur? 0
+node not in hash table
+search return node, length: 1
+position: 111
+now in BacktrackDFG, position: 111, obj: 36528984257745, recur? 0
+return node ended
+end of ForwardTracking, position: 178
+now in BacktrackDFG, position: 48, obj: 50159068136217, recur? 0
+now in BacktrackDFG, position: 41, obj: 36528984257161, recur? 0
+now in BacktrackDFG, position: 118, obj: 50159068136241, recur? 0
+now in BacktrackDFG, position: 111, obj: 36528984257745, recur? 0
+finished backtracking, result size: 13
+[final result], 0x7ffe5d305b08, 41, 161, addr: 0, function position: 0, 226
+[final result], 0x7ffe5d305b08, 52, 161, addr: 50159068136217, function position: 0, 226
+object: 0x2d9e91704319 <String[1]: #1>
+[final result], 0x7ffe5d305b08, 52, 216, addr: 36528984257161, function position: 0, 226
+object: 0x213911217289 <String[7]: "1myfun2">
+[final result], 0x7ffe5d305b08, 41, 185, addr: 0, function position: 0, 226
+[final result], 0x7ffe5d305b08, 52, 185, addr: 50159068136241, function position: 0, 226
+object: 0x2d9e91704331 <String[1]: #2>
+[final result], 0x7ffe5d305b08, 52, 220, addr: 36528984257745, function position: 0, 226
+object: 0x2139112174d1 <String[7]: "2myfun3">
+[final result], 0x7ffe5d305b08, 44, 207, addr: 36528984258033, function position: 0, 226
+object: 0x2139112175f1 <String[14]: c"1myfun22myfun3">
+[final result], 0x7ffe5d305a30, 52, 48, addr: 50159068136217, function position: 24, 70
+object: 0x2d9e91704319 <String[1]: #1>
+[final result], 0x7ffe5d305a30, 41, 52, addr: 0, function position: 24, 70
+[final result], 0x7ffe5d305b08, 15, 41, addr: 36528984257161, function position: 0, 226
+[final result], 0x7ffe5d305a30, 52, 118, addr: 50159068136241, function position: 94, 140
+object: 0x2d9e91704331 <String[1]: #2>
+[final result], 0x7ffe5d305a30, 41, 122, addr: 0, function position: 94, 140
+[final result], 0x7ffe5d305b08, 15, 111, addr: 36528984257745, function position: 0, 226
+0x2139112175f1 <String[14]: c"1myfun22myfun3">
+[adding to object_map], fp: 0x7ffe5d305b08, position: -1, type: 52, object: 0x2139112175f1 <String[14]: c"1myfun22myfun3">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: -1, type: 52, object: 0x2139112175f1 <String[14]: c"1myfun22myfun3">, isolate: 0x19a800308000
+[adding to object_map], fp: 0x7ffe5d305b08, position: -1, type: 15, object: 0x2139112175f1 <String[14]: c"1myfun22myfun3">, isolate: 0x19a800308000
