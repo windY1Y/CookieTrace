@@ -1,0 +1,723 @@
+[
+  {
+    "file": "dailybreeze.com_2468_path.json",
+    "key": "dailybreeze.com+bc_tstgrp+2+9",
+    "domain": "dailybreeze.com",
+    "used_scripts": [
+      "https://x455.dailybreeze.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=8; expires=Fri, 31 Jul 2026 13:03:09 GMT;domain=.dailybreeze.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailybulletin.com_2774_path.json",
+    "key": "dailybulletin.com+bc_tstgrp+2+9",
+    "domain": "dailybulletin.com",
+    "used_scripts": [
+      "https://u300.dailybulletin.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=3; expires=Sat, 01 Aug 2026 07:57:48 GMT;domain=.dailybulletin.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "davines.com_5109_path.json",
+    "key": "davines.com+_gcl_au+2+22",
+    "domain": "davines.com",
+    "used_scripts": [
+      "https://googletagmanager.davines.com/gtm.js?id=GTM-KVN8HG5"
+    ],
+    "cookie": "_gcl_au=1.1.1814156842.1753973275; path=/; expires=Wed, 29 Oct 2025 14:47:54 GMT; domain=davines.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "delcotimes.com_5060_path.json",
+    "key": "delcotimes.com+bc_tstgrp+2+9",
+    "domain": "delcotimes.com",
+    "used_scripts": [
+      "https://g650.delcotimes.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=1; expires=Fri, 31 Jul 2026 17:48:18 GMT;domain=.delcotimes.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "eastbaytimes.com_7207_path.json",
+    "key": "eastbaytimes.com+bc_tstgrp+2+9",
+    "domain": "eastbaytimes.com",
+    "used_scripts": [
+      "https://p192.eastbaytimes.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=7; expires=Fri, 31 Jul 2026 12:05:27 GMT;domain=.eastbaytimes.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "greeleytribune.com_6452_path.json",
+    "key": "greeleytribune.com+bc_tstgrp+2+9",
+    "domain": "greeleytribune.com",
+    "used_scripts": [
+      "https://i953.greeleytribune.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=4; expires=Fri, 31 Jul 2026 14:42:42 GMT;domain=.greeleytribune.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "marinij.com_3855_path.json",
+    "key": "marinij.com+bc_tstgrp+2+9",
+    "domain": "marinij.com",
+    "used_scripts": [
+      "https://z953.marinij.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Sat, 01 Aug 2026 07:01:49 GMT;domain=.marinij.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "pasadenastarnews.com_4519_path.json",
+    "key": "pasadenastarnews.com+bc_tstgrp+2+9",
+    "domain": "pasadenastarnews.com",
+    "used_scripts": [
+      "https://h562.pasadenastarnews.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=6; expires=Fri, 31 Jul 2026 13:05:11 GMT;domain=.pasadenastarnews.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "readingeagle.com_4342_path.json",
+    "key": "readingeagle.com+bc_tstgrp+2+9",
+    "domain": "readingeagle.com",
+    "used_scripts": [
+      "https://r188.readingeagle.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=1; expires=Fri, 31 Jul 2026 13:54:09 GMT;domain=.readingeagle.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "reporterherald.com_1142_path.json",
+    "key": "reporterherald.com+bc_tstgrp+2+9",
+    "domain": "reporterherald.com",
+    "used_scripts": [
+      "https://v476.reporterherald.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=6; expires=Sat, 01 Aug 2026 05:17:44 GMT;domain=.reporterherald.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "sinarharian.com.my_6983_path.json",
+    "key": "sinarharian.com.my+_gcl_au+2+22",
+    "domain": "sinarharian.com.my",
+    "used_scripts": [
+      "https://www.sinarharian.com.my/8w2j/"
+    ],
+    "cookie": "_gcl_au=1.1.962658616.1753981062; path=/; expires=Wed, 29 Oct 2025 16:57:41 GMT; domain=com.my",
+    "scriptCount": 1
+  },
+  {
+    "file": "timescall.com_1034_path.json",
+    "key": "timescall.com+bc_tstgrp+2+9",
+    "domain": "timescall.com",
+    "used_scripts": [
+      "https://r566.timescall.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=2; expires=Fri, 31 Jul 2026 15:11:17 GMT;domain=.timescall.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "twincities.com_3005_path.json",
+    "key": "twincities.com+bc_tstgrp+2+9",
+    "domain": "twincities.com",
+    "used_scripts": [
+      "https://f703.twincities.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=6; expires=Fri, 31 Jul 2026 18:33:58 GMT;domain=.twincities.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "weltwoche.ch_1053_path.json",
+    "key": "weltwoche.ch+ac_enable_tracking+1+2",
+    "domain": "weltwoche.ch",
+    "used_scripts": [
+      "https://weltwoche.ch/"
+    ],
+    "cookie": "ac_enable_tracking=1;samesite=none;secure; expires= Sun Aug 31 2025 17:01:20 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "bostonherald.com_9836_path.json",
+    "key": "bostonherald.com+bc_tstgrp+2+9",
+    "domain": "bostonherald.com",
+    "used_scripts": [
+      "https://f023.bostonherald.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=4; expires=Thu, 30 Jul 2026 16:34:59 GMT;domain=.bostonherald.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "chicoer.com_7989_path.json",
+    "key": "chicoer.com+bc_tstgrp+2+9",
+    "domain": "chicoer.com",
+    "used_scripts": [
+      "https://z371.chicoer.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Thu, 30 Jul 2026 18:31:41 GMT;domain=.chicoer.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "pottsmerc.com_1306_path.json",
+    "key": "pottsmerc.com+bc_tstgrp+2+9",
+    "domain": "pottsmerc.com",
+    "used_scripts": [
+      "https://b347.pottsmerc.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=2; expires=Thu, 30 Jul 2026 15:26:33 GMT;domain=.pottsmerc.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "sandiegouniontribune.com_3714_path.json",
+    "key": "sandiegouniontribune.com+bc_tstgrp+2+9",
+    "domain": "sandiegouniontribune.com",
+    "used_scripts": [
+      "https://a352.sandiegouniontribune.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Thu, 30 Jul 2026 19:17:55 GMT;domain=.sandiegouniontribune.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "sgvtribune.com_5628_path.json",
+    "key": "sgvtribune.com+bc_tstgrp+2+9",
+    "domain": "sgvtribune.com",
+    "used_scripts": [
+      "https://x680.sgvtribune.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=2; expires=Thu, 30 Jul 2026 19:23:07 GMT;domain=.sgvtribune.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "thereporter.com_5711_path.json",
+    "key": "thereporter.com+bc_tstgrp+2+9",
+    "domain": "thereporter.com",
+    "used_scripts": [
+      "https://p644.thereporter.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=6; expires=Thu, 30 Jul 2026 16:45:15 GMT;domain=.thereporter.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "adage.com_9553_path.json",
+    "key": "adage.com+BCSessionID+2+7",
+    "domain": "adage.com",
+    "used_scripts": [
+      "https://a220.adage.com/script.js"
+    ],
+    "cookie": "BCSessionID=22c030cf-0d43-4294-8ee7-c2f122909847;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "americansongwriter.com_6269_path.json",
+    "key": "americansongwriter.com+ac_enable_tracking+1+2",
+    "domain": "americansongwriter.com",
+    "used_scripts": [
+      "https://americansongwriter.com/_static/??-eJyVjsFOw0AMRH+IjUG09IT4FOQ4buJk116tN43ar4egIOVAkXqzPZ55A0sOZFpZK+Q496IOixlZSlyIQ+LUcvFBsgO6c3UYHc7lx9LBQvuP0EajycPqNm2SaDP6E/yBQKpyYcKUUXoNPrdORXIV03C2khxcKn/WgjSJ9vdiEneCAYlBlOLcsUPE2zVEw25Xd7253Hg3/Vfu4dRf46wXljiYTd+qN7v1QVyPMXK5rpRtvG+uVmQKA8fMZdduEzbwR3p/OR0Op+fj6/Ft/AKxor7i"
+    ],
+    "cookie": "ac_enable_tracking=1;samesite=none;secure; expires= Fri Aug 29 2025 19:21:38 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "citizensvoice.com_4998_path.json",
+    "key": "citizensvoice.com+bc_tstgrp+2+9",
+    "domain": "citizensvoice.com",
+    "used_scripts": [
+      "https://j348.citizensvoice.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=8; expires=Thu, 30 Jul 2026 04:39:57 GMT;domain=.citizensvoice.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailyfreeman.com_5180_path.json",
+    "key": "dailyfreeman.com+bc_tstgrp+2+9",
+    "domain": "dailyfreeman.com",
+    "used_scripts": [
+      "https://e220.dailyfreeman.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=7; expires=Thu, 30 Jul 2026 05:39:48 GMT;domain=.dailyfreeman.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailylocal.com_8944_path.json",
+    "key": "dailylocal.com+bc_tstgrp+2+9",
+    "domain": "dailylocal.com",
+    "used_scripts": [
+      "https://b607.dailylocal.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=8; expires=Thu, 30 Jul 2026 11:33:08 GMT;domain=.dailylocal.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dayviews.com_7857_path.json",
+    "key": "dayviews.com+dst+3+3",
+    "domain": "dayviews.com",
+    "used_scripts": [
+      "http://cdn07.dayviews.com/cdn/dist/site.js?28a829274ae251b4b87611d18867551d",
+      "http://dayviews.com/"
+    ],
+    "cookie": "dst=0; path=/; domain=dayviews.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "denverpost.com_5596_path.json",
+    "key": "denverpost.com+bc_tstgrp+2+9",
+    "domain": "denverpost.com",
+    "used_scripts": [
+      "https://c615.denverpost.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=8; expires=Thu, 30 Jul 2026 06:08:12 GMT;domain=.denverpost.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "gearspace.com_6188_path.json",
+    "key": "gearspace.com+_omappvp+2+10",
+    "domain": "gearspace.com",
+    "used_scripts": [
+      "https://cc1b1b.gearspace.com/app/js/api.min.js"
+    ],
+    "cookie": "_omappvp=m6QkEj6b9wQDpr13jjpvNULUxsNq7PILL7PZV1NcWDOP7Y4gAuK9bv3LilBPOjl0g5vqCZ1TZkOhAJphgTDV2gXY8gcqV2YH; expires=Fri, 11 Jul 2036 11:10:08 GMT; path=/;secure;SameSite=Lax",
+    "scriptCount": 1
+  },
+  {
+    "file": "grandforksherald.com_2088_path.json",
+    "key": "grandforksherald.com+BCSessionID+2+8",
+    "domain": "grandforksherald.com",
+    "used_scripts": [
+      "https://k664.grandforksherald.com/script.js"
+    ],
+    "cookie": "BCSessionID=83b12af2-0b5d-46c9-a931-e72d06baff64;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "iihs.org_1912_path.json",
+    "key": "iihs.org+_gcl_au+2+12",
+    "domain": "iihs.org",
+    "used_scripts": [
+      "https://www.iihs.org/5qrd/?id=AW-11110660618&cx=c&gtm=45E92e57s1v9100715952za204&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.27533509.1753847403; path=/; expires=Tue, 28 Oct 2025 03:50:03 GMT; domain=iihs.org",
+    "scriptCount": 1
+  },
+  {
+    "file": "kdnuggets.com_1853_path.json",
+    "key": "kdnuggets.com+_gcl_au+2+20",
+    "domain": "kdnuggets.com",
+    "used_scripts": [
+      "https://www.kdnuggets.com/wp-content/uploads/perfmatters/gtagv4.js?id=G-67L1RV734X"
+    ],
+    "cookie": "_gcl_au=1.1.1649261739.1753864459; path=/; expires=Tue, 28 Oct 2025 08:34:19 GMT; domain=kdnuggets.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "kw.be_7957_path.json",
+    "key": "kw.be+BCSessionID+2+7",
+    "domain": "kw.be",
+    "used_scripts": [
+      "https://s776.kw.be/script.js"
+    ],
+    "cookie": "BCSessionID=b75f1944-78c7-40ba-90c2-57880a873583;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "levif.be_1576_path.json",
+    "key": "levif.be+BCSessionID+2+7",
+    "domain": "levif.be",
+    "used_scripts": [
+      "https://c431.levif.be/script.js"
+    ],
+    "cookie": "BCSessionID=52365812-12a7-4c94-9371-6ae0ad599865;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "libelle-lekker.be_7587_path.json",
+    "key": "libelle-lekker.be+BCSessionID+2+7",
+    "domain": "libelle-lekker.be",
+    "used_scripts": [
+      "https://u299.libelle-lekker.be/script.js"
+    ],
+    "cookie": "BCSessionID=0b64abfd-860f-4cd8-be3d-ab68f5f9cb37;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "macombdaily.com_8422_path.json",
+    "key": "macombdaily.com+bc_tstgrp+2+9",
+    "domain": "macombdaily.com",
+    "used_scripts": [
+      "https://e488.macombdaily.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Thu, 30 Jul 2026 10:25:56 GMT;domain=.macombdaily.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "modernhealthcare.com_1518_path.json",
+    "key": "modernhealthcare.com+BCSessionID+2+7",
+    "domain": "modernhealthcare.com",
+    "used_scripts": [
+      "https://p787.modernhealthcare.com/script.js"
+    ],
+    "cookie": "BCSessionID=3dda542d-eeb8-4738-a53e-38f6e150d0dd;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "morningjournal.com_1602_path.json",
+    "key": "morningjournal.com+bc_tstgrp+2+9",
+    "domain": "morningjournal.com",
+    "used_scripts": [
+      "https://r718.morningjournal.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=2; expires=Thu, 30 Jul 2026 09:19:37 GMT;domain=.morningjournal.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "news-herald.com_5275_path.json",
+    "key": "news-herald.com+bc_tstgrp+2+9",
+    "domain": "news-herald.com",
+    "used_scripts": [
+      "https://m930.news-herald.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=10; expires=Thu, 30 Jul 2026 08:33:35 GMT;domain=.news-herald.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "organizzei.com.br_3424_path.json",
+    "key": "organizzei.com.br+_gcl_au+2+22",
+    "domain": "organizzei.com.br",
+    "used_scripts": [
+      "https://organizzei.com.br/04so/"
+    ],
+    "cookie": "_gcl_au=1.1.2067509360.1753874829; path=/; expires=Tue, 28 Oct 2025 11:27:08 GMT; domain=com.br",
+    "scriptCount": 1
+  },
+  {
+    "file": "police1.com_1008_path.json",
+    "key": "police1.com+BCSessionID+2+7",
+    "domain": "police1.com",
+    "used_scripts": [
+      "https://v105.police1.com/script.js"
+    ],
+    "cookie": "BCSessionID=ce8ac8b6-6e8b-44ed-9843-b6c17b72be98;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "portalgoodnews.com_5954_path.json",
+    "key": "portalgoodnews.com+_gcl_au+2+22",
+    "domain": "portalgoodnews.com",
+    "used_scripts": [
+      "https://portalgoodnews.com/msnd/"
+    ],
+    "cookie": "_gcl_au=1.1.1672999840.1753873876; path=/; expires=Tue, 28 Oct 2025 11:11:16 GMT; domain=portalgoodnews.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "presstelegram.com_6189_path.json",
+    "key": "presstelegram.com+bc_tstgrp+2+9",
+    "domain": "presstelegram.com",
+    "used_scripts": [
+      "https://m869.presstelegram.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=7; expires=Thu, 30 Jul 2026 09:15:11 GMT;domain=.presstelegram.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "roularta.be_9312_path.json",
+    "key": "roularta.be+BCSessionID+2+7",
+    "domain": "roularta.be",
+    "used_scripts": [
+      "https://w638.roularta.be/script.js"
+    ],
+    "cookie": "BCSessionID=e4da4a2e-2150-4cf0-acc1-990c9d008db7;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "techtarget.com_2534_path.json",
+    "key": "techtarget.com+optimizelyEndUserId+2+7",
+    "domain": "techtarget.com",
+    "used_scripts": [
+      "https://optimizely.techtarget.com/optimizely-edge/17796810052"
+    ],
+    "cookie": "optimizelyEndUserId=oeu1753841027382r0.13361730873504185; Max-Age=15552000; Domain=techtarget.com; Path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "theoaklandpress.com_1104_path.json",
+    "key": "theoaklandpress.com+bc_tstgrp+2+9",
+    "domain": "theoaklandpress.com",
+    "used_scripts": [
+      "https://e664.theoaklandpress.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Thu, 30 Jul 2026 06:31:52 GMT;domain=.theoaklandpress.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "times-standard.com_8041_path.json",
+    "key": "times-standard.com+bc_tstgrp+2+9",
+    "domain": "times-standard.com",
+    "used_scripts": [
+      "https://z216.times-standard.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=5; expires=Thu, 30 Jul 2026 11:34:06 GMT;domain=.times-standard.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "whole-dog-journal.com_4635_path.json",
+    "key": "whole-dog-journal.com+ac_enable_tracking+1+2",
+    "domain": "whole-dog-journal.com",
+    "used_scripts": [
+      "https://cdn.whole-dog-journal.com/wp-content/plugins/activecampaign-subscription-forms/site_tracking.js?ver=6.8.2"
+    ],
+    "cookie": "ac_enable_tracking=1;samesite=none;secure; expires= Fri Aug 29 2025 10:03:00 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "allears.net_5447_path.json",
+    "key": "allears.net+ac_enable_tracking+1+2",
+    "domain": "allears.net",
+    "used_scripts": [
+      "https://allears.net/wp-content/plugins/activecampaign-subscription-forms/site_tracking.js?ver=6.6.2"
+    ],
+    "cookie": "ac_enable_tracking=1;samesite=none;secure; expires= Tue Aug 26 2025 17:19:42 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "appcues.com_8297_path.json",
+    "key": "appcues.com+_gcl_au+2+12",
+    "domain": "appcues.com",
+    "used_scripts": [
+      "https://load.sgtm.appcues.com/emwjxhri.js?st=K7QPZSM"
+    ],
+    "cookie": "_gcl_au=1.1.244520673.1753608055; path=/; expires=Sat, 25 Oct 2025 09:20:55 GMT; domain=appcues.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "astrologyanswers.com_3535_path.json",
+    "key": "astrologyanswers.com+_gcl_au+2+12",
+    "domain": "astrologyanswers.com",
+    "used_scripts": [
+      "https://www.astrologyanswers.com/gtmmetrics/"
+    ],
+    "cookie": "_gcl_au=1.1.1178896696.1753621046; path=/; expires=Sat, 25 Oct 2025 12:57:26 GMT; domain=astrologyanswers.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailycamera.com_8746_path.json",
+    "key": "dailycamera.com+bc_tstgrp+2+9",
+    "domain": "dailycamera.com",
+    "used_scripts": [
+      "https://u542.dailycamera.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=9; expires=Mon, 27 Jul 2026 12:34:00 GMT;domain=.dailycamera.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailynews.com_7367_path.json",
+    "key": "dailynews.com+bc_tstgrp+2+9",
+    "domain": "dailynews.com",
+    "used_scripts": [
+      "https://j300.dailynews.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=3; expires=Mon, 27 Jul 2026 13:04:48 GMT;domain=.dailynews.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "dailysignal.com_3054_path.json",
+    "key": "dailysignal.com+mbox+2+5",
+    "domain": "dailysignal.com",
+    "used_scripts": [
+      "https://www.dailysignal.com/wp-content/themes/daily-signal/assets/javascript/mbox.js"
+    ],
+    "cookie": "mbox=check#true#1753628295; expires=Sun, 27 Jul 2025 14:58:15 GMT; path=/; domain=dailysignal.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "diariolibre.com_2583_path.json",
+    "key": "diariolibre.com+BCSessionID+2+7",
+    "domain": "diariolibre.com",
+    "used_scripts": [
+      "https://o315.diariolibre.com/script.js"
+    ],
+    "cookie": "BCSessionID=47e0cd28-fc79-40ab-b9fb-c8b344e7e3c8;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "economist.com_1667_path.json",
+    "key": "economist.com+optimizelyEndUserId+2+16",
+    "domain": "economist.com",
+    "used_scripts": [
+      "https://www.economist.com/optimizelyjs/19440972562.js"
+    ],
+    "cookie": "optimizelyEndUserId=oeu1753623294984r0.9983357341071795;domain=.economist.com;path=/;expires=Fri, 23 Jan 2026 13:34:55 GMT",
+    "scriptCount": 1
+  },
+  {
+    "file": "elfinanciero.com.mx_5406_path.json",
+    "key": "elfinanciero.com.mx+ac_enable_tracking+1+2",
+    "domain": "elfinanciero.com.mx",
+    "used_scripts": [
+      "https://www.elfinanciero.com.mx/"
+    ],
+    "cookie": "ac_enable_tracking=1; expires= Tue Aug 26 2025 17:11:49 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "fimaster.com.br_8683_path.json",
+    "key": "fimaster.com.br+_gcl_au+2+22",
+    "domain": "fimaster.com.br",
+    "used_scripts": [
+      "https://fimaster.com.br/v4aa/"
+    ],
+    "cookie": "_gcl_au=1.1.1816933754.1753628541; path=/; expires=Sat, 25 Oct 2025 15:02:20 GMT; domain=com.br",
+    "scriptCount": 1
+  },
+  {
+    "file": "foxsports.com.mx_3860_path.json",
+    "key": "foxsports.com.mx+ac_enable_tracking+1+2",
+    "domain": "foxsports.com.mx",
+    "used_scripts": [
+      "https://www.foxsports.com.mx/"
+    ],
+    "cookie": "ac_enable_tracking=1; expires= Tue Aug 26 2025 22:44:06 GMT+0800 (Hong Kong Standard Time); path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "holidaycheck.de_4053_path.json",
+    "key": "holidaycheck.de+optimizelyEndUserId+2+16",
+    "domain": "holidaycheck.de",
+    "used_scripts": [
+      "https://www.holidaycheck.de/optimizely/js/1208440116.js"
+    ],
+    "cookie": "optimizelyEndUserId=oeu1753609969886r0.2790867288387586;domain=.holidaycheck.de;path=/;expires=Fri, 23 Jan 2026 09:52:50 GMT",
+    "scriptCount": 1
+  },
+  {
+    "file": "icook.tw_3829_path.json",
+    "key": "icook.tw+_gcl_au+2+22",
+    "domain": "icook.tw",
+    "used_scripts": [
+      "https://icook.tw/metrics/?id=GTM-3TP6"
+    ],
+    "cookie": "_gcl_au=1.1.1866264205.1753613657; path=/; expires=Sat, 25 Oct 2025 10:54:16 GMT; domain=icook.tw",
+    "scriptCount": 1
+  },
+  {
+    "file": "iex.nl_5645_path.json",
+    "key": "iex.nl+BCSessionID+2+7",
+    "domain": "iex.nl",
+    "used_scripts": [
+      "https://blueconic.iex.nl/script.js"
+    ],
+    "cookie": "BCSessionID=053cfce5-3574-41e2-ab68-8dde0dbc0f6b;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "knack.be_5516_path.json",
+    "key": "knack.be+BCSessionID+2+7",
+    "domain": "knack.be",
+    "used_scripts": [
+      "https://e093.knack.be/script.js"
+    ],
+    "cookie": "BCSessionID=b74e93bc-3d49-4293-9b38-04537346381f;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "lowellsun.com_1031_path.json",
+    "key": "lowellsun.com+bc_tstgrp+2+9",
+    "domain": "lowellsun.com",
+    "used_scripts": [
+      "https://w149.lowellsun.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=1; expires=Mon, 27 Jul 2026 18:47:27 GMT;domain=.lowellsun.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "plusonline.nl_2082_path.json",
+    "key": "plusonline.nl+BCSessionID+2+7",
+    "domain": "plusonline.nl",
+    "used_scripts": [
+      "https://z766.plusonline.nl/script.js"
+    ],
+    "cookie": "BCSessionID=eea65670-b247-4f5e-84db-2435d1e934b1;path=/; Secure",
+    "scriptCount": 1
+  },
+  {
+    "file": "radiolab.org_2966_path.json",
+    "key": "radiolab.org+_omappvp+2+10",
+    "domain": "radiolab.org",
+    "used_scripts": [
+      "https://cebe93.radiolab.org/app/js/api.min.js"
+    ],
+    "cookie": "_omappvp=WhaHEuDyYES9QU9ThiIvUZXtNCvZKn7Jx0k1shYrspBgDyAIwOdnlWWj6enlusDJTr7nFrB36qko21fd0ZYDkA5O5VVNG3CE; expires=Tue, 08 Jul 2036 21:18:41 GMT; path=/;secure;SameSite=Lax",
+    "scriptCount": 1
+  },
+  {
+    "file": "rvshare.com_2375_path.json",
+    "key": "rvshare.com+_gcl_au+2+22",
+    "domain": "rvshare.com",
+    "used_scripts": [
+      "https://gtm.rvshare.com/gtm.js?id=GTM-5JLP6WZ"
+    ],
+    "cookie": "_gcl_au=1.1.269777199.1753620345; path=/; expires=Sat, 25 Oct 2025 12:45:45 GMT; domain=rvshare.com",
+    "scriptCount": 1
+  },
+  {
+    "file": "sbsun.com_9834_path.json",
+    "key": "sbsun.com+bc_tstgrp+2+9",
+    "domain": "sbsun.com",
+    "used_scripts": [
+      "https://m161.sbsun.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=4; expires=Mon, 27 Jul 2026 14:41:23 GMT;domain=.sbsun.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "siliconvalley.com_1843_path.json",
+    "key": "siliconvalley.com+bc_tstgrp+2+9",
+    "domain": "siliconvalley.com",
+    "used_scripts": [
+      "https://x315.siliconvalley.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=5; expires=Mon, 27 Jul 2026 13:36:29 GMT;domain=.siliconvalley.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "thereporteronline.com_9207_path.json",
+    "key": "thereporteronline.com+bc_tstgrp+2+9",
+    "domain": "thereporteronline.com",
+    "used_scripts": [
+      "https://h516.thereporteronline.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=6; expires=Mon, 27 Jul 2026 13:20:06 GMT;domain=.thereporteronline.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "thetimes-tribune.com_4824_path.json",
+    "key": "thetimes-tribune.com+bc_tstgrp+2+9",
+    "domain": "thetimes-tribune.com",
+    "used_scripts": [
+      "https://j282.thetimes-tribune.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=7; expires=Mon, 27 Jul 2026 12:21:27 GMT;domain=.thetimes-tribune.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "trentonian.com_7538_path.json",
+    "key": "trentonian.com+bc_tstgrp+2+9",
+    "domain": "trentonian.com",
+    "used_scripts": [
+      "https://c705.trentonian.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=1; expires=Mon, 27 Jul 2026 10:04:27 GMT;domain=.trentonian.com;path=/",
+    "scriptCount": 1
+  },
+  {
+    "file": "whittierdailynews.com_5346_path.json",
+    "key": "whittierdailynews.com+bc_tstgrp+2+9",
+    "domain": "whittierdailynews.com",
+    "used_scripts": [
+      "https://q770.whittierdailynews.com/script.js"
+    ],
+    "cookie": "bc_tstgrp=10; expires=Mon, 27 Jul 2026 10:35:11 GMT;domain=.whittierdailynews.com;path=/",
+    "scriptCount": 1
+  }
+]

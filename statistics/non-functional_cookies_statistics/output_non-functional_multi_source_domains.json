@@ -1,0 +1,1360 @@
+[
+  {
+    "file": "allabout.co.jp_1691_path.json",
+    "key": "allabout.co.jp+_gcl_au+4+26",
+    "domain": "allabout.co.jp",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/destination?id=DC-10208769&l=itm_dl1&cx=c&gtm=45He57t0h2za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134979~105134981",
+      "https://www.googletagmanager.com/gtag/js?id=G-FF1JHHVNB9&cx=c&gtm=45He57s1v596314za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134976~105134978",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5WSKGK&l=itm_dl1"
+    ],
+    "cookie": "_gcl_au=1.1.580978517.1753889106; path=/; expires=Tue, 28 Oct 2025 15:25:06 GMT; domain=co.jp",
+    "scriptCount": 3
+  },
+  {
+    "file": "blavity.com_6767_path.json",
+    "key": "blavity.com+_gcl_au+11+34",
+    "domain": "blavity.com",
+    "used_scripts": [
+      "https://assets.bounceexchange.com/assets/smart-tag/versioned/cjs_min_c84323e2726f3e99b307ab7740c6434b.js",
+      "https://assets.ubembed.com/universalscript/releases/v0.183.0/bundle.js",
+      "https://cdn.id5-sync.com/api/1.0/id5PrebidModule.js",
+      "https://cdn.lgrckt-in.com/logger-1.min.js",
+      "https://cdn.p-n.io/pushly-sdk.min.js?domain_key=8RFIXt1RphrLgS1MDbYACzSOOvdPkkWLSp2U",
+      "https://cmp.inmobi.com/choice/GANCBjEfRH5Fe/www.blavity.com/choice.js?tag_version=V3",
+      "https://pub.doubleverify.com/dvtag/24192157/DV684348/pub.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-11102033679&cx=c&gtm=45He57t0v895030538za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104934122~104934124~105103161~105103163~105124543~105124545~105174036",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-ND889D2",
+      "https://www.lightboxcdn.com/vendor/2d3e715a-f593-4f4b-b647-de3871574170/lightbox.js?mb=1753909046628&lv=1"
+    ],
+    "cookie": "_gcl_au=1.1.93178964.1753909168; path=/; expires=Tue, 28 Oct 2025 20:59:28 GMT; domain=blavity.com",
+    "scriptCount": 10
+  },
+  {
+    "file": "cricheroes.com_9229_path.json",
+    "key": "cricheroes.com+_gcl_au+3+26",
+    "domain": "cricheroes.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-RHRT76MSXD&cx=c&gtm=45He57t0h1v830059406za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104934122~104934124~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-W8C8XX9&gtm_auth=&gtm_preview=&gtm_cookies_win=x"
+    ],
+    "cookie": "_gcl_au=1.1.690388279.1753908282; path=/; expires=Tue, 28 Oct 2025 20:44:42 GMT; domain=cricheroes.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "fakty.com.ua_9551_path.json",
+    "key": "fakty.com.ua+_gcl_au+3+27",
+    "domain": "fakty.com.ua",
+    "used_scripts": [
+      "https://player.bidmatic.io/prebidlink/DQQiU/hbw_master_266844_811.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-10885073154&cx=c&gtm=45je57t0v879405081za200zb79977065&tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~104934122~104934124~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.140479767.1753907721; path=/; expires=Tue, 28 Oct 2025 20:35:21 GMT; domain=com.ua",
+    "scriptCount": 2
+  },
+  {
+    "file": "folhape.com.br_8355_path.json",
+    "key": "folhape.com.br+_gcl_au+4+27",
+    "domain": "folhape.com.br",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/destination?id=AW-787500331&cx=c&gtm=45je57t0h2v878933618za200zb830615947&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134976~105134978",
+      "https://www.googletagmanager.com/gtag/js?id=G-LF8TCK03NB",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-P9LQGMH"
+    ],
+    "cookie": "_gcl_au=1.1.573461423.1753888964; path=/; expires=Tue, 28 Oct 2025 15:22:43 GMT; domain=com.br",
+    "scriptCount": 3
+  },
+  {
+    "file": "jugandoonline.com.ar_2083_path.json",
+    "key": "jugandoonline.com.ar+__gsas+4+4",
+    "domain": "jugandoonline.com.ar",
+    "used_scripts": [
+      "https://partner.googleadservices.com/gampad/cookie.js?domain=www.jugandoonline.com.ar&client=partner-pub-8857325595896917&product=SAS&callback=__sasCookie&cookie_types=v1%2Cv2",
+      "https://ui.cleverwebserver.com/",
+      "https://www.google.com/adsense/search/async-ads.js"
+    ],
+    "cookie": "__gsas=ID=8917927f8d9851bb:T=1753893072:RT=1753893072:S=ALNI_MaF4V5faUXnIJuw3FaHwmyben5SEA;expires=Mon, 24 Aug 2026 16:31:12 GMT;path=/;domain=jugandoonline.com.ar",
+    "scriptCount": 3
+  },
+  {
+    "file": "landrysinc.com_4656_path.json",
+    "key": "landrysinc.com+_gcl_au+3+30",
+    "domain": "landrysinc.com",
+    "used_scripts": [
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-T2MDTNH"
+    ],
+    "cookie": "_gcl_au=1.1.1030226997.1753885920; path=/; expires=Tue, 28 Oct 2025 14:31:59 GMT; domain=landrysinc.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "lasalle.edu_3444_path.json",
+    "key": "lasalle.edu+_gcl_au+3+25",
+    "domain": "lasalle.edu",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-835374834",
+      "https://www.lasalle.edu/"
+    ],
+    "cookie": "_gcl_au=1.1.466088267.1753882734; path=/; expires=Tue, 28 Oct 2025 13:38:53 GMT; domain=lasalle.edu",
+    "scriptCount": 2
+  },
+  {
+    "file": "portaldecompraspublicas.com.br_4300_path.json",
+    "key": "portaldecompraspublicas.com.br+_ttp+3+12",
+    "domain": "portaldecompraspublicas.com.br",
+    "used_scripts": [
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxOQ.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-765738344&cx=c&gtm=45He57t0v811087501za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104934122~104934124~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_ttp=01K1EGWYCFJKDRGEE0S8V5RDQG_.tt.2; path=/; expires=Mon, 24 Aug 2026 20:38:06 GMT; domain=.portaldecompraspublicas.com.br",
+    "scriptCount": 2
+  },
+  {
+    "file": "sigmalive.com_8239_path.json",
+    "key": "sigmalive.com+_gcl_au+3+23",
+    "domain": "sigmalive.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-11026765548",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-W98T7842"
+    ],
+    "cookie": "_gcl_au=1.1.156367774.1753893167; path=/; expires=Tue, 28 Oct 2025 16:32:46 GMT; domain=sigmalive.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "thehindubusinessline.com_4824_path.json",
+    "key": "thehindubusinessline.com+_gcl_au+7+31",
+    "domain": "thehindubusinessline.com",
+    "used_scripts": [
+      "https://api-esp.piano.io/public/sdk/vx/sdk.js?v=xxx&i=473",
+      "https://cdn.cxense.com/cx.js",
+      "https://consent.trustarc.com/asset/notice.js/v/v1.7-3018",
+      "https://consent.trustarc.com/asset/tcfapi2.2.js",
+      "https://consent.truste.com/notice?domain=thehindugroup.com&c=teconsent&gtm=1&pcookie&js=nj&noticeType=bb&gtm=1&text=true",
+      "https://www.googletagmanager.com/gtag/js?id=G-8B30991NJY&cx=c&gtm=45He57t0v812540548za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.2036312122.1753899997; path=/; expires=Tue, 28 Oct 2025 18:26:37 GMT; domain=thehindubusinessline.com",
+    "scriptCount": 6
+  },
+  {
+    "file": "theobjective.com_3643_path.json",
+    "key": "theobjective.com+_gcl_au+5+27",
+    "domain": "theobjective.com",
+    "used_scripts": [
+      "https://es-config.sensic.net/s2s-web.js",
+      "https://sdk.privacy-center.org/sdk/3ecb435a770ccf3b9bdb9e9255c4fcf005089acf/modern/sdk.3ecb435a770ccf3b9bdb9e9255c4fcf005089acf.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-670987270&cx=c&gtm=45je57t0h1v882856519za200zb76828895&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134979~105134981",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TPR6MJV"
+    ],
+    "cookie": "_gcl_au=1.1.2145925431.1753900840; path=/; expires=Tue, 28 Oct 2025 18:40:39 GMT; domain=theobjective.com",
+    "scriptCount": 4
+  },
+  {
+    "file": "ufreegames.com_7810_path.json",
+    "key": "ufreegames.com+_gcl_au+3+23",
+    "domain": "ufreegames.com",
+    "used_scripts": [
+      "https://static.ufreegames.com/js/base_c.g.js?v=3.0.2.10",
+      "https://www.googletagmanager.com/gtag/js?id=AW-950784676"
+    ],
+    "cookie": "_gcl_au=1.1.2094262242.1753882627; path=/; expires=Tue, 28 Oct 2025 13:37:06 GMT; domain=ufreegames.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "architectsjournal.co.uk_8178_path.json",
+    "key": "architectsjournal.co.uk+_gcl_au+3+31",
+    "domain": "architectsjournal.co.uk",
+    "used_scripts": [
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-850533205&cx=c&gtm=45He57u0v551141za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1845696567.1753991993; path=/; expires=Wed, 29 Oct 2025 19:59:53 GMT; domain=co.uk",
+    "scriptCount": 2
+  },
+  {
+    "file": "contabeis.com.br_5908_path.json",
+    "key": "contabeis.com.br+__trf.src+3+4",
+    "domain": "contabeis.com.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7023990c-6183-45a3-ac52-40b8681d183d-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzOTYyNDQxMjgzfQ==; expires=Fri, 31 Jul 2026 11:47:21 GMT; domain=.contabeis.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "geenstijl.nl_6655_path.json",
+    "key": "geenstijl.nl+OAID+5+13",
+    "domain": "geenstijl.nl",
+    "used_scripts": [
+      "https://geenstijl-assets.b-cdn.net/_next/static/chunks/2446-1ebe8645109133e5.js",
+      "https://geenstijl-assets.b-cdn.net/_next/static/chunks/4bd1b696-02e810c634ad7f4c.js",
+      "https://geenstijl-assets.b-cdn.net/_next/static/chunks/9574-726581f0eab31a0c.js",
+      "https://geenstijl-assets.b-cdn.net/_next/static/chunks/app/(document)/(default)/(without-header)/page-b55a3aeaf2889cc3.js"
+    ],
+    "cookie": "OAID=01000111010001000101000001010010; path=/",
+    "scriptCount": 4
+  },
+  {
+    "file": "lapatria.com_4048_path.json",
+    "key": "lapatria.com+_gcl_au+3+22",
+    "domain": "lapatria.com",
+    "used_scripts": [
+      "https://cdn.taboola.com/libtrc/lapatria-publisher/loader.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-WQ7STQK"
+    ],
+    "cookie": "_gcl_au=1.1.1761375365.1753976236; path=/; expires=Wed, 29 Oct 2025 15:37:16 GMT; domain=lapatria.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "oliberal.com_1833_path.json",
+    "key": "oliberal.com+_gcl_au+3+31",
+    "domain": "oliberal.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-433131458&cx=c&gtm=45He57u1v810960484za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163",
+      "https://www.googletagmanager.com/gtag/js?id=G-FF3S78085D&cx=c&gtm=45He57u1v810960484za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163"
+    ],
+    "cookie": "_gcl_au=1.1.176295303.1754017498; path=/; expires=Thu, 30 Oct 2025 03:04:57 GMT; domain=oliberal.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "rackspace.co.uk_1432_path.json",
+    "key": "rackspace.co.uk+_gcl_au+7+26",
+    "domain": "rackspace.co.uk",
+    "used_scripts": [
+      "https://cdn.cookielaw.org/scripttemplates/202310.1.0/otBannerSdk.js",
+      "https://js.hscollectedforms.net/collectedforms.js",
+      "https://js.hubspot.com/web-interactives-embed.js",
+      "https://script.hotjar.com/modules.a3cb6dcf71aec7e1a87f.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-16595113993&cx=c&gtm=45He57u1v71780062za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163",
+      "https://www.googletagmanager.com/gtag/js?id=G-Q5K4KEBD4D&cx=c&gtm=45He57u1v71780062za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163"
+    ],
+    "cookie": "_gcl_au=1.1.1324993729.1754037665; path=/; expires=Thu, 30 Oct 2025 08:41:05 GMT; domain=rackspace.com",
+    "scriptCount": 6
+  },
+  {
+    "file": "sportinfo.az_8188_path.json",
+    "key": "sportinfo.az+_gcl_au+3+22",
+    "domain": "sportinfo.az",
+    "used_scripts": [
+      "https://data.digitalks.az/v1/scripts/3bb6070a-4445-46cf-a83e-108bee740784/track.js?&cb=0.4072775811847078",
+      "https://www.googletagmanager.com/gtag/js?id=AW-689842868"
+    ],
+    "cookie": "_gcl_au=1.1.299351672.1753963171; path=/; expires=Wed, 29 Oct 2025 11:59:31 GMT; domain=sportinfo.az",
+    "scriptCount": 2
+  },
+  {
+    "file": "105.net_8030_path.json",
+    "key": "105.net+_ttp+3+12",
+    "domain": "105.net",
+    "used_scripts": [
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxMQ.js",
+      "https://assets.mediaset.net/mediaset/res/js/rtilogin/rtilogin-2.1.min.js"
+    ],
+    "cookie": "_ttp=01K1CR1RT0ANQPDZGAFFC61FTB_.tt.1; path=/; expires=Mon, 24 Aug 2026 04:04:35 GMT; domain=.105.net",
+    "scriptCount": 2
+  },
+  {
+    "file": "accountingtools.com_6366_path.json",
+    "key": "accountingtools.com+_gcl_au+4+26",
+    "domain": "accountingtools.com",
+    "used_scripts": [
+      "https://www.google.com/recaptcha/enterprise.js?onload=__grecaptchaOnLoadCallback&render=6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv",
+      "https://www.googletagmanager.com/gtag/js?id=AW-1070099605&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=UA-16736241-1"
+    ],
+    "cookie": "_gcl_au=1.1.1702274070.1753848526; path=/; expires=Tue, 28 Oct 2025 04:08:46 GMT; domain=accountingtools.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "aksam.com.tr_6299_path.json",
+    "key": "aksam.com.tr+_gcl_au+3+31",
+    "domain": "aksam.com.tr",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-CJGE1V798B&cx=c&gtm=45He57t0h2v862404439za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-WWK5PN7"
+    ],
+    "cookie": "_gcl_au=1.1.1081232061.1753841468; path=/; expires=Tue, 28 Oct 2025 02:11:07 GMT; domain=com.tr",
+    "scriptCount": 2
+  },
+  {
+    "file": "androidauthority.com_8179_path.json",
+    "key": "androidauthority.com+_gcl_au+7+26",
+    "domain": "androidauthority.com",
+    "used_scripts": [
+      "https://cdn.intergient.com/prebid-experiments/prebid.js",
+      "https://cdn.viafoura.net/entry/index.js",
+      "https://secure.quantserve.com/quant.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-16527895027&cx=c&gtm=45He57s1v78353793za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-CVDMXZEPFY",
+      "https://www.googletagmanager.com/gtag/js?id=G-CVDMXZEPFY&cx=c&gtm=45Te57s1za204&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105091134~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1088100189.1753875340; path=/; expires=Tue, 28 Oct 2025 11:35:40 GMT; domain=androidauthority.com",
+    "scriptCount": 6
+  },
+  {
+    "file": "bikehub.co.za_9864_path.json",
+    "key": "bikehub.co.za+_gcl_au+3+23",
+    "domain": "bikehub.co.za",
+    "used_scripts": [
+      "https://media.bikehub.co.za/production/static/build/assets/vendor-deAawhrm.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TWJZD8J"
+    ],
+    "cookie": "_gcl_au=1.1.1856995631.1753847922; path=/; expires=Tue, 28 Oct 2025 03:58:42 GMT; domain=co.za",
+    "scriptCount": 2
+  },
+  {
+    "file": "cartstack.com_8936_path.json",
+    "key": "cartstack.com+_gcl_au+4+26",
+    "domain": "cartstack.com",
+    "used_scripts": [
+      "https://sc.lfeeder.com/lftracker_v1_YEgkB8lBRkJ4ep3Z.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-998899295&cx=c&gtm=45He57s1h1v569143za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-RQ5P"
+    ],
+    "cookie": "_gcl_au=1.1.341589745.1753842586; path=/; expires=Tue, 28 Oct 2025 02:29:46 GMT; domain=cartstack.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "crazyforcrust.com_2918_path.json",
+    "key": "crazyforcrust.com+_gcl_au+7+26",
+    "domain": "crazyforcrust.com",
+    "used_scripts": [
+      "https://crazy-for-crust.kit.com/91e9e9bf5e/index.js",
+      "https://crazy-for-crust.kit.com/f723252d39/index.js",
+      "https://exchange.mediavine.com/usersync.min.js?s2sVersion=production",
+      "https://scripts.mediavine.com/tags/3.20.12/wrapper.min.js?bust=2036442024",
+      "https://www.googletagmanager.com/gtag/js?id=AW-987747441&cx=c&gtm=45je57s1v886870014za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-L3JQVQ4VRF"
+    ],
+    "cookie": "_gcl_au=1.1.1724792496.1753846633; path=/; expires=Tue, 28 Oct 2025 03:37:12 GMT; domain=crazyforcrust.com",
+    "scriptCount": 6
+  },
+  {
+    "file": "cricket.com.au_6202_path.json",
+    "key": "cricket.com.au+_ttp+3+12",
+    "domain": "cricket.com.au",
+    "used_scripts": [
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxOQ.js",
+      "https://www.googletagmanager.com/gtag/js?id=DC-6167149&cx=c&gtm=45He57s1v71664910za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_ttp=01K1D8JV9NPR4CSE2YR8P82Y8E_.tt.2; path=/; expires=Mon, 24 Aug 2026 08:53:32 GMT; domain=.cricket.com.au",
+    "scriptCount": 2
+  },
+  {
+    "file": "dailydictation.com_2808_path.json",
+    "key": "dailydictation.com+_gcl_au+3+26",
+    "domain": "dailydictation.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-759288041&cx=c&gtm=45je57s1v871962772za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087535~105087537~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-JPPMR887H3"
+    ],
+    "cookie": "_gcl_au=1.1.335735671.1753850108; path=/; expires=Tue, 28 Oct 2025 04:35:07 GMT; domain=dailydictation.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "dayviews.com_7857_path.json",
+    "key": "dayviews.com+dst+3+3",
+    "domain": "dayviews.com",
+    "used_scripts": [
+      "http://cdn07.dayviews.com/cdn/dist/site.js?28a829274ae251b4b87611d18867551d",
+      "http://dayviews.com/"
+    ],
+    "cookie": "dst=0; path=/; domain=dayviews.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "dmarge.com_1439_path.json",
+    "key": "dmarge.com+_gcl_au+3+26",
+    "domain": "dmarge.com",
+    "used_scripts": [
+      "https://s.skimresources.com/js/99473X1554984.skimlinks.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-X9LKCHD36W&cx=c&gtm=45He57t0h2v811002224za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087535~105087537~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1205120513.1753876236; path=/; expires=Tue, 28 Oct 2025 11:50:35 GMT; domain=dmarge.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "dmv-written-test.com_5344_path.json",
+    "key": "dmv-written-test.com+_gcl_au+4+26",
+    "domain": "dmv-written-test.com",
+    "used_scripts": [
+      "https://www.dmv-written-test.com/js/app.js?id=32fc3e439df8a45855eafbc9dc60cca1",
+      "https://www.googletagmanager.com/gtag/js?id=AW-966967946&cx=c&gtm=45He57s1v9177114474za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-P6GVZPL3"
+    ],
+    "cookie": "_gcl_au=1.1.505768817.1753872250; path=/; expires=Tue, 28 Oct 2025 10:44:09 GMT; domain=dmv-written-test.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "drf.com_2894_path.json",
+    "key": "drf.com+_scid_r+3+14",
+    "domain": "drf.com",
+    "used_scripts": [
+      "https://a.teads.tv/analytics/tag.js",
+      "https://sc-static.net/scevent.min.js"
+    ],
+    "cookie": "_scid_r=GfFHY-nCCG7s6rNLVhnS7h4GA-NPdPNr;path=/;SameSite=Lax;expires=Sat, 29 Aug 2026 20:09:33 GMT;domain=.drf.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "elnashra.com_4612_path.json",
+    "key": "elnashra.com+_gcl_au+5+26",
+    "domain": "elnashra.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-956020762&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-LP28Y24V6F&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=UA-5891526-1",
+      "https://www.googletagmanager.com/gtag/js?id=UA-74272046-1&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1147370656.1753871296; path=/; expires=Tue, 28 Oct 2025 10:28:15 GMT; domain=elnashra.com",
+    "scriptCount": 4
+  },
+  {
+    "file": "emedicinehealth.com_1945_path.json",
+    "key": "emedicinehealth.com+aam_uuid+4+6",
+    "domain": "emedicinehealth.com",
+    "used_scripts": [
+      "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/PageBuilder_Assets/bi/bi_oocommon.js",
+      "https://preferences.trustarc.com/webservices/js?domain=webmd&type=webmd_popnew&js=responsive",
+      "https://ssl.o.emedicinehealth.com/b/ss/webmdp1global/10/JS-2.15.0/s37867627942727?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=30%2F6%2F2025%2011%3A42%3A9%203%20-480&d.&nsid=0&jsonv=1&.d&mid=42594328732311852981652821267388009231&aamlh=6&ce=ISO-8859-1&ns=webmd&cdp=2&pageName=emedicinehealth.com%2F&g=https%3A%2F%2Fwww.emedicinehealth.com%2F&c.&wb.&vapi=visitorapi%20present&plt=5&metakywrd=first%20aid%2C%20medical%20emergencies%2C%20emergency%20care%2C%20emergency%20preparedness%2C%20injuries%2C%20safety%2C%20health%20information%2C%20consumer%20information%2C%20medical%20health%2C%20wellness%2C%20health%20articles&titletag=emedicinehealth%20-%20experts%20in%20everyday%20emergencies%2C%20first%20aid%20and%20health%20information&gdprauth=gdpr-no&.wb&.c&cc=USD&server=mnma5-net%7Coocommon%7C20250603&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&c3=emedicinehealth&c4=1728&c6=nav%20-%20home%20page&c7=default&c9=1&c24=175384692227806417&c35=nav%20-%20home%20page&c36=ehome&c38=emedicinehealth&c48=mbl-no&c49=bece6096-36df-4559-9ec1-c99be20688d7&s=1024x768&c=24&j=1.6&v=N&k=Y&bw=1023&bh=649&mcorgid=16AD4362526701720A490D45%40AdobeOrg&AQE=1"
+    ],
+    "cookie": "aam_uuid=42755901145085565491637472983154636696;expires=Fri, 29 Aug 2025 03:42:12 GMT;path=/;domain=.emedicinehealth.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "expeditionportal.com_9388_path.json",
+    "key": "expeditionportal.com+_gcl_au+4+26",
+    "domain": "expeditionportal.com",
+    "used_scripts": [
+      "https://powerad.ai/46267231836450/script.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-NBFM3232JP&cx=c&gtm=457e57t0h2za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=UA-17576237-1"
+    ],
+    "cookie": "_gcl_au=1.1.691119966.1753841936; path=/; expires=Tue, 28 Oct 2025 02:18:55 GMT; domain=expeditionportal.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "financebuzz.com_4911_path.json",
+    "key": "financebuzz.com+_gcl_au+3+30",
+    "domain": "financebuzz.com",
+    "used_scripts": [
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-KB98PLV8&l=dataLayer"
+    ],
+    "cookie": "_gcl_au=1.1.150325176.1753845335; path=/; expires=Tue, 28 Oct 2025 03:15:34 GMT; domain=financebuzz.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "gamepix.com_9280_path.json",
+    "key": "gamepix.com+_gcl_au+4+31",
+    "domain": "gamepix.com",
+    "used_scripts": [
+      "https://ads.gamepix.com/gpx-main.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-818NL2RTSG&cx=c&gtm=45He57s1v9119517967za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5ZCRMDZ"
+    ],
+    "cookie": "_gcl_au=1.1.120350026.1753865471; path=/; expires=Tue, 28 Oct 2025 08:51:11 GMT; domain=gamepix.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "generated.photos_5967_path.json",
+    "key": "generated.photos+_gcl_au+3+22",
+    "domain": "generated.photos",
+    "used_scripts": [
+      "https://generated.photos/scripts/gtag-data-layer.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-61ZQ97FQ9T"
+    ],
+    "cookie": "_gcl_au=1.1.221336533.1753841171; path=/; expires=Tue, 28 Oct 2025 02:06:10 GMT; domain=generated.photos",
+    "scriptCount": 2
+  },
+  {
+    "file": "grabo.bg_7549_path.json",
+    "key": "grabo.bg+_gcl_au+5+31",
+    "domain": "grabo.bg",
+    "used_scripts": [
+      "https://static.klaviyo.com/onsite/js/runtime.c11a94e2652c3f7f24aa.js?cb=2",
+      "https://tags.creativecdn.com/mEr6w9pvgteObIEHlKRw.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-0YT2KTZEKC&cx=c&gtm=45He57s1v9100196116za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087538~105087540~105103161~105103163~105124543~105124545~105134976~105134978",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-WB38M3R"
+    ],
+    "cookie": "_gcl_au=1.1.1600059134.1753873876; path=/; expires=Tue, 28 Oct 2025 11:11:16 GMT; domain=grabo.bg",
+    "scriptCount": 4
+  },
+  {
+    "file": "hellopearl.com_9592_path.json",
+    "key": "hellopearl.com+_rdt_uuid+3+8",
+    "domain": "hellopearl.com",
+    "used_scripts": [
+      "https://app.termly.io/resource-blocker/57dbe33e-3fed-4075-8299-56117e9138de?autoBlock=off",
+      "https://www.redditstatic.com/ads/pixel.js"
+    ],
+    "cookie": "_rdt_uuid=1753853835925.71d304c8-ec59-43b1-88f5-d0ea1c641676;domain=.hellopearl.com;expires=Tue, 28 Oct 2025 05:37:15 GMT;path=/;samesite=strict;secure",
+    "scriptCount": 2
+  },
+  {
+    "file": "herefordtimes.com_3412_path.json",
+    "key": "herefordtimes.com+cX_G+3+7",
+    "domain": "herefordtimes.com",
+    "used_scripts": [
+      "https://cdn.cxense.com/cx.js",
+      "https://id.cxense.com/public/user/id?json=%7B%22identities%22%3A%5B%7B%22type%22%3A%22ckp%22%2C%22id%22%3A%22mdpmd3m3dlmyqglk%22%7D%2C%7B%22type%22%3A%22lst%22%2C%22id%22%3A%223iyx70dsuwn6wwursf3sohzyq%22%7D%2C%7B%22type%22%3A%22cst%22%2C%22id%22%3A%223iyx70dsuwn6wwursf3sohzyq%22%7D%5D%7D&callback=cXJsonpCB1"
+    ],
+    "cookie": "cX_G=cx%3A2ulhcqiwlzx431xc5hqkse46g1%3A3njkwv040eb5m; expires=Sat, 29 Aug 2026 07:06:16 GMT; path=/; domain=herefordtimes.com; secure",
+    "scriptCount": 2
+  },
+  {
+    "file": "hokkaido-np.co.jp_3337_path.json",
+    "key": "hokkaido-np.co.jp+_gcl_au+3+31",
+    "domain": "hokkaido-np.co.jp",
+    "used_scripts": [
+      "https://static.chartbeat.com/js/chartbeat_mab.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-1066916212&cx=c&gtm=45He57s1v76857435za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.220164290.1753868395; path=/; expires=Tue, 28 Oct 2025 09:39:54 GMT; domain=co.jp",
+    "scriptCount": 2
+  },
+  {
+    "file": "homify.com_6123_path.json",
+    "key": "homify.com+_gcl_au+3+26",
+    "domain": "homify.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-1FCGF5K348&cx=c&gtm=45He57s1h1v77157476za200&tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105087535~105087537~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-MRZTB7R"
+    ],
+    "cookie": "_gcl_au=1.1.821709126.1753876350; path=/; expires=Tue, 28 Oct 2025 11:52:29 GMT; domain=homify.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "igram.website_3282_path.json",
+    "key": "igram.website+__gsas+3+4",
+    "domain": "igram.website",
+    "used_scripts": [
+      "https://partner.googleadservices.com/gampad/cookie.js?domain=igram.website&client=partner-pub-3400591956056484&product=SAS&callback=__sasCookie&cookie_types=v1%2Cv2",
+      "https://www.google.com/adsense/search/async-ads.js"
+    ],
+    "cookie": "__gsas=ID=2a2c9f99afd1f96a:T=1753869688:RT=1753869688:S=ALNI_MY2yuAJiv_lyP957DDKGK3Jf1h0fQ;expires=Mon, 24 Aug 2026 10:01:28 GMT;path=/;domain=igram.website",
+    "scriptCount": 2
+  },
+  {
+    "file": "indiatimes.in_4812_path.json",
+    "key": "indiatimes.in+_gcl_au+4+27",
+    "domain": "indiatimes.in",
+    "used_scripts": [
+      "https://www.clarity.ms/s/0.8.21/clarity.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-11033336200&cx=c&gtm=45je57s1v890808807za200zb71438083&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134976~105134978",
+      "https://www.googletagmanager.com/gtag/js?id=G-N0QYL21CPD&cx=c&gtm=45He57s1v71438083za200&tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134979~105134981"
+    ],
+    "cookie": "_gcl_au=1.1.1206561415.1753861615; path=/; expires=Tue, 28 Oct 2025 07:46:54 GMT; domain=indiatimes.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "local10.com_3528_path.json",
+    "key": "local10.com+_gcl_au+3+22",
+    "domain": "local10.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5GK9HM9&gtm=45He57s1v9222755851za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TTV28VCH"
+    ],
+    "cookie": "_gcl_au=1.1.733907387.1753865711; path=/; expires=Tue, 28 Oct 2025 08:55:10 GMT; domain=local10.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "medscape.com_1580_path.json",
+    "key": "medscape.com+mnet_session_depth+3+16",
+    "domain": "medscape.com",
+    "used_scripts": [
+      "https://hbx.media.net/bidexchange.js?cid=8CU20PT2O&version=12.1&dn=www.medscape.com&ysite=webmd&ysection=17",
+      "https://img.medscapestatic.com/medscape-core/www-content/js/homepage/homepage.js"
+    ],
+    "cookie": "mnet_session_depth=1%7C1753848353830;path=/;secure",
+    "scriptCount": 2
+  },
+  {
+    "file": "memes.co.in_6075_path.json",
+    "key": "memes.co.in+_gcl_au+3+26",
+    "domain": "memes.co.in",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-16666929190&cx=c&gtm=45je57s1v896359761za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-8KYK5M35W2"
+    ],
+    "cookie": "_gcl_au=1.1.813297390.1753843864; path=/; expires=Tue, 28 Oct 2025 02:51:03 GMT; domain=co.in",
+    "scriptCount": 2
+  },
+  {
+    "file": "minfin.com.ua_6125_path.json",
+    "key": "minfin.com.ua+_gcl_au+5+27",
+    "domain": "minfin.com.ua",
+    "used_scripts": [
+      "https://ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js",
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-674195583&cx=c&gtm=45je57s1h1v869964945za200zb71698882&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-R9GB053TV1&cx=c&gtm=45He57s1h1v71698882za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134979~105134981"
+    ],
+    "cookie": "_gcl_au=1.1.660578747.1753843005; path=/; expires=Tue, 28 Oct 2025 02:36:45 GMT; domain=com.ua",
+    "scriptCount": 4
+  },
+  {
+    "file": "modernhealthcare.com_7599_path.json",
+    "key": "modernhealthcare.com+_gcl_au+13+26",
+    "domain": "modernhealthcare.com",
+    "used_scripts": [
+      "https://cdn.lrkt-in.com/LogRocket.min.js",
+      "https://cdn.lrkt-in.com/logger-1.min.js",
+      "https://consent.trustarc.com/asset/notice.js/v/v1.7-3018",
+      "https://consent.trustarc.com/asset/tcfapi2.2.js",
+      "https://consent.trustarc.com/notice?domain=crain-modernhealthcare.com&c=teconsent&js=nj&noticeType=bb&gtm=1",
+      "https://js.stripe.com/v3",
+      "https://ml314.com/tag.aspx?306",
+      "https://script.hotjar.com/modules.a3cb6dcf71aec7e1a87f.js",
+      "https://static.ads-twitter.com/uwt.js",
+      "https://static.chartbeat.com/js/chartbeat.js",
+      "https://static.chartbeat.com/js/chartbeat_mab.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-1024799158&cx=c&gtm=45je57s1v9113084916za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1755901275.1753842732; path=/; expires=Tue, 28 Oct 2025 02:32:12 GMT; domain=modernhealthcare.com",
+    "scriptCount": 12
+  },
+  {
+    "file": "monobala.gr_7653_path.json",
+    "key": "monobala.gr+_ttp+3+12",
+    "domain": "monobala.gr",
+    "used_scripts": [
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxMQ.js",
+      "https://static.adman.gr/adman.js"
+    ],
+    "cookie": "_ttp=01K1DKW6W2RGE1JHHF80QK18MV_.tt.1; path=/; expires=Mon, 24 Aug 2026 12:10:53 GMT; domain=.monobala.gr",
+    "scriptCount": 2
+  },
+  {
+    "file": "myfinal11.in_5966_path.json",
+    "key": "myfinal11.in+_gcl_au+4+25",
+    "domain": "myfinal11.in",
+    "used_scripts": [
+      "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_GB.9k5smmWe4BI.es5.O/d=1/rs=AJlcJMyQocmgc6Y6jIvgRErYyRq8F9asSA/m=kernel_loader,loader_js_executable",
+      "https://www.googletagmanager.com/gtag/js?id=G-PKPNTPE3N5&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=UA-127061518-7"
+    ],
+    "cookie": "_gcl_au=1.1.2138278964.1753858820; path=/; expires=Tue, 28 Oct 2025 07:00:19 GMT; domain=myfinal11.in",
+    "scriptCount": 3
+  },
+  {
+    "file": "noticiasagricolas.com.br_9737_path.json",
+    "key": "noticiasagricolas.com.br+_gcl_au+3+24",
+    "domain": "noticiasagricolas.com.br",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-10874939152",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-NTR6WCM"
+    ],
+    "cookie": "_gcl_au=1.1.9694893.1753845973; path=/; expires=Tue, 28 Oct 2025 03:26:13 GMT; domain=com.br",
+    "scriptCount": 2
+  },
+  {
+    "file": "novelodge.com_3675_path.json",
+    "key": "novelodge.com+dicbo_id+3+13",
+    "domain": "novelodge.com",
+    "used_scripts": [
+      "https://amplify.outbrain.com/cp/obtp.js",
+      "https://d2a3qq4y81t623.cloudfront.net/scroll/p938.js"
+    ],
+    "cookie": "dicbo_id=%7B%22dicbo_fetch%22%3A1753863699721%7D; expires=Wed, 30 Jul 2025 08:26:39 GMT; path=/;",
+    "scriptCount": 2
+  },
+  {
+    "file": "nrl.com_1776_path.json",
+    "key": "nrl.com+_gcl_au+3+24",
+    "domain": "nrl.com",
+    "used_scripts": [
+      "https://cdn.appdynamics.com/adrum/adrum-23.3.0.4265.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-PV42QSK"
+    ],
+    "cookie": "_gcl_au=1.1.829671242.1753840863; path=/; expires=Tue, 28 Oct 2025 02:01:03 GMT; domain=nrl.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "oslobodjenje.ba_9419_path.json",
+    "key": "oslobodjenje.ba+_gcl_au+3+24",
+    "domain": "oslobodjenje.ba",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-721548578",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-W4VNPK3"
+    ],
+    "cookie": "_gcl_au=1.1.1517799571.1753866390; path=/; expires=Tue, 28 Oct 2025 09:06:29 GMT; domain=oslobodjenje.ba",
+    "scriptCount": 2
+  },
+  {
+    "file": "pointi.jp_1687_path.json",
+    "key": "pointi.jp+_gcl_au+5+31",
+    "domain": "pointi.jp",
+    "used_scripts": [
+      "https://cpt.geniee.jp/hb/v1/lib/gnshbrequest-v4.41.2.js",
+      "https://www.clarity.ms/s/0.8.21/clarity.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-11034562657&cx=c&gtm=45He57s1v853612069za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-KS2BVRS"
+    ],
+    "cookie": "_gcl_au=1.1.2116966572.1753847622; path=/; expires=Tue, 28 Oct 2025 03:53:42 GMT; domain=pointi.jp",
+    "scriptCount": 4
+  },
+  {
+    "file": "restaurantbusinessonline.com_6064_path.json",
+    "key": "restaurantbusinessonline.com+_gcl_au+3+31",
+    "domain": "restaurantbusinessonline.com",
+    "used_scripts": [
+      "https://assets.adobedtm.com/175f7caa2b90/f5b5ca48905e/launch-70662c9bd3ed.min.js",
+      "https://www.googletagmanager.com/gtag/js?id=DC-10779299"
+    ],
+    "cookie": "_gcl_au=1.1.1317168254.1753871255; path=/; expires=Tue, 28 Oct 2025 10:27:34 GMT; domain=restaurantbusinessonline.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "shellshock.io_3623_path.json",
+    "key": "shellshock.io+_gcl_au+5+27",
+    "domain": "shellshock.io",
+    "used_scripts": [
+      "https://api.adinplay.com/libs/aiptag/pub/SSK/shellshock.io/tag.min.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-662950613&cx=c&gtm=45He57s1v812812352za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-79NWRZXYCB",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-K5MSJHJ"
+    ],
+    "cookie": "_gcl_au=1.1.976291556.1753874886; path=/; expires=Tue, 28 Oct 2025 11:28:06 GMT; domain=shellshock.io",
+    "scriptCount": 4
+  },
+  {
+    "file": "solitaired.com_2811_path.json",
+    "key": "solitaired.com+_gcl_au+6+26",
+    "domain": "solitaired.com",
+    "used_scripts": [
+      "https://cdn.cookielaw.org/scripttemplates/202408.1.0/otBannerSdk.js",
+      "https://launchpad.privacymanager.io/latest/launchpad.bundle.js",
+      "https://solitaired.com/javascripts/dist/klondike.js?version=1753819199000",
+      "https://www.googletagmanager.com/gtag/js?id=AW-641870751&cx=c&gtm=45je57s1v886191513za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-46V4LFF3TJ"
+    ],
+    "cookie": "_gcl_au=1.1.271534203.1753870468; path=/; expires=Tue, 28 Oct 2025 10:14:27 GMT; domain=solitaired.com",
+    "scriptCount": 5
+  },
+  {
+    "file": "sonobi.com_7460_path.json",
+    "key": "sonobi.com+_gcl_au+4+26",
+    "domain": "sonobi.com",
+    "used_scripts": [
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://www.googletagmanager.com/gtag/js",
+      "https://www.googletagmanager.com/gtag/js?id=G-67FPG0Z3K7&cx=c&gtm=453e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104991059~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1428116282.1753840202; path=/; expires=Tue, 28 Oct 2025 01:50:02 GMT; domain=sonobi.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "soundguys.com_5281_path.json",
+    "key": "soundguys.com+sailthru_visitor+3+3",
+    "domain": "soundguys.com",
+    "used_scripts": [
+      "https://ak.sail-horizon.com/spm/spm.v1.min.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-2SELB4SHK8&cx=c&gtm=45He57t0h2v831433616za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "sailthru_visitor=2be2c2b9-0a48-4ec4-bd2a-e35b4d2d5079;expires=Thu, 30 Jul 2026 11:26:14 GMT;path=/",
+    "scriptCount": 2
+  },
+  {
+    "file": "suedostschweiz.ch_7047_path.json",
+    "key": "suedostschweiz.ch+_gcl_au+4+26",
+    "domain": "suedostschweiz.ch",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-1006604337&cx=c&gtm=45He57s1v830777816za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105087535~105087537~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-1X44EHZHPN",
+      "https://www.npttech.com/advertising.js"
+    ],
+    "cookie": "_gcl_au=1.1.1816282738.1753846278; path=/; expires=Tue, 28 Oct 2025 03:31:18 GMT; domain=suedostschweiz.ch",
+    "scriptCount": 3
+  },
+  {
+    "file": "sumicity.net.br_8167_path.json",
+    "key": "sumicity.net.br+__trf.src+3+4",
+    "domain": "sumicity.net.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/6a6c2821-09b6-41c8-a5c3-3f362cf1084a-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzODc2MTc2MTUxfQ==; expires=Thu, 30 Jul 2026 11:49:36 GMT; domain=null; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "suntimes.com_1429_path.json",
+    "key": "suntimes.com+_gcl_au+8+26",
+    "domain": "suntimes.com",
+    "used_scripts": [
+      "https://a.omappapi.com/app/js/api.min.js",
+      "https://www.clarity.ms/s/0.8.21/clarity.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-712386318&cx=c&gtm=45He57s1v9103452528za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/destination?id=G-WNZJXCWVZQ&cx=c&gtm=45He57s1v858910465za200&tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=G-K0F0MB46T8&cx=c&gtm=45He57s1v858910465za200&tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-MJS7ZKP",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-PRHXFPN"
+    ],
+    "cookie": "_gcl_au=1.1.443822111.1753861095; path=/; expires=Tue, 28 Oct 2025 07:38:14 GMT; domain=suntimes.com; samesite=none;secure",
+    "scriptCount": 7
+  },
+  {
+    "file": "teachertube.com_9749_path.json",
+    "key": "teachertube.com+_gcl_au+4+26",
+    "domain": "teachertube.com",
+    "used_scripts": [
+      "https://c.amazon-adsystem.com/aax2/apstag.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-11021558786&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtag/js?id=UA-2624863-1"
+    ],
+    "cookie": "_gcl_au=1.1.1613106218.1753867162; path=/; expires=Tue, 28 Oct 2025 09:19:22 GMT; domain=teachertube.com",
+    "scriptCount": 3
+  },
+  {
+    "file": "telva.com_6485_path.json",
+    "key": "telva.com+_gcl_au+7+26",
+    "domain": "telva.com",
+    "used_scripts": [
+      "https://c.amazon-adsystem.com/aax2/apstag.js",
+      "https://es-config.sensic.net/s2s-web.js",
+      "https://scdn.cxense.com/cx.js",
+      "https://sdk.privacy-center.org/sdk/3ecb435a770ccf3b9bdb9e9255c4fcf005089acf/modern/sdk.3ecb435a770ccf3b9bdb9e9255c4fcf005089acf.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-10794494779&l=dataLayerUE&cx=c&gtm=457e57s1za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545~105134976~105134978",
+      "https://www.googletagmanager.com/gtag/js?id=UA-181957286-4&l=dataLayerUE"
+    ],
+    "cookie": "_gcl_au=1.1.7638861.1753869360; path=/; expires=Tue, 28 Oct 2025 09:56:00 GMT; domain=telva.com",
+    "scriptCount": 6
+  },
+  {
+    "file": "theatermania.com_5689_path.json",
+    "key": "theatermania.com+_gcl_au+3+25",
+    "domain": "theatermania.com",
+    "used_scripts": [
+      "https://cdn-cookieyes.com/client_data/9992d3c1ddf87a860e07e37b/banner.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TMFQ5SM"
+    ],
+    "cookie": "_gcl_au=1.1.443809494.1753838874; path=/; expires=Tue, 28 Oct 2025 01:27:54 GMT; domain=theatermania.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "thehindu.com_1730_path.json",
+    "key": "thehindu.com+_gcl_au+10+31",
+    "domain": "thehindu.com",
+    "used_scripts": [
+      "https://cdn.cxense.com/cx.js",
+      "https://consent.trustarc.com/asset/notice.js/v/v1.7-3018",
+      "https://consent.trustarc.com/asset/tcfapi2.2.js",
+      "https://consent.trustarc.com/asset/uspapi.js",
+      "https://consent.truste.com/notice?domain=thehindugroup.com&c=teconsent&gtm=1&pcookie&js=nj&noticeType=bb&gtm=1&text=true",
+      "https://ssl.p.jwpcdn.com/player/v/8.38.3/googima.js",
+      "https://ssl.p.jwpcdn.com/player/v/8.38.3/jwpsrv.js",
+      "https://static.ads-twitter.com/uwt.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-948603690&cx=c&gtm=45He57s1v72204733za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.612965633.1753873325; path=/; expires=Tue, 28 Oct 2025 11:02:04 GMT; domain=thehindu.com",
+    "scriptCount": 9
+  },
+  {
+    "file": "tillster.com_1086_path.json",
+    "key": "tillster.com+_lfa+3+9",
+    "domain": "tillster.com",
+    "used_scripts": [
+      "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+      "https://sc.lfeeder.com/lftracker_v1_kn9Eq4RWWelaRlvP.js"
+    ],
+    "cookie": "_lfa=LF1.1.463ca66e15a86835.1753841952020;expires=Thu, 30 Jul 2026 02:19:12 GMT;path=/;domain=tillster.com;SameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "twentytwowords.com_8365_path.json",
+    "key": "twentytwowords.com+_scid_r+3+14",
+    "domain": "twentytwowords.com",
+    "used_scripts": [
+      "https://a.teads.tv/analytics/tag.js",
+      "https://sc-static.net/scevent.min.js"
+    ],
+    "cookie": "_scid_r=LRR_qAeh-QTW0Oyph-f5LzApOyhvD3Lp;path=/;SameSite=Lax;expires=Sun, 30 Aug 2026 03:56:33 GMT;domain=.twentytwowords.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "uai.com.br_4736_path.json",
+    "key": "uai.com.br+_gcl_au+4+25",
+    "domain": "uai.com.br",
+    "used_scripts": [
+      "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_GB.9k5smmWe4BI.es5.O/d=1/rs=AJlcJMyQocmgc6Y6jIvgRErYyRq8F9asSA/m=kernel_loader,loader_js_executable",
+      "https://www.googletagmanager.com/gtag/js?id=AW-10797981451",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-KHRNL9"
+    ],
+    "cookie": "_gcl_au=1.1.917766489.1753873571; path=/; expires=Tue, 28 Oct 2025 11:06:10 GMT; domain=com.br",
+    "scriptCount": 3
+  },
+  {
+    "file": "vesty.co.il_7446_path.json",
+    "key": "vesty.co.il+_gcl_au+3+22",
+    "domain": "vesty.co.il",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtm.js?id=GTM-NB9MN6",
+      "https://yastatic.net/pcode/adfox/loader.js"
+    ],
+    "cookie": "_gcl_au=1.1.1698730911.1753870847; path=/; expires=Tue, 28 Oct 2025 10:20:47 GMT; domain=co.il",
+    "scriptCount": 2
+  },
+  {
+    "file": "viapais.com.ar_9888_path.json",
+    "key": "viapais.com.ar+_gcl_au+3+24",
+    "domain": "viapais.com.ar",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-11291864270",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TV56GRQ"
+    ],
+    "cookie": "_gcl_au=1.1.2017470882.1753867680; path=/; expires=Tue, 28 Oct 2025 09:28:00 GMT; domain=com.ar",
+    "scriptCount": 2
+  },
+  {
+    "file": "vnda.com.br_3525_path.json",
+    "key": "vnda.com.br+_gcl_au+3+22",
+    "domain": "vnda.com.br",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-1000107853",
+      "https://www.vnda.com.br/"
+    ],
+    "cookie": "_gcl_au=1.1.1285336316.1753846897; path=/; expires=Tue, 28 Oct 2025 03:41:36 GMT; domain=com.br",
+    "scriptCount": 2
+  },
+  {
+    "file": "wafflegame.net_4470_path.json",
+    "key": "wafflegame.net+_gcl_au+4+26",
+    "domain": "wafflegame.net",
+    "used_scripts": [
+      "https://hb.vntsm.com/v4/live/vms/sites/wafflegame.net/index.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-416172623&cx=c&gtm=45je57s1v877432529za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-PHM8MMZ"
+    ],
+    "cookie": "_gcl_au=1.1.1791707301.1753840652; path=/; expires=Tue, 28 Oct 2025 01:57:32 GMT; domain=wafflegame.net",
+    "scriptCount": 3
+  },
+  {
+    "file": "webtekno.com_4260_path.json",
+    "key": "webtekno.com+_gcl_au+5+26",
+    "domain": "webtekno.com",
+    "used_scripts": [
+      "https://cdn.membrana.media/pub_scripts/common/ym-ga.js?ga_id=G-T1HMYP8V7G",
+      "https://cdn.membrana.media/video/video.js?e6c9fd|61dd86",
+      "https://cdn.membrana.media/wtk/ym.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-LL6SDG0JF8&cx=c&gtm=45He57s1v842352422za200&tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.208949967.1753851483; path=/; expires=Tue, 28 Oct 2025 04:58:03 GMT; domain=webtekno.com",
+    "scriptCount": 4
+  },
+  {
+    "file": "yen.com.gh_7620_path.json",
+    "key": "yen.com.gh+_gcl_au+5+26",
+    "domain": "yen.com.gh",
+    "used_scripts": [
+      "https://cmp.inmobi.com/choice/BC5PEEEd0P8Nw/yen.com.gh/choice.js?tag_version=V3",
+      "https://dn0qt3r0xannq.cloudfront.net/legit-v0wrdxes9A/legit.ng/prebid-load.js",
+      "https://secure.quantserve.com/quant.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-944988215&cx=c&gtm=45je57s1v889037138za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545"
+    ],
+    "cookie": "_gcl_au=1.1.1948790548.1753863029; path=/; expires=Tue, 28 Oct 2025 08:10:28 GMT; domain=com.gh",
+    "scriptCount": 4
+  },
+  {
+    "file": "123test.com_4163_path.json",
+    "key": "123test.com+_gcl_au+3+26",
+    "domain": "123test.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-10889427938&cx=c&gtm=45je57n0v874283854za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211",
+      "https://www.googletagmanager.com/gtag/js?id=G-5EPH98NY3N"
+    ],
+    "cookie": "_gcl_au=1.1.772943573.1753617086; path=/; expires=Sat, 25 Oct 2025 11:51:25 GMT; domain=123test.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "accuradio.com_9265_path.json",
+    "key": "accuradio.com+_gcl_au+3+12",
+    "domain": "accuradio.com",
+    "used_scripts": [
+      "https://static.accuradio.com/react/dist/index.9456e53920e5a91823edb928850a89e33b676500.js",
+      "https://www.googletagmanager.com/gtag/js?id=GTM-MHG4L6Z"
+    ],
+    "cookie": "_gcl_au=1.1.28005491.1753615561; path=/; expires=Sat, 25 Oct 2025 11:26:00 GMT; domain=accuradio.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "aiease.ai_6249_path.json",
+    "key": "aiease.ai+_gcl_au+3+22",
+    "domain": "aiease.ai",
+    "used_scripts": [
+      "https://www.aiease.ai/",
+      "https://www.googletagmanager.com/gtag/js?id=G-JTP8GYBTE1&ver%5Bstrategy%5D=async"
+    ],
+    "cookie": "_gcl_au=1.1.171656814.1753626442; path=/; expires=Sat, 25 Oct 2025 14:27:22 GMT; domain=aiease.ai",
+    "scriptCount": 2
+  },
+  {
+    "file": "bom.so_3647_path.json",
+    "key": "bom.so+_gcl_au+3+26",
+    "domain": "bom.so",
+    "used_scripts": [
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-16759582622"
+    ],
+    "cookie": "_gcl_au=1.1.1377064426.1753616265; path=/; expires=Sat, 25 Oct 2025 11:37:45 GMT; domain=bom.so",
+    "scriptCount": 2
+  },
+  {
+    "file": "brasildefato.com.br_5392_path.json",
+    "key": "brasildefato.com.br+__trf.src+3+4",
+    "domain": "brasildefato.com.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/6cd49d09-f661-404c-b2e1-972c2cb1bfa8-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjM4NzYwNzE1fQ==; expires=Mon, 27 Jul 2026 17:52:40 GMT; domain=.brasildefato.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "cifraclub.com.br_1149_path.json",
+    "key": "cifraclub.com.br+__trf.src+3+4",
+    "domain": "cifraclub.com.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7de331ff-fa05-42fa-9865-1bfff4034e30-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjM5Nzc0MDE1fQ==; expires=Mon, 27 Jul 2026 18:09:34 GMT; domain=.cifraclub.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "cifraclub.com_4101_path.json",
+    "key": "cifraclub.com+__trf.src+3+4",
+    "domain": "cifraclub.com",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7de331ff-fa05-42fa-9865-1bfff4034e30-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjYwMDEwOTE5fQ==; expires=Mon, 27 Jul 2026 23:46:50 GMT; domain=.cifraclub.com; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "cosme.net_6823_path.json",
+    "key": "cosme.net+_gcl_au+3+33",
+    "domain": "cosme.net",
+    "used_scripts": [
+      "https://www.cosme.net/",
+      "https://www.googletagmanager.com/gtag/js?id=AW-829351597"
+    ],
+    "cookie": "_gcl_au=1.1.642603718.1753653035; path=/; expires=Sat, 25 Oct 2025 21:50:35 GMT; domain=cosme.net",
+    "scriptCount": 2
+  },
+  {
+    "file": "cozycozy.com_4376_path.json",
+    "key": "cozycozy.com+_gcl_au+3+96",
+    "domain": "cozycozy.com",
+    "used_scripts": [
+      "https://www.cozycozy.com/polyfills.5d64dc02f28d1579.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-WRVG957"
+    ],
+    "cookie": "_gcl_au=1.1.2084979202.1753623783; path=/; expires=Sat, 25 Oct 2025 13:43:03 GMT; domain=cozycozy.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "day.az_4069_path.json",
+    "key": "day.az+_gcl_au+3+22",
+    "domain": "day.az",
+    "used_scripts": [
+      "https://data.digitalks.az/v1/scripts/d0174e98-b4b7-41f2-850d-0cae5bc6f421/track.js?&cb=0.9009391906546917",
+      "https://www.googletagmanager.com/gtag/js?id=AW-689842868"
+    ],
+    "cookie": "_gcl_au=1.1.1211046954.1753609050; path=/; expires=Sat, 25 Oct 2025 09:37:30 GMT; domain=day.az",
+    "scriptCount": 2
+  },
+  {
+    "file": "definition.org_1551_path.json",
+    "key": "definition.org+_gcl_au+3+24",
+    "domain": "definition.org",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-827834777",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5QMZMN"
+    ],
+    "cookie": "_gcl_au=1.1.711901342.1753614813; path=/; expires=Sat, 25 Oct 2025 11:13:33 GMT; domain=definition.org",
+    "scriptCount": 2
+  },
+  {
+    "file": "essence.com_3450_path.json",
+    "key": "essence.com+_gcl_au+3+24",
+    "domain": "essence.com",
+    "used_scripts": [
+      "https://www.essence.com/",
+      "https://www.googletagmanager.com/gtag/js?id=DC-12038784"
+    ],
+    "cookie": "_gcl_au=1.1.1081243241.1753645190; path=/; expires=Sat, 25 Oct 2025 19:39:50 GMT; domain=essence.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "hardwarezone.com.sg_4483_path.json",
+    "key": "hardwarezone.com.sg+_gcl_au+3+24",
+    "domain": "hardwarezone.com.sg",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-388975966",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-N58WWMC"
+    ],
+    "cookie": "_gcl_au=1.1.283554000.1753630038; path=/; expires=Sat, 25 Oct 2025 15:27:18 GMT; domain=com.sg",
+    "scriptCount": 2
+  },
+  {
+    "file": "hbr.org_6177_path.json",
+    "key": "hbr.org+_gcl_au+3+33",
+    "domain": "hbr.org",
+    "used_scripts": [
+      "https://hbr.org/",
+      "https://www.googletagmanager.com/gtag/js?id=AW-1062985444"
+    ],
+    "cookie": "_gcl_au=1.1.955052330.1753614750; path=/; expires=Sat, 25 Oct 2025 11:12:30 GMT; domain=hbr.org",
+    "scriptCount": 2
+  },
+  {
+    "file": "istoe.com.br_5550_path.json",
+    "key": "istoe.com.br+_gcl_au+3+26",
+    "domain": "istoe.com.br",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-11344556239&cx=c&gtm=45He57n0v9222742184za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211",
+      "https://www.googletagmanager.com/gtag/js?id=G-LNVZMYDN5E&cx=c&gtm=453e57n0za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211"
+    ],
+    "cookie": "_gcl_au=1.1.367817543.1753640453; path=/; expires=Sat, 25 Oct 2025 18:20:53 GMT; domain=com.br",
+    "scriptCount": 2
+  },
+  {
+    "file": "jecontacte.com_1758_path.json",
+    "key": "jecontacte.com+_gcl_au+3+26",
+    "domain": "jecontacte.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-1059622270&cx=c&gtm=457e57n0za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211",
+      "https://www.googletagmanager.com/gtag/js?id=G-1PZ2RFZFY0&cx=c&gtm=457e57n0za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211"
+    ],
+    "cookie": "_gcl_au=1.1.1673939286.1753607419; path=/; expires=Sat, 25 Oct 2025 09:10:18 GMT; domain=jecontacte.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "letras.mus.br_5958_path.json",
+    "key": "letras.mus.br+__trf.src+3+4",
+    "domain": "letras.mus.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/c7d54806-1ffa-4549-9418-acc0cb28c63a-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjUyNzMxNDk3fQ==; expires=Mon, 27 Jul 2026 21:45:31 GMT; domain=.letras.mus.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "letudiant.fr_2164_path.json",
+    "key": "letudiant.fr+_gcl_au+3+27",
+    "domain": "letudiant.fr",
+    "used_scripts": [
+      "https://sdk.privacy-center.org/sdk/ed2b9f6b1c9bb3b53c7449e82be3f82bed53a015/modern/sdk.ed2b9f6b1c9bb3b53c7449e82be3f82bed53a015.js",
+      "https://serv.letudiant.fr/mgff5v57usgdu3w.js?id=GTM-WZXR44F6"
+    ],
+    "cookie": "_gcl_au=1.1.155394342.1753624027; path=/; expires=Sat, 25 Oct 2025 13:47:07 GMT; domain=letudiant.fr",
+    "scriptCount": 2
+  },
+  {
+    "file": "loteriasdehonduras.com_1058_path.json",
+    "key": "loteriasdehonduras.com+__gsas+3+4",
+    "domain": "loteriasdehonduras.com",
+    "used_scripts": [
+      "https://partner.googleadservices.com/gampad/cookie.js?domain=loteriasdehonduras.com&client=partner-pub-2982894129551983&product=SAS&callback=__sasCookie&cookie_types=v1%2Cv2",
+      "https://www.google.com/adsense/search/async-ads.js"
+    ],
+    "cookie": "__gsas=ID=c3ab7cd2c6b194d4:T=1753612419:RT=1753612419:S=ALNI_MaXkeaL2m2zDWfCXcCrs3NAzFaojQ;expires=Fri, 21 Aug 2026 10:33:39 GMT;path=/;domain=loteriasdehonduras.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "macobserver.com_5758_path.json",
+    "key": "macobserver.com+_gcl_au+3+22",
+    "domain": "macobserver.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-16921184461",
+      "https://www.macobserver.com/"
+    ],
+    "cookie": "_gcl_au=1.1.1706800868.1753645523; path=/; expires=Sat, 25 Oct 2025 19:45:23 GMT; domain=macobserver.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "maxim.com_5003_path.json",
+    "key": "maxim.com+_scid_r+3+14",
+    "domain": "maxim.com",
+    "used_scripts": [
+      "https://sc-static.net/scevent.min.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-TH3Q6WP"
+    ],
+    "cookie": "_scid_r=3SRVxgWh93ZfXSq5NP7jNuQ5EUZe7tBX;path=/;SameSite=Lax;expires=Thu, 27 Aug 2026 05:44:05 GMT;domain=.maxim.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "meloradio.pl_1656_path.json",
+    "key": "meloradio.pl+_tt_enable_cookie+3+11",
+    "domain": "meloradio.pl",
+    "used_scripts": [
+      "https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxOQ.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-NX5JXRN"
+    ],
+    "cookie": "_tt_enable_cookie=1; path=/; expires=Fri, 21 Aug 2026 13:16:52 GMT; domain=.pl",
+    "scriptCount": 2
+  },
+  {
+    "file": "nsctotal.com.br_4486_path.json",
+    "key": "nsctotal.com.br+__trf.src+3+4",
+    "domain": "nsctotal.com.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/f0683a90-5568-4703-af54-9906962f98d1-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjI4OTQyMDIyfQ==; expires=Mon, 27 Jul 2026 15:09:02 GMT; domain=.nsctotal.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "ntv.com.tr_7772_path.json",
+    "key": "ntv.com.tr+_gcl_au+3+24",
+    "domain": "ntv.com.tr",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=AW-11332975750",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-5TDWZF"
+    ],
+    "cookie": "_gcl_au=1.1.1861197283.1753607379; path=/; expires=Sat, 25 Oct 2025 09:09:38 GMT; domain=com.tr",
+    "scriptCount": 2
+  },
+  {
+    "file": "olx.ba_2855_path.json",
+    "key": "olx.ba+_gcl_au+4+31",
+    "domain": "olx.ba",
+    "used_scripts": [
+      "https://olx.ba/_nuxt/5d6e0af24ef6c7313304.js",
+      "https://olx.ba/_nuxt/8cfe0c9099f7367af206.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-594XWBR&l=dataLayer"
+    ],
+    "cookie": "_gcl_au=1.1.1284831868.1753620843; path=/; expires=Sat, 25 Oct 2025 12:54:03 GMT; domain=olx.ba",
+    "scriptCount": 3
+  },
+  {
+    "file": "opovo.com.br_2748_path.json",
+    "key": "opovo.com.br+__trf.src+3+4",
+    "domain": "opovo.com.br",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/f9c73be5-0123-4f19-af72-12d80ac2c46b-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjA4MzA3MDgzfQ==; expires=Mon, 27 Jul 2026 09:25:07 GMT; domain=.opovo.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "pflanzmich.de_4067_path.json",
+    "key": "pflanzmich.de+dicbo_id+4+11",
+    "domain": "pflanzmich.de",
+    "used_scripts": [
+      "https://amplify.outbrain.com/cp/obtp.js",
+      "https://widgets.trustedshops.com/assets/trustbadge.js",
+      "https://www.pflanzmich.de/"
+    ],
+    "cookie": "dicbo_id=%7B%22dicbo_fetch%22%3A1753609620240%7D; expires=Sun, 27 Jul 2025 09:52:00 GMT; path=/;",
+    "scriptCount": 3
+  },
+  {
+    "file": "porofessor.gg_1461_path.json",
+    "key": "porofessor.gg+_gcl_au+3+22",
+    "domain": "porofessor.gg",
+    "used_scripts": [
+      "https://porofessor.gg/",
+      "https://www.googletagmanager.com/gtag/js?id=AW-10931753188"
+    ],
+    "cookie": "_gcl_au=1.1.1850703329.1753635198; path=/; expires=Sat, 25 Oct 2025 16:53:18 GMT; domain=porofessor.gg",
+    "scriptCount": 2
+  },
+  {
+    "file": "quizme.pl_7168_path.json",
+    "key": "quizme.pl+_gcl_au+4+57",
+    "domain": "quizme.pl",
+    "used_scripts": [
+      "https://get.optad360.io/assets/js/prebid9.28.3.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-P9JQ06NQDN",
+      "https://www.quizme.pl/"
+    ],
+    "cookie": "_gcl_au=1.1.1425248542.1753607880; path=/; expires=Sat, 25 Oct 2025 09:18:00 GMT; domain=quizme.pl",
+    "scriptCount": 3
+  },
+  {
+    "file": "refinery29.com_3280_path.json",
+    "key": "refinery29.com+_gcl_au+3+23",
+    "domain": "refinery29.com",
+    "used_scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=DC-12038784",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-PBVC7CQ&l=_dataLayer"
+    ],
+    "cookie": "_gcl_au=1.1.1247151241.1753652954; path=/; expires=Sat, 25 Oct 2025 21:49:13 GMT; domain=refinery29.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "rxlist.com_6887_path.json",
+    "key": "rxlist.com+aam_uuid+5+6",
+    "domain": "rxlist.com",
+    "used_scripts": [
+      "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/PageBuilder_Assets/bi/bi_oocommon.js",
+      "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/js/media/optiCommon.js",
+      "https://preferences.trustarc.com/webservices/js?domain=webmd&type=webmd_popnew&js=responsive",
+      "https://ssl.o.rxlist.com/b/ss/webmdp1global/10/JS-2.15.0/s1925940784992?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=27%2F6%2F2025%2017%3A13%3A8%200%20-480&d.&nsid=0&jsonv=1&.d&mid=67209212070966709741143668902381420629&aamlh=6&ce=ISO-8859-1&ns=webmd&cdp=2&pageName=rxlist.com%2F&g=https%3A%2F%2Fwww.rxlist.com%2F&c.&wb.&vapi=visitorapi%20present&plt=6&titletag=rxlist%20-%20the%20internet%20drug%20index%20for%20prescription%20drug%20information%2C%20interactions%2C%20and%20side%20effects&gdprauth=gdpr-no&.wb&.c&cc=USD&server=mnma1-net%7Coocommon%7C20250603&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&c3=rxlist&c4=1728&c6=nav%20-%20home%20page&c7=default&c9=1&c24=175360758128868096&c35=nav%20-%20home%20page&c36=rhome&c38=rxlist&c48=mbl-no&c49=849c5800-c700-48a5-9b30-b1c5b01d53ad&s=1024x768&c=24&j=1.6&v=N&k=Y&bw=1023&bh=649&mcorgid=16AD4362526701720A490D45%40AdobeOrg&AQE=1"
+    ],
+    "cookie": "aam_uuid=67050100160404045851123183982377155778;expires=Tue, 26 Aug 2025 09:13:10 GMT;path=/;domain=.rxlist.com",
+    "scriptCount": 4
+  },
+  {
+    "file": "seoclerk.com_4287_path.json",
+    "key": "seoclerk.com+__ss_tk+3+3",
+    "domain": "seoclerk.com",
+    "used_scripts": [
+      "https://koi-3qnplxgbbc.marketingautomation.services/client/ss.js?ver=2.4.0",
+      "https://koi-3qnplxgbbc.marketingautomation.services/koi?rf=&hn=www.seoclerk.com&lg=en-GB&sr=1024x768&cd=24&vr=2.4.1&se=1753608731351&ac=KOI-4FC681XBQA&ts=1753608731&pt=NaN&pl=NaN&loc=https%3A%2F%2Fwww.seoclerk.com%2F&tp=page&ti=SEO%20Marketplace%20for%20backlinks%2C%20web%20design%2C%20website%20traffic%2C%20and%20online%20marketing%20-%20SEOClerks"
+    ],
+    "cookie": "__ss_tk=202507%7C6885f21c1fa5bd051a17ffa4; expires=Thu, 21 Jul 2050 09:32:24 GMT; path=/; SameSite=None; Secure",
+    "scriptCount": 2
+  },
+  {
+    "file": "sscdn.co_2572_path.json",
+    "key": "sscdn.co+__trf.src+3+4",
+    "domain": "sscdn.co",
+    "used_scripts": [
+      "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7de331ff-fa05-42fa-9865-1bfff4034e30-loader.js",
+      "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"
+    ],
+    "cookie": "__trf.src=encoded_eyJmaXJzdF9zZXNzaW9uIjp7InZhbHVlIjoiKG5vbmUpIiwiZXh0cmFfcGFyYW1zIjp7fX0sImN1cnJlbnRfc2Vzc2lvbiI6eyJ2YWx1ZSI6Iihub25lKSIsImV4dHJhX3BhcmFtcyI6e319LCJjcmVhdGVkX2F0IjoxNzUzNjUzMzg3OTI3fQ==; expires=Mon, 27 Jul 2026 21:56:27 GMT; domain=.cifraclub.com.br; path=/; sameSite=Lax",
+    "scriptCount": 2
+  },
+  {
+    "file": "sudoku-online.org_9084_path.json",
+    "key": "sudoku-online.org+_gcl_au+3+27",
+    "domain": "sudoku-online.org",
+    "used_scripts": [
+      "https://cdn.taboola.com/libtrc/sudoku-onlineorg/loader.js",
+      "https://www.googletagmanager.com/gtag/destination?id=AW-1066928941&cx=c&gtm=45je57n0v9134574081za200zb9221158260&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211"
+    ],
+    "cookie": "_gcl_au=1.1.2015359299.1753661781; path=/; expires=Sun, 26 Oct 2025 00:16:21 GMT; domain=sudoku-online.org",
+    "scriptCount": 2
+  },
+  {
+    "file": "thesaurus.com_5133_path.json",
+    "key": "thesaurus.com+_gcl_au+3+20",
+    "domain": "thesaurus.com",
+    "used_scripts": [
+      "https://cmas.sdcdns.com/prebid-min.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-PVMWP3"
+    ],
+    "cookie": "_gcl_au=1.1.238945519.1753640410; path=/; expires=Sat, 25 Oct 2025 18:20:09 GMT; domain=thesaurus.com",
+    "scriptCount": 2
+  },
+  {
+    "file": "wnyt.com_7602_path.json",
+    "key": "wnyt.com+sailthru_content+4+5",
+    "domain": "wnyt.com",
+    "used_scripts": [
+      "https://ak.sail-horizon.com/spm/spm.v1.min.js",
+      "https://fuel-streaming-prod01.fuelmedia.io/player/v3/fuel.js",
+      "https://wnyt.com/"
+    ],
+    "cookie": "sailthru_content=d59c5bc2791ae0a2af989f8ea00f6fa5;expires=Mon, 27 Jul 2026 13:10:07 GMT;path=/",
+    "scriptCount": 3
+  }
+]

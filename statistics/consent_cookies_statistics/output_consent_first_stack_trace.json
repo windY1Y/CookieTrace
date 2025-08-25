@@ -1,0 +1,61 @@
+[
+  {
+    "file": "buienradar.nl_6049_path.json",
+    "domain": "buienradar.nl",
+    "used_scripts": [
+      "",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js"
+    ],
+    "cookie": "eupubconsent-v2=CQVMdMAQVMdMAAcABBNLB1FwAAAAAEAAABpYAAALZgBgBzAM-AtkAsJATAAWABUADwAIIAZABoAEwAN4AfoBEAESAMAAZUA7gDvAH6ARwAkQCPQF5gMkAZOFAAgBzHQGAAFgAVABBADIANAAmABvAD9AIgAiQBgADKAGjAO4A7wB-gEWAI4ASIBF4CPQEyALzAZIAycBlgD-xwAQAdABCAExAMmIQCQAFgBvAGBAO4A7wCOAEpAR6AycB_ZKAYAAsAJkAiACJAGAAO8AjgCLwEegLzAZIAycBlhIAGACoAdwCYikBYABYAFQAQQAyADQAJgAfoBEAESAMAAZQA0QB3gD9AIsARwAkQCLwEegLzAZIAycBlgD-ygAMAdwCYgGTFoAYAwAB3AEcLAAgEegJiAA.YAAACAAAAAAA; expires=Mon, 27 Jul 2026 03:52:18 GMT; path=/; domain=.buienradar.nl; Samesite=None; Secure",
+    "stackTrace": [
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.cookielaw.org/scripttemplates/202407.2.0/otBannerSdk.js",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2",
+      "https://cdn.buienradar.nl/resources/js/site/otel.js?v=20250724.2"
+    ]
+  },
+  {
+    "file": "infranken.de_8637_path.json",
+    "domain": "infranken.de",
+    "used_scripts": [
+      "",
+      "https://dynamic.infranken.de/delivery/cmp.php?__cmpcc=2&__cmpfcc=1&id=18216&o=1753589632&h=https%3A%2F%2Fwww.infranken.de%2F&&l=en&odw=0&dlt=1&l=en",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js"
+    ],
+    "cookie": "__cmpconsentx18216=CQVMdMAQVMdMAAfDYCDEB1FgAAAAAAAAAAYgAAAO2gBAA4AdsAIEgCAAVABAADIAJg6AIABUAEAAMgAmEoAIATCkAQACoAIAAZABMA;expires=Sun, 03 Aug 2025 04:14:21 GMT;path=/;domain=.infranken.de;SameSite=None;Secure",
+    "stackTrace": [
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js",
+      "https://dynamic.infranken.de/delivery/cmp.php?__cmpcc=2&__cmpfcc=1&id=18216&o=1753589632&h=https%3A%2F%2Fwww.infranken.de%2F&&l=en&odw=0&dlt=1&l=en"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "file": "infranken.de_8637_path.json",
+    "domain": "infranken.de",
+    "key": "infranken.de+__cmpconsentx",
+    "used_scripts": [
+      "https://dynamic.infranken.de/delivery/cmp.php?__cmpcc=2&__cmpfcc=1&id=18216&o=1753589632&h=https%3A%2F%2Fwww.infranken.de%2F&&l=en&odw=0&dlt=1&l=en",
+      "https://static.infranken.de/delivery/js/cmp_en.min.js"
+    ],
+    "cookie": "__cmpconsentx18216=CQVMdMAQVMdMAAfDYCDEB1FgAAAAAAAAAAYgAAAO2gBAA4AdsAIEgCAAVABAADIAJg6AIABUAEAAMgAmEoAIATCkAQACoAIAAZABMA;expires=Sun, 03 Aug 2025 04:14:21 GMT;path=/;domain=.infranken.de;SameSite=None;Secure",
+    "scriptCount": 2
+  }
+]

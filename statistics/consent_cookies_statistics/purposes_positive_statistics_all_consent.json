@@ -1,0 +1,90 @@
+[
+  {
+    "purposeId": "1",
+    "purposeName": "Store and/or access information on a device",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "2",
+    "purposeName": "Select basic ads",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "3",
+    "purposeName": "Create a personalized ads profile",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "4",
+    "purposeName": "Select personalized ads",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "5",
+    "purposeName": "Create a personalized content profile",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "6",
+    "purposeName": "Select personalized content",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "7",
+    "purposeName": "Measure ad performance",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "8",
+    "purposeName": "Measure content performance",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "9",
+    "purposeName": "Apply market research to generate audience insights",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "10",
+    "purposeName": "Develop and improve products",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "purposeId": "11",
+    "purposeName": "Use limited data to select content",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  }
+]

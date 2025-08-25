@@ -1,0 +1,53 @@
+[
+  {
+    "file": "healthyrecipesblogs.com_5134_path.json",
+    "domain": "healthyrecipesblogs.com",
+    "key": "healthyrecipesblogs.com+__cmpconsentx",
+    "used_scripts": [
+      "",
+      "https://b.delivery.consentmanager.net/delivery/cmp.php?__cmpcc=1&__cmpfcc=1&id=86685&o=1753665951&h=https%3A%2F%2Fhealthyrecipesblogs.com%2F&&l=en&odw=0&dlt=1&l=en&lp=EN-US",
+      "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfODY2ODUucl9HRFBSLmxfZW4uZF8zNDc0Mi54XzkxLnYucC50XzM0NzQyLnh0Xzgx.js",
+      "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js",
+      "https://healthyrecipesblogs.com/wp-content/cache/min/1/wp-content/plugins/social-pug/assets/dist/front-end-pro.js?ver=1753205365"
+    ],
+    "cookie": "__cmpconsentx86685=CQVPwIAQVPwIAAfKtCENB1FgAAAAAEPgAAigAAATpgXAALAAcABUAC4AHAAPAAgABIACoAGQANAAcAA8ACOAEwAKAAVQA0AB-AEIAI4ATgArQBgADKAGiAOQAc4A7gB-wEHAQgAiwBPwDXgHEAO2Ae0A_4CYgFDgKlAXmAyQBlgD5AJ0gAA.YAAACHwAAAA;expires=Mon, 11 Aug 2025 01:26:23 GMT;path=/;domain=.healthyrecipesblogs.com;SameSite=None;Secure"
+  },
+  {
+    "file": "thecookierookie.com_7136_path.json",
+    "domain": "thecookierookie.com",
+    "key": "thecookierookie.com+__cmpconsentx",
+    "used_scripts": [
+      "",
+      "https://b.delivery.consentmanager.net/delivery/cmp.php?__cmpcc=1&__cmpfcc=1&id=86685&o=1753590884&h=https%3A%2F%2Fwww.thecookierookie.com%2F&&l=en&odw=0&dlt=1&l=en&lp=EN-US",
+      "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfODY2ODUucl9HRFBSLmxfZW4uZF8zNDc0Mi54XzkxLnYucC50XzM0NzQyLnh0Xzgx.js",
+      "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js",
+      "https://www.thecookierookie.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.js?ver=2.26.2"
+    ],
+    "cookie": "__cmpconsentx86685=CQVMdMAQVMdMAAfKtCENB1FgAAAAAEPgAAigAAATpgXAALAAcABUAC4AHAAPAAgABIACoAGQANAAcAA8ACOAEwAKAAVQA0AB-AEIAI4ATgArQBgADKAGiAOQAc4A7gB-wEHAQgAiwBPwDXgHEAO2Ae0A_4CYgFDgKlAXmAyQBlgD5AJ0gAA.YAAACHwAAAA;expires=Sun, 10 Aug 2025 04:35:32 GMT;path=/;domain=.thecookierookie.com;SameSite=None;Secure"
+  },
+  {
+    "file": "thefashionablehousewife.com_7448_path.json",
+    "domain": "thefashionablehousewife.com",
+    "key": "thefashionablehousewife.com+__cmpconsentx",
+    "used_scripts": [
+      "",
+      "https://b.delivery.consentmanager.net/delivery/cmp.php?__cmpcc=1&__cmpfcc=1&id=86685&o=1753589363&h=https%3A%2F%2Fwww.thefashionablehousewife.com%2F&&l=en&odw=0&dlt=1&l=en&lp=EN-US",
+      "https://cdn.consentmanager.net/delivery/customdata/bV8xLndfODY2ODUucl9HRFBSLmxfZW4uZF8zNDc0Mi54XzkxLnYucC50XzM0NzQyLnh0Xzgx.js",
+      "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js",
+      "https://www.thefashionablehousewife.com/wp-content/plugins/social-pug/assets/dist/front-end-free.js?ver=1.35.1"
+    ],
+    "cookie": "__cmpconsentx86685=CQVMdMAQVMdMAAfKtCENB1FgAAAAAEPgAAigAAATpgXAALAAcABUAC4AHAAPAAgABIACoAGQANAAcAA8ACOAEwAKAAVQA0AB-AEIAI4ATgArQBgADKAGiAOQAc4A7gB-wEHAQgAiwBPwDXgHEAO2Ae0A_4CYgFDgKlAXmAyQBlgD5AJ0gAA.YAAACHwAAAA;expires=Sun, 10 Aug 2025 04:10:05 GMT;path=/;domain=.thefashionablehousewife.com;SameSite=None;Secure"
+  },
+  {
+    "file": "tvovermind.com_1556_path.json",
+    "domain": "tvovermind.com",
+    "key": "tvovermind.com+__cmpconsentx",
+    "used_scripts": [
+      "",
+      "https://b.delivery.consentmanager.net/delivery/cmp.php?__cmpcc=1&__cmpfcc=1&id=86685&o=1753592900&h=https%3A%2F%2Ftvovermind.com%2F&&l=en&odw=0&dlt=1&l=en&lp=EN-US",
+      "https://cdn.consentmanager.net/delivery/js/cmp_final.min.js",
+      "https://tvovermind.com/wp-content/plugins/popup-anything-on-click/assets/js/custombox.legacy.min.js?ver=2.8.1"
+    ],
+    "cookie": "__cmpconsentx86685=CQVMdMAQVMdMAAfKtCENB1FgAAAAAEPgAAigAAATpgXAALAAcABUAC4AHAAPAAgABIACoAGQANAAcAA8ACOAEwAKAAVQA0AB-AEIAI4ATgArQBgADKAGiAOQAc4A7gB-wEHAQgAiwBPwDXgHEAO2Ae0A_4CYgFDgKlAXmAyQBlgD5AJ0gAA.YAAACHwAAAA;expires=Sun, 10 Aug 2025 05:09:05 GMT;path=/;domain=.tvovermind.com;SameSite=None;Secure"
+  }
+]

@@ -1,0 +1,786 @@
+[
+  {
+    "vendorId": "80",
+    "vendorName": "Sharethrough, Inc",
+    "domainCount": 8,
+    "domains": [
+      "racingnews365.com",
+      "moviemeter.nl",
+      "iex.nl",
+      "fcupdate.nl",
+      "pflanzmich.de",
+      "indeleiderstrui.nl",
+      "racing.nl",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "412",
+    "vendorName": "Piano Software Inc.",
+    "domainCount": 6,
+    "domains": [
+      "aargauerzeitung.ch",
+      "luzernerzeitung.ch",
+      "tagblatt.ch",
+      "weltwoche.ch",
+      "pirsch.de",
+      "mannheimer-morgen.de"
+    ]
+  },
+  {
+    "vendorId": "32",
+    "vendorName": "Xandr, Inc.",
+    "domainCount": 4,
+    "domains": [
+      "pazaruvaj.com",
+      "weltwoche.ch",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "45",
+    "vendorName": "Equativ",
+    "domainCount": 4,
+    "domains": [
+      "bvb.de",
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "50",
+    "vendorName": "Adform A/S",
+    "domainCount": 4,
+    "domains": [
+      "nordkurier.de",
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "755",
+    "vendorName": "Google Advertising Products",
+    "domainCount": 4,
+    "domains": [
+      "jappy.com",
+      "pazaruvaj.com",
+      "weltwoche.ch",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "10",
+    "vendorName": "Index Exchange Inc. ",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "42",
+    "vendorName": "Taboola Europe Limited",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "52",
+    "vendorName": "Magnite, Inc. ",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "70",
+    "vendorName": "Yieldlab (Virtual Minds GmbH)",
+    "domainCount": 3,
+    "domains": [
+      "jappy.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "76",
+    "vendorName": "PubMatic, Inc",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "77",
+    "vendorName": "Comscore B.V.",
+    "domainCount": 3,
+    "domains": [
+      "aargauerzeitung.ch",
+      "luzernerzeitung.ch",
+      "tagblatt.ch"
+    ]
+  },
+  {
+    "vendorId": "91",
+    "vendorName": "Criteo SA",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "128",
+    "vendorName": "BIDSWITCH GmbH",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "132",
+    "vendorName": "Teads France SAS",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "142",
+    "vendorName": "Media.net Advertising FZ-LLC",
+    "domainCount": 3,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "264",
+    "vendorName": "Adobe Advertising Cloud",
+    "domainCount": 3,
+    "domains": [
+      "nordkurier.de",
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "1",
+    "vendorName": "Exponential Interactive, Inc d/b/a VDX.tv",
+    "domainCount": 2,
+    "domains": [
+      "hsv.de",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "12",
+    "vendorName": "BeeswaxIO Corporation",
+    "domainCount": 2,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "21",
+    "vendorName": "The UK Trade Desk Ltd",
+    "domainCount": 2,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "23",
+    "vendorName": "Nexxen Inc.",
+    "domainCount": 2,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "28",
+    "vendorName": "Triple Lift, Inc.",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "39",
+    "vendorName": "ADITION (Virtual Minds GmbH)",
+    "domainCount": 2,
+    "domains": [
+      "nordkurier.de",
+      "bvb.de"
+    ]
+  },
+  {
+    "vendorId": "95",
+    "vendorName": "Lotame Solutions, Inc",
+    "domainCount": 2,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "131",
+    "vendorName": "ID5 Technology SAS",
+    "domainCount": 2,
+    "domains": [
+      "pazaruvaj.com",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "164",
+    "vendorName": "Outbrain UK.",
+    "domainCount": 2,
+    "domains": [
+      "vipflash.de",
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "173",
+    "vendorName": "Yieldmo, Inc.",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "242",
+    "vendorName": "twiago GmbH",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "253",
+    "vendorName": "Improve Digital",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "259",
+    "vendorName": "ADYOULIKE SA",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "565",
+    "vendorName": "Adobe Audience Manager, Adobe Experience Platform",
+    "domainCount": 2,
+    "domains": [
+      "nordkurier.de",
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "793",
+    "vendorName": "Amazon Advertising",
+    "domainCount": 2,
+    "domains": [
+      "nordkurier.de",
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "858",
+    "vendorName": "Mediavine, Inc.",
+    "domainCount": 2,
+    "domains": [
+      "pflanzmich.de",
+      "stacees.co.uk"
+    ]
+  },
+  {
+    "vendorId": "1199",
+    "vendorName": "Adsyield Inc",
+    "domainCount": 2,
+    "domains": [
+      "travian.com",
+      "soccernews.nl"
+    ]
+  },
+  {
+    "vendorId": "1312",
+    "vendorName": "Better Collective A/S",
+    "domainCount": 2,
+    "domains": [
+      "travian.com",
+      "soccernews.nl"
+    ]
+  },
+  {
+    "vendorId": "11",
+    "vendorName": "Quantcast",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "13",
+    "vendorName": "Sovrn, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "weltwoche.ch"
+    ]
+  },
+  {
+    "vendorId": "16",
+    "vendorName": "RTB House S.A.",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "24",
+    "vendorName": "Epsilon",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "25",
+    "vendorName": "Yahoo EMEA Limited",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "36",
+    "vendorName": "Nexxen Group LLC",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "40",
+    "vendorName": "Active Agent (Virtual Minds GmbH)",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "44",
+    "vendorName": "Adex (Virtual Minds GmbH)",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "47",
+    "vendorName": "ADMAN - Phaistos Networks, S.A.",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "58",
+    "vendorName": "33Across",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "63",
+    "vendorName": "Lumen Research Limited",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "69",
+    "vendorName": "OpenX",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "71",
+    "vendorName": "Roku Advertising Services",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "73",
+    "vendorName": "Simplifi Holdings LLC",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "82",
+    "vendorName": "Smaato, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "84",
+    "vendorName": "Semasio GmbH",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "97",
+    "vendorName": "LiveRamp",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "98",
+    "vendorName": "WPP Media",
+    "domainCount": 1,
+    "domains": [
+      "racing.nl"
+    ]
+  },
+  {
+    "vendorId": "130",
+    "vendorName": "NextRoll, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "141",
+    "vendorName": "Emodo LLC",
+    "domainCount": 1,
+    "domains": [
+      "travian.com"
+    ]
+  },
+  {
+    "vendorId": "148",
+    "vendorName": "LiveIntent Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "149",
+    "vendorName": "ADman Interactive SLU",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "156",
+    "vendorName": "Basis Global Technologies, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "159",
+    "vendorName": "Underdog Media LLC ",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "195",
+    "vendorName": "advanced store GmbH",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "203",
+    "vendorName": "Revcontent, LLC",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "209",
+    "vendorName": "Delta Projects AB",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "210",
+    "vendorName": "Zemanta Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "238",
+    "vendorName": "StackAdapt Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "272",
+    "vendorName": "A.Mob",
+    "domainCount": 1,
+    "domains": [
+      "racing.nl"
+    ]
+  },
+  {
+    "vendorId": "284",
+    "vendorName": "Weborama",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "328",
+    "vendorName": "Gemius SA",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "361",
+    "vendorName": "Permutive Limited",
+    "domainCount": 1,
+    "domains": [
+      "weltwoche.ch"
+    ]
+  },
+  {
+    "vendorId": "373",
+    "vendorName": "Nielsen Media Research Ltd.",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "377",
+    "vendorName": "AddApptr GmbH",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "397",
+    "vendorName": "Demandbase, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "488",
+    "vendorName": "Opinary (Affinity Global GmbH)",
+    "domainCount": 1,
+    "domains": [
+      "weltwoche.ch"
+    ]
+  },
+  {
+    "vendorId": "511",
+    "vendorName": "Admixer EU GmbH",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "572",
+    "vendorName": "CHEQ AI TECHNOLOGIES",
+    "domainCount": 1,
+    "domains": [
+      "educations.com"
+    ]
+  },
+  {
+    "vendorId": "573",
+    "vendorName": "Dailymotion Video Player and Ad Products",
+    "domainCount": 1,
+    "domains": [
+      "pflanzmich.de"
+    ]
+  },
+  {
+    "vendorId": "612",
+    "vendorName": "Adnami Aps",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "665",
+    "vendorName": "Digital East GmbH",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "730",
+    "vendorName": "INFOnline GmbH",
+    "domainCount": 1,
+    "domains": [
+      "pharmazeutische-zeitung.de"
+    ]
+  },
+  {
+    "vendorId": "732",
+    "vendorName": "LetThereBeAds / Performax",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "742",
+    "vendorName": "Audiencerate LTD",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "765",
+    "vendorName": "Grabit Interactive Media Inc dba KERV Interctive",
+    "domainCount": 1,
+    "domains": [
+      "nn.de"
+    ]
+  },
+  {
+    "vendorId": "783",
+    "vendorName": "Audienzz AG",
+    "domainCount": 1,
+    "domains": [
+      "weltwoche.ch"
+    ]
+  },
+  {
+    "vendorId": "788",
+    "vendorName": "Ad Alliance GmbH",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "790",
+    "vendorName": "Samsung Ads",
+    "domainCount": 1,
+    "domains": [
+      "pazaruvaj.com"
+    ]
+  },
+  {
+    "vendorId": "796",
+    "vendorName": "EASY Marketing GmbH",
+    "domainCount": 1,
+    "domains": [
+      "bvb.de"
+    ]
+  },
+  {
+    "vendorId": "799",
+    "vendorName": "Adpone SL",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "855",
+    "vendorName": "Adnuntius AS",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  },
+  {
+    "vendorId": "876",
+    "vendorName": "3Q GmbH",
+    "domainCount": 1,
+    "domains": [
+      "bnn.de"
+    ]
+  },
+  {
+    "vendorId": "1046",
+    "vendorName": "JWP, Inc.",
+    "domainCount": 1,
+    "domains": [
+      "weltwoche.ch"
+    ]
+  },
+  {
+    "vendorId": "1281",
+    "vendorName": "Admatic GMBH",
+    "domainCount": 1,
+    "domains": [
+      "nordkurier.de"
+    ]
+  }
+]
