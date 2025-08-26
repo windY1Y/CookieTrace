@@ -6,7 +6,7 @@ This repository contains the artifacts of our submission #988 to USENIX Security
   - We integrated [nlohmann](https://github.com/nlohmann/json) into `v8/src/third_party` to output tracking results in JSON format. This addition accounts for approximately 20,000 lines in the patch (as shown in the final git diff). Our actual contributions comprise roughly 4,000 lines of code.
 - `measure/`: Automation scripts used to run the experiments.
 - `data_processing/`: Scripts used for processing the raw experiment output, including overhead computation, classification, characterizaiton.
-- `statistics/`: Processed statistical results, efficiency and characterization outputs, including analyses on both consent cookies and unnecessary cookies.
+- `statistics/`: Processed statistical results, effectiveness and characterization outputs, including analyses on both consent cookies and unnecessary cookies.
 
 ## Setup and Build
 
@@ -57,5 +57,6 @@ The three parameters are:
 2. script that writes the target cookie (not necessary, can be replaced by any placeholder)
 
 3. the target cookie name
+
 
 
