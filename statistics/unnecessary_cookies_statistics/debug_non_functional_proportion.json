@@ -1,0 +1,3452 @@
+{
+  "first_party_scripts": [
+    {
+      "script_prefix": "https://www.7jours.ca/assets/723c57c/wro/js/jquery",
+      "related_domains": [
+        "7jours.ca"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.acog.org/",
+      "related_domains": [
+        "acog.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://adage.com/",
+      "related_domains": [
+        "adage.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a220.adage.com/script",
+      "related_domains": [
+        "adage.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.aiease.ai/",
+      "related_domains": [
+        "aiease.ai"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.airfarewatchdog.com/static/v4.0.269/react/home",
+      "related_domains": [
+        "airfarewatchdog.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.airfarewatchdog.com/",
+      "related_domains": [
+        "airfarewatchdog.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://allears.net/wp-content/plugins/activecampaign-subscription-forms/site_tracking",
+      "related_domains": [
+        "allears.net"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://americansongwriter.com/_static/",
+      "related_domains": [
+        "americansongwriter.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.androidauthority.com/_next/static/chunks/1858-8ae92af23d28c31b",
+      "related_domains": [
+        "androidauthority.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.antena1.com.br/js/bundle",
+      "related_domains": [
+        "antena1.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://load.sgtm.appcues.com/emwjxhri",
+      "related_domains": [
+        "appcues.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://media.bikehub.co.za/production/static/build/assets/app-R72-PhOd",
+      "related_domains": [
+        "bikehub.co.za"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.blikk.hu/",
+      "related_domains": [
+        "blikk.hu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://boardroom.tv/wp-content/cache/autoptimize/js/autoptimize_7a6b2a461bd142c76ad1ff82c274be77",
+      "related_domains": [
+        "boardroom.tv"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://f023.bostonherald.com/script",
+      "related_domains": [
+        "bostonherald.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.brooklynpaper.com/wp-content/themes/schnepstheme/build/bundle",
+      "related_domains": [
+        "brooklynpaper.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.budgetbytes.com/",
+      "related_domains": [
+        "budgetbytes.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.casar.com/",
+      "related_domains": [
+        "casar.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://z371.chicoer.com/script",
+      "related_domains": [
+        "chicoer.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://j348.citizensvoice.com/script",
+      "related_domains": [
+        "citizensvoice.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.collegefactual.com/",
+      "related_domains": [
+        "collegefactual.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cosme-front-assets.cosme.net/_nuxt/98733e3",
+      "related_domains": [
+        "cosme.net"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.cosme.net/",
+      "related_domains": [
+        "cosme.net"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.cozycozy.com/polyfills",
+      "related_domains": [
+        "cozycozy.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.cozycozy.com/main",
+      "related_domains": [
+        "cozycozy.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "blob:https://www.daily.co.jp/f523d869-35b0-49a9-ba97-47f809596cc5",
+      "related_domains": [
+        "daily.co.jp"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://x455.dailybreeze.com/script",
+      "related_domains": [
+        "dailybreeze.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://u300.dailybulletin.com/script",
+      "related_domains": [
+        "dailybulletin.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://u542.dailycamera.com/script",
+      "related_domains": [
+        "dailycamera.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://e220.dailyfreeman.com/script",
+      "related_domains": [
+        "dailyfreeman.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://b607.dailylocal.com/script",
+      "related_domains": [
+        "dailylocal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://j300.dailynews.com/script",
+      "related_domains": [
+        "dailynews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.dailysignal.com/wp-content/themes/daily-signal/assets/javascript/mbox",
+      "related_domains": [
+        "dailysignal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.dailysignal.com/",
+      "related_domains": [
+        "dailysignal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://googletagmanager.davines.com/gtm",
+      "related_domains": [
+        "davines.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "http://dayviews.com/",
+      "related_domains": [
+        "dayviews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "http://cdn07.dayviews.com/cdn/dist/site",
+      "related_domains": [
+        "dayviews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.defenseone.com/static/compressed/django/js/0bd6e642eccf",
+      "related_domains": [
+        "defenseone.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.defenseone.com/",
+      "related_domains": [
+        "defenseone.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://definition.org/",
+      "related_domains": [
+        "definition.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://g650.delcotimes.com/script",
+      "related_domains": [
+        "delcotimes.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://c615.denverpost.com/script",
+      "related_domains": [
+        "denverpost.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://o315.diariolibre.com/script",
+      "related_domains": [
+        "diariolibre.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.domino.com/_static/",
+      "related_domains": [
+        "domino.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://p192.eastbaytimes.com/script",
+      "related_domains": [
+        "eastbaytimes.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.eater.com/_next/static/chunks/main-a7031fd4948fd496",
+      "related_domains": [
+        "eater.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.eater.com/_next/static/chunks/pages/_app-f172a73ebb400980",
+      "related_domains": [
+        "eater.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.economist.com/optimizelyjs/19440972562",
+      "related_domains": [
+        "economist.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.elfinanciero.com.mx/",
+      "related_domains": [
+        "elfinanciero.com.mx"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.essence.com/",
+      "related_domains": [
+        "essence.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://web-statics.fff.fr/build/main",
+      "related_domains": [
+        "fff.fr"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.foxsports.com.mx/",
+      "related_domains": [
+        "foxsports.com.mx"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://futurism.com/_next/static/chunks/main-cc39f3433bad7361",
+      "related_domains": [
+        "futurism.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://futurism.com/_next/static/chunks/pages/_app-e5a457c9c0ee2f63",
+      "related_domains": [
+        "futurism.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cc1b1b.gearspace.com/app/js/api",
+      "related_domains": [
+        "gearspace.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://generated.photos/scripts/gtag-data-layer",
+      "related_domains": [
+        "generated.photos"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.glamour.hu/",
+      "related_domains": [
+        "glamour.hu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://k664.grandforksherald.com/script",
+      "related_domains": [
+        "grandforksherald.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.grandforksherald.com/",
+      "related_domains": [
+        "grandforksherald.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://i953.greeleytribune.com/script",
+      "related_domains": [
+        "greeleytribune.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.gsp.ro/",
+      "related_domains": [
+        "gsp.ro"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://hbr.org/",
+      "related_domains": [
+        "hbr.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://hiphopwired.com/wp-content/plugins/sailthru-widget/js/tag",
+      "related_domains": [
+        "hiphopwired.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.holiday-weather.com/",
+      "related_domains": [
+        "holiday-weather.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.huffingtonpost.jp/",
+      "related_domains": [
+        "huffingtonpost.jp"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://hypestat.com/",
+      "related_domains": [
+        "hypestat.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://icook.tw/metrics/",
+      "related_domains": [
+        "icook.tw"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://blueconic.iex.nl/script",
+      "related_domains": [
+        "iex.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.iihs.org/5qrd/",
+      "related_domains": [
+        "iihs.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.inforum.com/",
+      "related_domains": [
+        "inforum.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.j-14.com/_static/",
+      "related_domains": [
+        "j-14.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://katiecouric.com/wp-content/plugins/sailthru-widget/js/tag",
+      "related_domains": [
+        "katiecouric.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.kdnuggets.com/wp-content/uploads/perfmatters/gtagv4",
+      "related_domains": [
+        "kdnuggets.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.kiskegyed.hu/",
+      "related_domains": [
+        "kiskegyed.hu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://e093.knack.be/script",
+      "related_domains": [
+        "knack.be"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.lasalle.edu/",
+      "related_domains": [
+        "lasalle.edu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://serv.letudiant.fr/mgff5v57usgdu3w",
+      "related_domains": [
+        "letudiant.fr"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://c431.levif.be/script",
+      "related_domains": [
+        "levif.be"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://u299.libelle-lekker.be/script",
+      "related_domains": [
+        "libelle-lekker.be"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.livehindustan.com/",
+      "related_domains": [
+        "livehindustan.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.livehindustan.com/lhfeed/_next/static/chunks/pages/_app-a225429ed021cc5b",
+      "related_domains": [
+        "livehindustan.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.losarcanos.com/",
+      "related_domains": [
+        "losarcanos.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://w149.lowellsun.com/script",
+      "related_domains": [
+        "lowellsun.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://e488.macombdaily.com/script",
+      "related_domains": [
+        "macombdaily.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://z953.marinij.com/script",
+      "related_domains": [
+        "marinij.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a869.mercurynews.com/script",
+      "related_domains": [
+        "mercurynews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.metro.us/wp-content/themes/schnepstheme/build/bundle",
+      "related_domains": [
+        "metro.us"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.mindmegette.hu/polyfills-FIN56TZM",
+      "related_domains": [
+        "mindmegette.hu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.modernhealthcare.com/",
+      "related_domains": [
+        "modernhealthcare.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://p787.modernhealthcare.com/script",
+      "related_domains": [
+        "modernhealthcare.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://r718.morningjournal.com/script",
+      "related_domains": [
+        "morningjournal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.motherjones.com/_static/",
+      "related_domains": [
+        "motherjones.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.n9.cl/",
+      "related_domains": [
+        "n9.cl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://m930.news-herald.com/script",
+      "related_domains": [
+        "news-herald.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.newsweek.com/",
+      "related_domains": [
+        "newsweek.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.nyctourism.com/",
+      "related_domains": [
+        "nyctourism.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://observer.com/wp-content/plugins/hc-sailthru/assets/js/sailthru",
+      "related_domains": [
+        "observer.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://olx.ba/_nuxt/5d6e0af24ef6c7313304",
+      "related_domains": [
+        "olx.ba"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://olx.ba/_nuxt/8cfe0c9099f7367af206",
+      "related_domains": [
+        "olx.ba"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.on3.com/_next/static/chunks/1562-c01c1e1ed911b0e5",
+      "related_domains": [
+        "on3.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.on3.com/_next/static/chunks/framework-04e1fa741b5b29e6",
+      "related_domains": [
+        "on3.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://organizzei.com.br/04so/",
+      "related_domains": [
+        "organizzei.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://h562.pasadenastarnews.com/script",
+      "related_domains": [
+        "pasadenastarnews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.pehub.com/wp-content/plugins/sailthru-widget/js/tag",
+      "related_domains": [
+        "pehub.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.pionline.com/",
+      "related_domains": [
+        "pionline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://k572.pionline.com/script",
+      "related_domains": [
+        "pionline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://z766.plusonline.nl/script",
+      "related_domains": [
+        "plusonline.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://v105.police1.com/script",
+      "related_domains": [
+        "police1.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.popphoto.com/app/plugins/sailthru-wordpress-plugin/js/tag",
+      "related_domains": [
+        "popphoto.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.popsci.com/_static/",
+      "related_domains": [
+        "popsci.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://porofessor.gg/",
+      "related_domains": [
+        "porofessor.gg"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://portalgoodnews.com/msnd/",
+      "related_domains": [
+        "portalgoodnews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.postbulletin.com/",
+      "related_domains": [
+        "postbulletin.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a621.postbulletin.com/script",
+      "related_domains": [
+        "postbulletin.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://b347.pottsmerc.com/script",
+      "related_domains": [
+        "pottsmerc.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://m869.presstelegram.com/script",
+      "related_domains": [
+        "presstelegram.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.pulse.ng/scripts/horizonScript",
+      "related_domains": [
+        "pulse.ng"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://punchdrink.com/_static/",
+      "related_domains": [
+        "punchdrink.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.purewow.com/",
+      "related_domains": [
+        "purewow.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://qns.com/wp-content/themes/schnepstheme/build/bundle",
+      "related_domains": [
+        "qns.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cebe93.radiolab.org/app/js/api",
+      "related_domains": [
+        "radiolab.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://static.ranker.com/_next/static/chunks/main-222af6a50c252242",
+      "related_domains": [
+        "ranker.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://static.ranker.com/_next/static/chunks/pages/index-96aabfaea005d339",
+      "related_domains": [
+        "ranker.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://r188.readingeagle.com/script",
+      "related_domains": [
+        "readingeagle.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.refinery29.com/assets/runtime",
+      "related_domains": [
+        "refinery29.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.refinery29.com/assets/vendor",
+      "related_domains": [
+        "refinery29.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.refinery29.com/assets/scripts",
+      "related_domains": [
+        "refinery29.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://w638.roularta.be/script",
+      "related_domains": [
+        "roularta.be"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://gtm.rvshare.com/gtm",
+      "related_domains": [
+        "rvshare.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://ssl.o.rxlist.com/b/ss/webmdp1global/10/JS-2.15.0/s56925810424450?AQB=1&ndh=1&pf=1&callback=s_c_il[1]",
+      "related_domains": [
+        "rxlist.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a352.sandiegouniontribune.com/script",
+      "related_domains": [
+        "sandiegouniontribune.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://shopgoodwill.com/polyfills",
+      "related_domains": [
+        "shopgoodwill.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://shotkit.com/wp-content/uploads/perfmatters/gtagv4",
+      "related_domains": [
+        "shotkit.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://x315.siliconvalley.com/script",
+      "related_domains": [
+        "siliconvalley.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "http://www.soundguys.com/_next/static/chunks/1007-b19a7455a1fedad2",
+      "related_domains": [
+        "soundguys.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://taskandpurpose.com/_static/",
+      "related_domains": [
+        "taskandpurpose.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://optimizely.techtarget.com/optimizely-edge/17796810052",
+      "related_domains": [
+        "techtarget.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://e664.theoaklandpress.com/script",
+      "related_domains": [
+        "theoaklandpress.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://h516.thereporteronline.com/script",
+      "related_domains": [
+        "thereporteronline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://j282.thetimes-tribune.com/script",
+      "related_domains": [
+        "thetimes-tribune.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://z216.times-standard.com/script",
+      "related_domains": [
+        "times-standard.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://r566.timescall.com/script",
+      "related_domains": [
+        "timescall.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://c705.trentonian.com/script",
+      "related_domains": [
+        "trentonian.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://twentytwowords.com/wp-content/plugins/dx-integrations/assets/static/google-ads",
+      "related_domains": [
+        "twentytwowords.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://f703.twincities.com/script",
+      "related_domains": [
+        "twincities.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.ufreegames.com/",
+      "related_domains": [
+        "ufreegames.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://static.ufreegames.com/js/base_c",
+      "related_domains": [
+        "ufreegames.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.usfca.edu/",
+      "related_domains": [
+        "usfca.edu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.vnda.com.br/",
+      "related_domains": [
+        "vnda.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.wearethemighty.com/_static/",
+      "related_domains": [
+        "wearethemighty.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://weltwoche.ch/",
+      "related_domains": [
+        "weltwoche.ch"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://q770.whittierdailynews.com/script",
+      "related_domains": [
+        "whittierdailynews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.whole-dog-journal.com/wp-content/plugins/activecampaign-subscription-forms/site_tracking",
+      "related_domains": [
+        "whole-dog-journal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://golf.com/",
+      "related_domains": [
+        "golf.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://melmagazine.com/wp-content/plugins/sailthru-wordpress-plugin/js/tag",
+      "related_domains": [
+        "melmagazine.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.ohtuleht.ee/_next/static/chunks/framework-14421c4268f5ae5e",
+      "related_domains": [
+        "ohtuleht.ee"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.ohtuleht.ee/api/tinypass",
+      "related_domains": [
+        "ohtuleht.ee"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.ohtuleht.ee/_next/static/chunks/pages/_app-bb617ca42334f2f3",
+      "related_domains": [
+        "ohtuleht.ee"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.ohtuleht.ee/n1xi/",
+      "related_domains": [
+        "ohtuleht.ee"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.exp.pb.pl/api/tinypass",
+      "related_domains": [
+        "pb.pl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://gtm.proff.no/gtm",
+      "related_domains": [
+        "proff.no"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://m161.sbsun.com/script",
+      "related_domains": [
+        "sbsun.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.telsu.fi/js/init",
+      "related_domains": [
+        "telsu.fi"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://therealdeal.com/_next/static/chunks/pages/_app-9bdfaa2de58cdcfd",
+      "related_domains": [
+        "therealdeal.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://p644.thereporter.com/script",
+      "related_domains": [
+        "thereporter.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.wegow.com/2.1.10/js/chunk-vendors",
+      "related_domains": [
+        "wegow.com"
+      ],
+      "domains_count": 1
+    }
+  ],
+  "third_party_scripts": [
+    {
+      "script_prefix": "https://www.googletagmanager.com/gtm",
+      "related_domains": [
+        "177milkstreet.com",
+        "7jours.ca",
+        "abcplay.online",
+        "abtasty.com",
+        "accountingtoday.com",
+        "acog.org",
+        "activestate.com",
+        "adaraanalytics.com",
+        "advrider.com",
+        "agroklub.com",
+        "airfarewatchdog.com",
+        "akcios-ujsag.hu",
+        "alerabat.com",
+        "amarujala.com",
+        "amolatina.com",
+        "ana-white.com",
+        "andalucia.org",
+        "antena1.com.br",
+        "appfunia.com",
+        "appinfocenter.com",
+        "apponbest.com",
+        "artmajeur.com",
+        "asam.org",
+        "asoview.com",
+        "astrologyanswers.com",
+        "astrostyle.com",
+        "auto-swiat.pl",
+        "babygames.com",
+        "be.com",
+        "benefitnews.com",
+        "bestgames.com",
+        "bigissue.com",
+        "bigsoccer.com",
+        "bikehub.co.za",
+        "bloombergquint.com",
+        "bluedot.io",
+        "boardroom.tv",
+        "bobvila.com",
+        "bolha.com",
+        "bookriot.com",
+        "breezechms.com",
+        "bridgebase.com",
+        "brisbanetimes.com.au",
+        "broadstreetads.com",
+        "bsport.io",
+        "budgetbytes.com",
+        "bug.hr",
+        "bumble.com",
+        "businessinsider.com.pl",
+        "businesslive.co.za",
+        "buzzforme.com",
+        "buzzle.com",
+        "buzztests.com",
+        "canaltech.com.br",
+        "cargames.com",
+        "casar.com",
+        "cgv.id",
+        "cifraclub.com.br",
+        "cifraclub.com",
+        "cinemasunshine.co.jp",
+        "cio.com",
+        "codapayments.com",
+        "computerwoche.de",
+        "computerworld.com.au",
+        "computerworld.com",
+        "contentexchange.me",
+        "cosmopolitan.fr",
+        "cozycozy.com",
+        "cricket.com.au",
+        "cronista.com",
+        "crunchgear.com",
+        "csoonline.com",
+        "cucchiaio.it",
+        "daily.co.jp",
+        "dailysignal.com",
+        "damanwoo.com",
+        "datemyage.com",
+        "dating.com",
+        "dazeddigital.com",
+        "dba.dk",
+        "definition.org",
+        "dentrixascend.com",
+        "diabetes.co.uk",
+        "diariovagas.com",
+        "dictionary.com",
+        "didna.io",
+        "diena.lt",
+        "digitalmatter.ai",
+        "digitaltrends.com",
+        "dimatter.ai",
+        "directbooking.ro",
+        "discordbotlist.com",
+        "discovernorthernireland.com",
+        "disneyfoodblog.com",
+        "divein.com",
+        "dnevnik.si",
+        "domiporta.pl",
+        "doshinsports.com",
+        "doveconviene.it",
+        "dream.jp",
+        "drf.com",
+        "dropout.tv",
+        "dtdns.com",
+        "duq.edu",
+        "dzfoot.com",
+        "dziennik.pl",
+        "ebaumsworld.com",
+        "echolive.ie",
+        "ecodibergamo.it",
+        "educba.com",
+        "elcaribe.com.do",
+        "elclasificado.com",
+        "elcomercio.pe",
+        "eliteprospects.com",
+        "elle.com.br",
+        "eltrecetv.com.ar",
+        "eltropy.com",
+        "eluniversal.com.mx",
+        "emerce.nl",
+        "enjoy4fun.com",
+        "epreselec.com",
+        "essence.com",
+        "estadao.com.br",
+        "etnownews.com",
+        "etuovi.com",
+        "eurodate.com",
+        "euromoney.com",
+        "everand.com",
+        "eweek.com",
+        "exotel.com",
+        "expatica.com",
+        "expertreviews.co.uk",
+        "expreso.ec",
+        "fact-finder.de",
+        "fave.co",
+        "fff.fr",
+        "fightingillini.com",
+        "filmdaily.co",
+        "fimaster.com.br",
+        "financebuzz.com",
+        "fincaraiz.com.co",
+        "fixthephoto.com",
+        "fjallraven.com",
+        "flagship.io",
+        "football.fr",
+        "football365.fr",
+        "forbes.pl",
+        "forsal.pl",
+        "forum24.cz",
+        "foxsports.com.mx",
+        "freegames.com",
+        "gadgethacks.com",
+        "gameyay.com",
+        "garagegymreviews.com",
+        "gazetaprawna.pl",
+        "gazetkonosz.pl",
+        "gazzettadiparma.it",
+        "gentosha-go.com",
+        "gestion.pe",
+        "getwair.com",
+        "gizmag.com",
+        "glamour.hu",
+        "gocar.be",
+        "gosc.pl",
+        "grandforksherald.com",
+        "greenmatters.com",
+        "guideautoweb.com",
+        "gulfnews.com",
+        "haber61.net",
+        "harbortouch.com",
+        "hardwarezone.com.sg",
+        "haynes.com",
+        "hazipatika.com",
+        "hellasjournal.com",
+        "helsinginuutiset.fi",
+        "hfma.org",
+        "hip2save.com",
+        "hirstart.hu",
+        "hitprace.cz",
+        "holiday-weather.com",
+        "holykjvbible.com",
+        "homebaseworks.in",
+        "hostasaurus.com",
+        "htmlgoodies.com",
+        "huffingtonpost.jp",
+        "ibero.edu.co",
+        "idg.se",
+        "idiva.com",
+        "index.hu",
+        "inforum.com",
+        "infoworld.com",
+        "insertlive.com",
+        "intellitest.me",
+        "internetnews.com",
+        "inventra.hu",
+        "iprofesional.com",
+        "isagha.com",
+        "isinolsun.com",
+        "itnews.com.au",
+        "itworld.com",
+        "jagran.com",
+        "jarir.com",
+        "jobfind.gr",
+        "jobradar24.ro",
+        "joj.sk",
+        "jornaldenegocios.pt",
+        "junaidjamshed.com",
+        "kamen-rider-official.com",
+        "kapanlagi.com",
+        "katiecouric.com",
+        "kaufino.com",
+        "kdhnews.com",
+        "kiskegyed.hu",
+        "kisskiss.it",
+        "klik.hr",
+        "knack.be",
+        "kochava.com",
+        "koha.net",
+        "kongregate.com",
+        "kshb.com",
+        "kuioo.tw",
+        "kurir.rs",
+        "kw.be",
+        "landrysinc.com",
+        "lapaginamillonaria.com",
+        "lapatria.com",
+        "larparatodos.net",
+        "lasalle.edu",
+        "latestspecials.co.za",
+        "ledevoir.com",
+        "lejournaldelamaison.fr",
+        "letras.com",
+        "letras.mus.br",
+        "letudiant.fr",
+        "levif.be",
+        "livehindustan.com",
+        "livemint.com",
+        "local10.com",
+        "loox.io",
+        "lopinion.fr",
+        "ltn.com.tw",
+        "luxerone.com",
+        "luxuryestate.com",
+        "lvrj.com",
+        "macworld.co.uk",
+        "macworld.com",
+        "maddyness.com",
+        "magicmaman.com",
+        "marieclaire.fr",
+        "mediotiempo.com",
+        "meetelise.com",
+        "meioemensagem.com.br",
+        "mensxp.com",
+        "meteoblue.com",
+        "milanoo.com",
+        "mindmegette.hu",
+        "minijuegos.com",
+        "mirrormedia.mg",
+        "mobalytics.gg",
+        "modesettravaux.fr",
+        "mojewypieki.com",
+        "mondo.rs",
+        "mstar.com.my",
+        "mtsprout.nl",
+        "myanimelist.net",
+        "mynorthwest.com",
+        "nacion.com",
+        "nafsa.org",
+        "nau.ch",
+        "ncte.org",
+        "ndtvprofit.com",
+        "nekretnine.rs",
+        "networkworld.com",
+        "newatlas.com",
+        "newsauto.gr",
+        "newsweek.pl",
+        "nextdoor.com",
+        "nicematin.com",
+        "nin.rs",
+        "nlc.hu",
+        "nosalty.hu",
+        "noticiasagricolas.com.br",
+        "nrl.com",
+        "nsctotal.com.br",
+        "ntv.co.jp",
+        "ntv.com.tr",
+        "nyctourism.com",
+        "octadesk.services",
+        "octopia.com",
+        "okmagazine.com",
+        "okt.to",
+        "oktopost.com",
+        "olx.ba",
+        "omniatech.io",
+        "oneplace.com",
+        "opovo.com.br",
+        "optidigital.com",
+        "oslobodjenje.ba",
+        "pagina12.com.ar",
+        "paltalkconnect.com",
+        "pandai.org",
+        "panpacific.com",
+        "patheos.com",
+        "pcworld.com",
+        "penize.cz",
+        "pflanzmich.de",
+        "phillymag.com",
+        "plantura.garden",
+        "playnetwork.com",
+        "pocketapk.com",
+        "police1.com",
+        "politico.eu",
+        "popsci.com",
+        "prensalibre.com",
+        "president.jp",
+        "price.com.hk",
+        "protothema.gr",
+        "psicologiaymente.com",
+        "publico.pt",
+        "publicschoolreview.com",
+        "puhutv.com",
+        "pulse.ng",
+        "punchbowl.com",
+        "quiz-facts.com",
+        "quizfunia.com",
+        "racingnews365.com",
+        "racked.com",
+        "raconteur.net",
+        "radaronline.com",
+        "raidrive.com",
+        "readworks.org",
+        "receiteria.com.br",
+        "refinery29.com",
+        "retty.me",
+        "revenuewell.com",
+        "revistaforum.com.br",
+        "ringpublishing.com",
+        "rtl.hu",
+        "rusdate.de",
+        "rustica.fr",
+        "rvlife.com",
+        "saboresajinomoto.com.br",
+        "saffire.com",
+        "santa.lv",
+        "sattacademy.com",
+        "savingforcollege.com",
+        "schwarzwaelder-bote.de",
+        "sciencenews.org",
+        "scoopwhoop.com",
+        "screencastify.com",
+        "sdpnoticias.com",
+        "seznamka.cz",
+        "sfist.com",
+        "shopgoodwill.com",
+        "shotkit.com",
+        "sinarharian.com.my",
+        "skimlinks.com",
+        "sleepopolis.com",
+        "slurrp.com",
+        "smartrecruiters.com",
+        "smh.com.au",
+        "snow-forecast.com",
+        "sophi.io",
+        "spectator.co.uk",
+        "spoki.lv",
+        "sportdog.gr",
+        "sportskeeda.com",
+        "sprzedajemy.pl",
+        "sscdn.co",
+        "startlap.hu",
+        "stcatharinesstandard.ca",
+        "straitstimes.com.sg",
+        "straitstimes.com",
+        "stuttgarter-zeitung.de",
+        "suffolk.edu",
+        "sumicity.net.br",
+        "surf-forecast.com",
+        "tastesbetterfromscratch.com",
+        "techcrunch.com",
+        "techhive.com",
+        "theatermania.com",
+        "thecookierookie.com",
+        "thekennelclub.org.uk",
+        "themanual.com",
+        "thepeterboroughexaminer.com",
+        "thequint.com",
+        "therecord.com",
+        "thesaurus.com",
+        "thespec.com",
+        "thestar.com",
+        "timeslive.co.za",
+        "tn.com.ar",
+        "todotest.com",
+        "tomshw.it",
+        "topgames.com",
+        "toronto.com",
+        "tradeshift.com",
+        "tradier.com",
+        "truity.com",
+        "tuasaude.com",
+        "tutorialviagem.com",
+        "tv9marathi.com",
+        "tvanouvelles.ca",
+        "tvnet.lv",
+        "twz.com",
+        "uai.com.br",
+        "unbxd.io",
+        "unovacursos.com.br",
+        "usfca.edu",
+        "vanguardia.com.mx",
+        "varmatin.com",
+        "velaro.com",
+        "verloop.io",
+        "vesty.co.il",
+        "vezess.hu",
+        "viapais.com.ar",
+        "video-facts.com",
+        "vnexpress.net",
+        "watoday.com.au",
+        "weatherzone.com.au",
+        "webbeteg.hu",
+        "wonderhowto.com",
+        "wondershare.net",
+        "worldanimalfoundation.org",
+        "writersdigest.com",
+        "wtransnet.com",
+        "wuolah.com",
+        "xosodaiphat.com",
+        "xosodaiphat.vn",
+        "yad.com",
+        "yapigames.com",
+        "ycharts.com",
+        "yellowpages.ca",
+        "yemek.com",
+        "yiv.com",
+        "ynetnews.com",
+        "yourtravelmates.com",
+        "ytel.com",
+        "zaobao.com.sg",
+        "zendate.com",
+        "autocarindia.com",
+        "domusweb.it",
+        "editorialedomani.it",
+        "golf.com",
+        "lovetoknow.com",
+        "makorrishon.co.il",
+        "my.games",
+        "paltalk.com",
+        "rankandstyle.com",
+        "rybnik.com.pl",
+        "sigmalive.com",
+        "strefabiznesu.pl",
+        "therealdeal.com",
+        "timesnownews.com",
+        "timesofsandiego.com",
+        "walla.co.il",
+        "interestingengineering.com",
+        "jovempan.com.br"
+      ],
+      "domains_count": 458
+    },
+    {
+      "script_prefix": "https://www.googletagmanager.com/gtag/js",
+      "related_domains": [
+        "123test.com",
+        "abc-talks.com",
+        "abcplay.online",
+        "accountingtools.com",
+        "accuradio.com",
+        "acog.org",
+        "adage.com",
+        "adam4adamsfw.com",
+        "afsgames.com",
+        "agroklub.com",
+        "aiease.ai",
+        "aiptcomics.com",
+        "akcios-ujsag.hu",
+        "aksam.com.tr",
+        "amomeupet.org",
+        "androidauthority.com",
+        "appfunia.com",
+        "appinfocenter.com",
+        "arabtimesonline.com",
+        "architectsjournal.co.uk",
+        "asam.org",
+        "autotriti.gr",
+        "aviationweek.com",
+        "awilime.com",
+        "bansalnews.com",
+        "bigtvlive.com",
+        "bizzbuzz.news",
+        "blavity.com",
+        "bom.so",
+        "boston.com",
+        "breakout.com.pk",
+        "bridgebase.com",
+        "briefly.co.za",
+        "brooklynpaper.com",
+        "calculator.academy",
+        "calculoexato.com.br",
+        "caninejournal.com",
+        "carmag.co.za",
+        "cartstack.com",
+        "cfl.ca",
+        "chamberofcommerce.com",
+        "chicagoreader.com",
+        "christianity.com",
+        "cinematoday.jp",
+        "clien.net",
+        "conjur.com.br",
+        "contentexchange.me",
+        "cosme.net",
+        "couples.jp",
+        "crazyforcrust.com",
+        "cricheroes.com",
+        "crosswalk.com",
+        "cupofjo.com",
+        "dailydictation.com",
+        "dailytrust.com",
+        "deccoria.pl",
+        "deepai.org",
+        "definition.org",
+        "diabetes.co.uk",
+        "digitalmatter.ai",
+        "dimatter.ai",
+        "discovernorthernireland.com",
+        "disneyfoodblog.com",
+        "dmarge.com",
+        "dmv-written-test.com",
+        "dnevnik.rs",
+        "dnevnik.si",
+        "domikids.tv",
+        "doveconviene.it",
+        "downtoearth.org.in",
+        "dream.jp",
+        "dsij.in",
+        "duq.edu",
+        "earth.com",
+        "ebc.net.tw",
+        "ecocert.com",
+        "eldia.com",
+        "elenta.lt",
+        "ellitoral.com.ar",
+        "elnashra.com",
+        "enjoysgame.com",
+        "ensonhaber.com",
+        "entreparticuliers.com",
+        "essence.com",
+        "eu-startups.com",
+        "eurohoops.net",
+        "expeditionportal.com",
+        "expertreviews.co.uk",
+        "exyuradio.net",
+        "fcupdate.nl",
+        "fixthephoto.com",
+        "flip.it",
+        "flipboard.com",
+        "fok.nl",
+        "folhadeemprego.com",
+        "foodsdictionary.co.il",
+        "forum24.cz",
+        "freebcc.com",
+        "freetoursbyfoot.com",
+        "futureme.org",
+        "fxstreet.com",
+        "gagadget.com",
+        "gamepix.com",
+        "gametop.com",
+        "gazzettadiparma.it",
+        "generated.photos",
+        "gocar.be",
+        "godtube.com",
+        "gosc.pl",
+        "grabo.bg",
+        "gradesaver.com",
+        "gram.pl",
+        "guru-soft.com",
+        "gzt.com",
+        "haber61.net",
+        "hardwarezone.com.sg",
+        "haribhoomi.com",
+        "hbr.org",
+        "hearthstonetopdecks.com",
+        "hisawyer.com",
+        "histock.tw",
+        "hokkaido-np.co.jp",
+        "homebasework.net",
+        "homify.com",
+        "hypestat.com",
+        "icy-veins.com",
+        "imaging-resource.com",
+        "imresizer.com",
+        "in.gr",
+        "index.hu",
+        "indiaimagine.com",
+        "inventra.hu",
+        "iprofesional.com",
+        "isagha.com",
+        "islamicfinder.org",
+        "istoe.com.br",
+        "iwin.com",
+        "iwu.edu",
+        "jecontacte.com",
+        "jigidi.com",
+        "jobfind.gr",
+        "jobillico.com",
+        "kamen-rider-official.com",
+        "kikibom.com",
+        "kingbet.net",
+        "kochava.com",
+        "konnektive.com",
+        "kurzy.cz",
+        "lajumate.ro",
+        "lasalle.edu",
+        "leagueofgraphs.com",
+        "ledevoir.com",
+        "legit.ng",
+        "lematin.ma",
+        "lemedecin.fr",
+        "limakid.com",
+        "lodz.pl",
+        "lopinion.fr",
+        "losandes.com.ar",
+        "losarcanos.com",
+        "ltn.com.tw",
+        "macobserver.com",
+        "magazines.com",
+        "malaymail.com",
+        "meetelise.com",
+        "meevo.com",
+        "meioemensagem.com.br",
+        "menicka.cz",
+        "militarnyi.com",
+        "mindmegette.hu",
+        "mixmag.net",
+        "modernhealthcare.com",
+        "monedata.io",
+        "moneyinc.com",
+        "mp.pl",
+        "mychasma.com",
+        "n9.cl",
+        "ncaa.com",
+        "nintendoworldreport.com",
+        "nltimes.nl",
+        "noticiasagricolas.com.br",
+        "ntv.com.tr",
+        "octopia.com",
+        "oliberal.com",
+        "omie.com.br",
+        "onlinedataentryjob.com",
+        "optidigital.com",
+        "oslobodjenje.ba",
+        "pattayamail.com",
+        "piclumen.com",
+        "pionline.com",
+        "pocketapk.com",
+        "pointi.jp",
+        "pokebip.com",
+        "ponly.com",
+        "porofessor.gg",
+        "profootballnetwork.com",
+        "pulsepoint.com",
+        "putovnica.net",
+        "puzzlegarage.com",
+        "quizme.pl",
+        "rappler.com",
+        "rci.fm",
+        "refinery29.com",
+        "rondoniaovivo.com",
+        "rosario3.com",
+        "rtl.hu",
+        "rustica.fr",
+        "santa.lv",
+        "scoopwhoop.com",
+        "scorenga.com",
+        "screencastify.com",
+        "seoclerk.com",
+        "seositecheckup.com",
+        "setupad.com",
+        "seumundotech.com",
+        "shopgoodwill.com",
+        "shuru.co.in",
+        "sixtyandme.com",
+        "skul.pl",
+        "smaker.pl",
+        "solitaired.com",
+        "sonobi.com",
+        "sortiraparis.com",
+        "speedtest.pl",
+        "sportdog.gr",
+        "sporx.com",
+        "stacees.co.uk",
+        "standsapp.org",
+        "storm.mg",
+        "stylevore.com",
+        "sudaray.com",
+        "suntimes.com",
+        "tastesbetterfromscratch.com",
+        "teachertube.com",
+        "techinsights.com",
+        "theatermania.com",
+        "thegrocer.co.uk",
+        "theobjective.com",
+        "thisiscolossal.com",
+        "tiengdong.com",
+        "tovima.gr",
+        "tradekey.com",
+        "tribuneindia.com",
+        "tricksgame.com",
+        "tryhardguides.com",
+        "tuasaude.com",
+        "tuko.co.ke",
+        "twentytwowords.com",
+        "twistedsifter.com",
+        "uai.com.br",
+        "ufreegames.com",
+        "upmedia.mg",
+        "usalearns.org",
+        "vamosmisevillafc.com",
+        "vegoutmag.com",
+        "venatusmedia.com",
+        "viapais.com.ar",
+        "vide-greniers.org",
+        "visionarywritings.com",
+        "vnda.com.br",
+        "wafflegame.net",
+        "webteb.com",
+        "webtekno.com",
+        "wef.org",
+        "wegow.com",
+        "wikiwand.com",
+        "wisegeek.com",
+        "yapigames.com",
+        "yen.com.gh",
+        "yugatech.com",
+        "zarrue.com",
+        "cartaodetodos.com.br",
+        "dailyassam.com",
+        "day.az",
+        "etonline.com",
+        "golf.com",
+        "interestingengineering.com",
+        "jabarekspres.com",
+        "lovetoknow.com",
+        "mononews.gr",
+        "proff.no",
+        "rackspace.com",
+        "sigmalive.com",
+        "speedguide.net",
+        "sportinfo.az",
+        "telsu.fi",
+        "timesofsandiego.com",
+        "webun.jp",
+        "winscp.net"
+      ],
+      "domains_count": 290
+    },
+    {
+      "script_prefix": "https://analytics.tiktok.com/i18n/pixel/static/main",
+      "related_domains": [
+        "105.net",
+        "177milkstreet.com",
+        "americansongwriter.com",
+        "animalpolitico.com",
+        "bazar.bg",
+        "bigissue.com",
+        "bikehub.co.za",
+        "bookriot.com",
+        "breakout.com.pk",
+        "conforama.es",
+        "conforama.pt",
+        "cricket.com.au",
+        "dating.com",
+        "dazeddigital.com",
+        "depor.com",
+        "diariocorreo.pe",
+        "duq.edu",
+        "dynamiteclothing.com",
+        "elcomercio.pe",
+        "elterritorio.com.ar",
+        "eponuda.com",
+        "essence.com",
+        "eurohandball.com",
+        "extra.ec",
+        "finance.si",
+        "freegames.com",
+        "frontofficesports.com",
+        "gagaoolala.com",
+        "gamepix.com",
+        "gamin4.com",
+        "garageclothing.com",
+        "gestion.pe",
+        "gg.pl",
+        "giroditalia.it",
+        "hardwarezone.com.sg",
+        "hbr.org",
+        "holykjvbible.com",
+        "ibero.edu.co",
+        "junaidjamshed.com",
+        "knvb.nl",
+        "lajumate.ro",
+        "larparatodos.net",
+        "lasalle.edu",
+        "lematin.ma",
+        "letudiant.fr",
+        "limakid.com",
+        "magazines.com",
+        "malaymail.com",
+        "mamanatural.com",
+        "markiza.sk",
+        "meevo.com",
+        "meloradio.pl",
+        "monkey.app",
+        "monkey.cool",
+        "monobala.gr",
+        "mundo.com",
+        "mymovies.it",
+        "njuskalo.hr",
+        "nordkurier.de",
+        "nrl.com",
+        "nyctourism.com",
+        "omie.com.br",
+        "orami.co.id",
+        "pff.com",
+        "pimeyes.com",
+        "portaldecompraspublicas.com.br",
+        "queen.gr",
+        "rds.it",
+        "rotikaya.com",
+        "saffire.com",
+        "sandiegoreader.com",
+        "sinarharian.com.my",
+        "snopes.com",
+        "soyacincau.com",
+        "sportal.gr",
+        "squidapp.co",
+        "star.gr",
+        "stopots.com",
+        "superencontre.com",
+        "trome.com",
+        "tubebuddy.com",
+        "wegow.com",
+        "winsports.co",
+        "worldanimalfoundation.org",
+        "yiv.com",
+        "ysu.edu"
+      ],
+      "domains_count": 86
+    },
+    {
+      "script_prefix": "https://ak.sail-horizon.com/spm/spm",
+      "related_domains": [
+        "adage.com",
+        "androidauthority.com",
+        "blikk.hu",
+        "boardroom.tv",
+        "bobvila.com",
+        "brooklynpaper.com",
+        "crunchgear.com",
+        "defenseone.com",
+        "dictionary.com",
+        "domino.com",
+        "eater.com",
+        "eweek.com",
+        "futurism.com",
+        "gadgethacks.com",
+        "glamour.hu",
+        "grandforksherald.com",
+        "gsp.ro",
+        "hbr.org",
+        "hiphopwired.com",
+        "htmlgoodies.com",
+        "inforum.com",
+        "internetnews.com",
+        "j-14.com",
+        "katiecouric.com",
+        "kiskegyed.hu",
+        "metro.us",
+        "modernhealthcare.com",
+        "motherjones.com",
+        "newsweek.com",
+        "nyctourism.com",
+        "observer.com",
+        "on3.com",
+        "pehub.com",
+        "pionline.com",
+        "popphoto.com",
+        "popsci.com",
+        "postbulletin.com",
+        "pulse.ng",
+        "punchdrink.com",
+        "purewow.com",
+        "qns.com",
+        "raconteur.net",
+        "ranker.com",
+        "recode.net",
+        "refinery29.com",
+        "soundguys.com",
+        "taskandpurpose.com",
+        "techcrunch.com",
+        "the-tls.co.uk",
+        "thesaurus.com",
+        "twz.com",
+        "vox.com",
+        "wearethemighty.com",
+        "wonderhowto.com",
+        "golf.com",
+        "melmagazine.com"
+      ],
+      "domains_count": 56
+    },
+    {
+      "script_prefix": "https://nfl.demdex.net/dest5",
+      "related_domains": [
+        "49ers.com",
+        "azcardinals.com",
+        "baltimoreravens.com",
+        "bengals.com",
+        "buccaneers.com",
+        "chargers.com",
+        "chicagobears.com",
+        "chiefs.com",
+        "clevelandbrowns.com",
+        "colts.com",
+        "commanders.com",
+        "dallascowboys.com",
+        "denverbroncos.com",
+        "detroitlions.com",
+        "giants.com",
+        "houstontexans.com",
+        "jaguars.com",
+        "miamidolphins.com",
+        "neworleanssaints.com",
+        "newyorkjets.com",
+        "nfl.com",
+        "packers.com",
+        "panthers.com",
+        "patriots.com",
+        "philadelphiaeagles.com",
+        "raiders.com",
+        "steelers.com",
+        "therams.com",
+        "vikings.com",
+        "seahawks.com"
+      ],
+      "domains_count": 30
+    },
+    {
+      "script_prefix": "https://a.omappapi.com/app/js/api",
+      "related_domains": [
+        "americansongwriter.com",
+        "averiecooks.com",
+        "bassmaster.com",
+        "breezechms.com",
+        "cookieandkate.com",
+        "cookingclassy.com",
+        "exotel.com",
+        "fitandwell.com",
+        "iheartnaptime.net",
+        "insidethemagic.net",
+        "jocooks.com",
+        "mtsprout.nl",
+        "mymodernmet.com",
+        "phillyvoice.com",
+        "preppykitchen.com",
+        "road.cc",
+        "royal-elementor-addons.com",
+        "saturdaydownsouth.com",
+        "sixtyandme.com",
+        "spendwithpennies.com",
+        "sportsbettingdime.com",
+        "suntimes.com",
+        "thebigmansworld.com",
+        "therecipecritic.com",
+        "tubebuddy.com",
+        "wellplated.com",
+        "wisegeek.com"
+      ],
+      "domains_count": 27
+    },
+    {
+      "script_prefix": "https://sc-static.net/scevent",
+      "related_domains": [
+        "buzzsight.co",
+        "cosmopolitan.fr",
+        "diggfun.co",
+        "domino.com",
+        "drf.com",
+        "duq.edu",
+        "dynamiteclothing.com",
+        "futureme.org",
+        "garageclothing.com",
+        "hercampus.com",
+        "letudiant.fr",
+        "magazines.com",
+        "maxim.com",
+        "meloradio.pl",
+        "monkey.app",
+        "monkey.cool",
+        "pff.com",
+        "pinknews.co.uk",
+        "quiztest.me",
+        "refinery29.com",
+        "sheerluxe.com",
+        "thepinknews.com",
+        "tntech.edu",
+        "twentytwowords.com",
+        "jarir.com"
+      ],
+      "domains_count": 25
+    },
+    {
+      "script_prefix": "https://vocento.demdex.net/dest5",
+      "related_domains": [
+        "aupaathletic.com",
+        "canarias7.es",
+        "diariosur.es",
+        "diariovasco.com",
+        "elcomercio.es",
+        "elcorreo.com",
+        "eldiariomontanes.es",
+        "elnortedecastilla.es",
+        "hoy.es",
+        "ideal.es",
+        "lagacetadesalamanca.es",
+        "larioja.com",
+        "lasprovincias.es",
+        "laverdad.es",
+        "lavozdigital.es",
+        "leonoticias.com",
+        "mujerhoy.com",
+        "pisos.com",
+        "relevo.com",
+        "surinenglish.com",
+        "vocento.com"
+      ],
+      "domains_count": 21
+    },
+    {
+      "script_prefix": "https://www.redditstatic.com/ads/pixel",
+      "related_domains": [
+        "adage.com",
+        "appcues.com",
+        "buff.game",
+        "didna.io",
+        "drf.com",
+        "duq.edu",
+        "funnyordie.com",
+        "kicksonfire.com",
+        "optidigital.com",
+        "prospectmagazine.co.uk",
+        "ptvgroup.com",
+        "revenuewell.com",
+        "spectator.co.uk",
+        "truity.com",
+        "tvtropes.org",
+        "wondershare.net",
+        "alison.com",
+        "hellopearl.com",
+        "thebrag.com"
+      ],
+      "domains_count": 19
+    },
+    {
+      "script_prefix": "https://www.googletagmanager.com/gtag/destination",
+      "related_domains": [
+        "fakty.com.ua",
+        "folhape.com.br",
+        "indiatimes.com",
+        "mackenzie.br",
+        "minfin.com.ua",
+        "okt.to",
+        "oktopost.com",
+        "shellshock.io",
+        "sudoku-online.org",
+        "suntimes.com",
+        "theobjective.com",
+        "indiatimes.in"
+      ],
+      "domains_count": 12
+    },
+    {
+      "script_prefix": "https://static.klaviyo.com/onsite/js/runtime",
+      "related_domains": [
+        "177milkstreet.com",
+        "astrostyle.com",
+        "bluebrixx.com",
+        "fangoria.com",
+        "filmthreat.com",
+        "grabo.bg",
+        "hibridosyelectricos.com",
+        "monocle.com",
+        "pff.com",
+        "showbiz411.com",
+        "themediterraneandish.com"
+      ],
+      "domains_count": 11
+    },
+    {
+      "script_prefix": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics",
+      "related_domains": [
+        "177milkstreet.com",
+        "astrostyle.com",
+        "bluebrixx.com",
+        "fangoria.com",
+        "filmthreat.com",
+        "grabo.bg",
+        "hibridosyelectricos.com",
+        "monocle.com",
+        "pff.com",
+        "showbiz411.com",
+        "themediterraneandish.com"
+      ],
+      "domains_count": 11
+    },
+    {
+      "script_prefix": "https://static.klaviyo.com/onsite/js/sharedUtils",
+      "related_domains": [
+        "177milkstreet.com",
+        "astrostyle.com",
+        "bluebrixx.com",
+        "fangoria.com",
+        "filmthreat.com",
+        "hibridosyelectricos.com",
+        "monocle.com",
+        "pff.com",
+        "showbiz411.com",
+        "themediterraneandish.com"
+      ],
+      "domains_count": 10
+    },
+    {
+      "script_prefix": "https://amplify.outbrain.com/cp/obtp",
+      "related_domains": [
+        "artmajeur.com",
+        "blavity.com",
+        "definition.org",
+        "entertainmentglow.com",
+        "intellitest.me",
+        "lanouvelletribune.info",
+        "metropolitan.si",
+        "pflanzmich.de",
+        "quiz-universe.com",
+        "video-facts.com"
+      ],
+      "domains_count": 10
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie",
+      "related_domains": [
+        "brasildefato.com.br",
+        "cifraclub.com.br",
+        "cifraclub.com",
+        "contabeis.com.br",
+        "letras.mus.br",
+        "opovo.com.br",
+        "sscdn.co",
+        "sumicity.net.br"
+      ],
+      "domains_count": 8
+    },
+    {
+      "script_prefix": "https://tr.outbrain.com/cachedClickId",
+      "related_domains": [
+        "definition.org",
+        "intellitest.me",
+        "lanouvelletribune.info",
+        "metropolitan.si",
+        "pflanzmich.de",
+        "quiz-universe.com",
+        "video-facts.com"
+      ],
+      "domains_count": 7
+    },
+    {
+      "script_prefix": "https://atresmedia.demdex.net/dest5",
+      "related_domains": [
+        "antena3.com",
+        "antena3tv.com",
+        "atresplayer.com",
+        "diariomotor.com",
+        "lasexta.com",
+        "ondacero.es"
+      ],
+      "domains_count": 6
+    },
+    {
+      "script_prefix": "https://prisacom.demdex.net/dest5",
+      "related_domains": [
+        "as.com",
+        "cadenaser.com",
+        "elpais.es",
+        "huffingtonpost.es",
+        "los40.com",
+        "wradio.com.co"
+      ],
+      "domains_count": 6
+    },
+    {
+      "script_prefix": "https://sdk.privacy-center.org/sdk/b6633196038f7120ca38c510f1fc5c51ee15e95e/modern/sdk",
+      "related_domains": [
+        "fff.fr",
+        "ledevoir.com",
+        "letudiant.fr",
+        "luxuryestate.com",
+        "plantura.garden"
+      ],
+      "domains_count": 5
+    },
+    {
+      "script_prefix": "https://cdn.cookielaw.org/scripttemplates/otSDKStub",
+      "related_domains": [
+        "177milkstreet.com",
+        "adaraanalytics.com",
+        "doveconviene.it",
+        "financebuzz.com"
+      ],
+      "domains_count": 4
+    },
+    {
+      "script_prefix": "https://www.gstatic.com/recaptcha/releases/07cvpCr3Xe3g2ttJNUkC6W0J/recaptcha__en",
+      "related_domains": [
+        "advrider.com",
+        "katiecouric.com",
+        "meevo.com",
+        "motherjones.com"
+      ],
+      "domains_count": 4
+    },
+    {
+      "script_prefix": "https://stats.wp.com/s-202533",
+      "related_domains": [
+        "americansongwriter.com",
+        "hechingerreport.org",
+        "independent.com",
+        "kosmo.com.my"
+      ],
+      "domains_count": 4
+    },
+    {
+      "script_prefix": "https://cmp.inmobi.com/tcfv2/60/cmp2",
+      "related_domains": [
+        "intellitest.me",
+        "metropolitan.si",
+        "quiz-universe.com",
+        "video-facts.com"
+      ],
+      "domains_count": 4
+    },
+    {
+      "script_prefix": "https://cmp.inmobi.com/tcfv2/53/cmp2",
+      "related_domains": [
+        "artmajeur.com",
+        "blavity.com",
+        "entertainmentglow.com"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://akamai.sscdn.co/cc/js/075e4-dal",
+      "related_domains": [
+        "cifraclub.com.br",
+        "cifraclub.com",
+        "sscdn.co"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7de331ff-fa05-42fa-9865-1bfff4034e30-loader",
+      "related_domains": [
+        "cifraclub.com.br",
+        "cifraclub.com",
+        "sscdn.co"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://hbx.media.net/bidexchange",
+      "related_domains": [
+        "dogbreedinfo.com",
+        "emedicine.com",
+        "medscape.com"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://www.google.com/adsense/search/async-ads",
+      "related_domains": [
+        "igram.website",
+        "jugandoonline.com.ar",
+        "loteriasdehonduras.com"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/3533520243",
+      "related_domains": [
+        "mitula.com",
+        "mitula.fr",
+        "mitula.it"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://tag.aticdn.net/piano-analytics",
+      "related_domains": [
+        "nn.de",
+        "tvnet.lv",
+        "kanaloco.jp"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://static.mysph.sph.com.sg/mysph/js/mySPHIdentityLightbox",
+      "related_domains": [
+        "straitstimes.com.sg",
+        "straitstimes.com",
+        "zaobao.com.sg"
+      ],
+      "domains_count": 3
+    },
+    {
+      "script_prefix": "https://cdn.lrkt-in.com/LogRocket",
+      "related_domains": [
+        "adage.com",
+        "meetelise.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://euronewsgroup.demdex.net/dest5",
+      "related_domains": [
+        "africanews.com",
+        "euronews.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/launch-ENc016da93aa6049f3892d0850889b18cd",
+      "related_domains": [
+        "ccma.cat",
+        "3cat.cat"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/19960974376",
+      "related_domains": [
+        "crcpress.com",
+        "routledge.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_GB.ryomF3s9rwY.es5.O/d=1/exm=kernel_loader,loader_js_executable/ed=1/rs=AJlcJMxbJVqyDZeM7aZfzooyBUEAs0m-tQ/m=web_iab_tcf_v2_wall_executable",
+      "related_domains": [
+        "dailydictation.com",
+        "uai.com.br"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_GB.ryomF3s9rwY.es5.O/d=1/rs=AJlcJMxbJVqyDZeM7aZfzooyBUEAs0m-tQ/m=kernel_loader,loader_js_executable",
+      "related_domains": [
+        "dailydictation.com",
+        "uai.com.br"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://www.googleadservices.com/pagead/conversion",
+      "related_domains": [
+        "dailysignal.com",
+        "nekretnine.rs"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://cmas.sdcdns.com/prebid-min",
+      "related_domains": [
+        "dictionary.com",
+        "thesaurus.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://www.google-analytics.com/analytics",
+      "related_domains": [
+        "histock.tw",
+        "scoopwhoop.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://www.holidaycheck.de/optimizely/js/1208440116",
+      "related_domains": [
+        "holidaycheck.com",
+        "holidaycheck.de"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://partner.googleadservices.com/gampad/cookie",
+      "related_domains": [
+        "igram.website",
+        "loteriasdehonduras.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_Xbp1oaEmkbXaEdVj",
+      "related_domains": [
+        "northdata.com",
+        "northdata.de"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://www.vox.com/_next/static/chunks/main-782fe60a333e6864",
+      "related_domains": [
+        "recode.net",
+        "vox.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://www.vox.com/_next/static/chunks/pages/_app-c0b6dee0cfaa2e24",
+      "related_domains": [
+        "recode.net",
+        "vox.com"
+      ],
+      "domains_count": 2
+    },
+    {
+      "script_prefix": "https://katzmedia.demdex.net/dest5",
+      "related_domains": [
+        "accuradio.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/05852ba8023b/ed9fd9dbe099/launch-64bfee4f4fc5",
+      "related_domains": [
+        "adage.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://adara.com/solutions/impact/",
+      "related_domains": [
+        "adaraanalytics.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.cookielaw.org/scripttemplates/6.34.0/otBannerSdk",
+      "related_domains": [
+        "airfarewatchdog.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d.delivery.consentmanager.net/delivery/cmp",
+      "related_domains": [
+        "alerabat.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.consentmanager.net/delivery/js/cmp_final",
+      "related_domains": [
+        "alerabat.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/c55679e6783d/launch-f49b0fe27688",
+      "related_domains": [
+        "as.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/f3257b54648f/edaa808add31/launch-7455df5d204a",
+      "related_domains": [
+        "atresplayer.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://widgets.iiris.com/iiris-recommend/v3/iris-recommend",
+      "related_domains": [
+        "aviationweek.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://releases.flowplayer.org/7.2.7/flowplayer",
+      "related_domains": [
+        "bansalnews.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.blueconic.net/bostonglobemedia",
+      "related_domains": [
+        "bostonglobe.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/6cd49d09-f661-404c-b2e1-972c2cb1bfa8-loader",
+      "related_domains": [
+        "brasildefato.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://s.adroll.com/j/KW764MDIMFAMHEWW4DL5OX/roundtrip",
+      "related_domains": [
+        "breakout.com.pk"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/168948327",
+      "related_domains": [
+        "brusheezy.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/b59a37979c54/launch-475bab79d334",
+      "related_domains": [
+        "cadenaser.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/accaac2d28a7/launch-435e794fa08a",
+      "related_domains": [
+        "caracol.com.co"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_YEgkB8lBRkJ4ep3Z",
+      "related_domains": [
+        "cartstack.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a.optnmnstr.com/app/js/api",
+      "related_domains": [
+        "collegefactual.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/7023990c-6183-45a3-ac52-40b8681d183d-loader",
+      "related_domains": [
+        "contabeis.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/19394711300",
+      "related_domains": [
+        "ctv.ca"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://browser.sentry-cdn.com/7.19.0/bundle",
+      "related_domains": [
+        "deepai.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://ssl.google-analytics.com/ga",
+      "related_domains": [
+        "duq.edu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.concert.io/lib/concert-ads/v2-latest/concert_ads",
+      "related_domains": [
+        "eater.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/d0943e7fed9e/launch-90f4fb204f3b",
+      "related_domains": [
+        "elpais.es"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_bElvO73krEK7ZMqj",
+      "related_domains": [
+        "eltropy.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a.pub.network/essence-com/prebid",
+      "related_domains": [
+        "essence.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_p1e024BvmvQ4GB6d",
+      "related_domains": [
+        "exotel.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection",
+      "related_domains": [
+        "expertreviews.co.uk"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.privacy-mgmt.com/unified/4.37.1/gdpr-tcf",
+      "related_domains": [
+        "expertreviews.co.uk"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.etus.digital/dxp_bundles/wrapper-bundle-fimaster",
+      "related_domains": [
+        "fimaster.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/10974802069",
+      "related_domains": [
+        "finanzen100.de"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://a.opmnstr.com/app/js/api",
+      "related_domains": [
+        "fixthephoto.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_Xbp1oaEgp9v7EdVj",
+      "related_domains": [
+        "flip-pay.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/5509364224622592",
+      "related_domains": [
+        "fortune.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.dianomi.com/js/contextfeed",
+      "related_domains": [
+        "frontofficesports.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://geenstijl-assets.b-cdn.net/_next/static/chunks/4bd1b696-02e810c634ad7f4c",
+      "related_domains": [
+        "geenstijl.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://geenstijl-assets.b-cdn.net/_next/static/chunks/app/(document)/(default)/(without-header)/page-b55a3aeaf2889cc3",
+      "related_domains": [
+        "geenstijl.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://geenstijl-assets.b-cdn.net/_next/static/chunks/2446-1ebe8645109133e5",
+      "related_domains": [
+        "geenstijl.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://geenstijl-assets.b-cdn.net/_next/static/chunks/9574-726581f0eab31a0c",
+      "related_domains": [
+        "geenstijl.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://geenstijl-assets.b-cdn.net/_next/static/chunks/app/(document)/layout-59e46b4e322a5aac",
+      "related_domains": [
+        "geenstijl.nl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://browser.sentry-cdn.com/5.29.2/bundle",
+      "related_domains": [
+        "gizmag.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://secure.quantserve.com/quant",
+      "related_domains": [
+        "gmanews.tv"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://js.stripe.com/v3/",
+      "related_domains": [
+        "gradesaver.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.6/rollbar",
+      "related_domains": [
+        "grandforksherald.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://s.adroll.com/j/NZWWLJAVTVHR3MKKBTHKNE/roundtrip",
+      "related_domains": [
+        "guru-soft.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://ma.zoho.com/hub/js/WebsiteAutomation",
+      "related_domains": [
+        "halaltrip.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/c0857d0b892a/7e3e4b83f0c5/launch-67dbffcc16ef",
+      "related_domains": [
+        "hbr.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cadmus.script.ac/d14bfzriit2hkf/script",
+      "related_domains": [
+        "hip2save.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/327c30e3d5b2/launch-3472d7780e9f",
+      "related_domains": [
+        "huffingtonpost.es"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.customer.io/assets/track-eu",
+      "related_domains": [
+        "hvg.hu"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/29930190291",
+      "related_domains": [
+        "igamingbusiness.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://mc.webvisor.org/metrika/tag_ww",
+      "related_domains": [
+        "igram.website"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://isinolsun-next.mncdn.com/_next/static/chunks/pages/_app-c36512bdba3ea8f73c17",
+      "related_domains": [
+        "isinolsun.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn4.kongcdn.com/compiled-assets/sitewide_javascripts-bb8f84dc68baba8273816fa52d29aecb533f14fdeb9befa51aa8669c559bb845",
+      "related_domains": [
+        "kongregate.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_GB.ryomF3s9rwY.es5.O/d=1/rs=AJlcJMxbJVqyDZeM7aZfzooyBUEAs0m-tQ/m=kernel_loader,loader_js_executable,monetization_cookie_state_migration_initialization_executable",
+      "related_domains": [
+        "lanouvelletribune.info"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.tinypass.com/api/tinypass",
+      "related_domains": [
+        "ledevoir.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://tag.aticdn.net/js-sdk/piano-analytics-6",
+      "related_domains": [
+        "ledevoir.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/c7d54806-1ffa-4549-9418-acc0cb28c63a-loader",
+      "related_domains": [
+        "letras.mus.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cmp.osano.com/4bGvsb0yjq/aac39737-7357-4088-9d74-e53de410ac44/osano",
+      "related_domains": [
+        "local10.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/0681c221600c/6fc9b54f3c25/launch-4756de8c2616",
+      "related_domains": [
+        "los40.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://clickiocmp.com/t/consent_230588",
+      "related_domains": [
+        "losarcanos.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/12107615879",
+      "related_domains": [
+        "ltur.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://stats.wp.com/s-202532",
+      "related_domains": [
+        "makanbola.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://img.medscapestatic.com/medscape-core/www-content/js/homepage/homepage",
+      "related_domains": [
+        "medscape.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://js.pelcro.com/sdk/main",
+      "related_domains": [
+        "modernhealthcare.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/05852ba8023b/0c0030027f6e/launch-926dd7450491",
+      "related_domains": [
+        "modernhealthcare.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cadmus.script.ac/d2wt7w75gg2vz/script",
+      "related_domains": [
+        "ncaa.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://code.piano.io/api/tinypass",
+      "related_domains": [
+        "nn.de"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/29246240660",
+      "related_domains": [
+        "nowtv.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/29273810242",
+      "related_domains": [
+        "nowtv.it"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/26919700052",
+      "related_domains": [
+        "nrl.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.appdynamics.com/adrum/adrum-23",
+      "related_domains": [
+        "nrl.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.trustcommander.net/iab-tcfapi/tcfapi",
+      "related_domains": [
+        "octopia.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.trustcommander.net/privacy/6090/privacy_v2_11",
+      "related_domains": [
+        "octopia.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/f9c73be5-0123-4f19-af72-12d80ac2c46b-loader",
+      "related_domains": [
+        "opovo.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://choices.consentframework.com/js/pa/25867/c/YM4e8/cmp",
+      "related_domains": [
+        "optidigital.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_DzLR5a5EjxnaBoQ2",
+      "related_domains": [
+        "oxinst.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://koi-3qnttle9um.marketingautomation.services/client/ss",
+      "related_domains": [
+        "paltalkconnect.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/05852ba8023b/5a95664c9fdb/launch-acc470863cd9",
+      "related_domains": [
+        "pionline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_JMvZ8gzAL6Ma2pOd",
+      "related_domains": [
+        "portaldecompraspublicas.com.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.sophi.io/assets/demeter/1/stable/2958641294",
+      "related_domains": [
+        "pottsmerc.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.privacy-mgmt.com/unified/4.37.1/usnat-uspapi",
+      "related_domains": [
+        "refinery29.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_p1e024BQneJ7GB6d",
+      "related_domains": [
+        "refinery89.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_bMwm7E2pX4zgOZyA",
+      "related_domains": [
+        "relevant-digital.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/22397541806",
+      "related_domains": [
+        "rhs.org.uk"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_kn9Eq4RrZgJ4RlvP",
+      "related_domains": [
+        "romania-insider.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://connect.facebook.net/signals/plugins/openbridge3",
+      "related_domains": [
+        "rotikaya.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.datesupport.net/js/createjs",
+      "related_domains": [
+        "rusdate.de"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/PageBuilder_Assets/bi/bi_oocommon",
+      "related_domains": [
+        "rxlist.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://koi-3qnplxgbbc.marketingautomation.services/koi?rf=&hn=www",
+      "related_domains": [
+        "seoclerk.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://koi-3qnplxgbbc.marketingautomation.services/client/ss",
+      "related_domains": [
+        "seoclerk.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://connect.facebook.net/en_US/fbevents",
+      "related_domains": [
+        "shellshock.io"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/public/2900460605/s/snippet_discovery_masthead",
+      "related_domains": [
+        "sky.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/24666960703",
+      "related_domains": [
+        "skyshowtime.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/20448077791",
+      "related_domains": [
+        "sleepopolis.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://singtaonewscorp.demdex.net/dest5",
+      "related_domains": [
+        "stheadline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d335luupugsy2.cloudfront.net/js/loader-scripts/6a6c2821-09b6-41c8-a5c3-3f362cf1084a-loader",
+      "related_domains": [
+        "sumicity.net.br"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://b-code.liadm.com/a-06v4",
+      "related_domains": [
+        "teachertube.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/public/148927072/17796810052/20080_0a16b13f54b919453958799a172f1d971bdb7f67655918628d98d4be7ebf54bd_edge_helper",
+      "related_domains": [
+        "techtarget.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://www.the-tls.com/",
+      "related_domains": [
+        "the-tls.co.uk"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn-cookieyes.com/client_data/9992d3c1ddf87a860e07e37b/banner",
+      "related_domains": [
+        "theatermania.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_kn9Eq4RWWelaRlvP",
+      "related_domains": [
+        "tillster.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern",
+      "related_domains": [
+        "tillster.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.sophi.io/assets/demeter/1/stable/4149079274",
+      "related_domains": [
+        "timescall.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.postimees.ee/api/tinypass",
+      "related_domains": [
+        "tvnet.lv"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_YEgkB8lAM9p7ep3Z",
+      "related_domains": [
+        "unbxd.io"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/b67828293f0a/772d7b0a0770/launch-b720dd1a140f",
+      "related_domains": [
+        "veeam.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag",
+      "related_domains": [
+        "vide-greniers.org"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/c68cd5f9e870/c1f9b98f49b1/launch-d7d511425437",
+      "related_domains": [
+        "visitsaudi.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://consent.cookiebot.com/uc",
+      "related_domains": [
+        "wegow.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.optimizely.com/js/29242890513",
+      "related_domains": [
+        "wowtv.de"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://sc.lfeeder.com/lftracker_v1_bElvO73gzyE7ZMqj",
+      "related_domains": [
+        "zerotier.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/69bae8756e96/b9de8587baea/launch-4655875b1c0d",
+      "related_domains": [
+        "barcelo.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://data.digitalks.az/v1/scripts/d0174e98-b4b7-41f2-850d-0cae5bc6f421/track",
+      "related_domains": [
+        "day.az"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://assets.adobedtm.com/launch-ENfb0d8c9c83a248f186134c5888716f23",
+      "related_domains": [
+        "eonline.com"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn-ap.piano.io/api/tinypass",
+      "related_domains": [
+        "kanaloco.jp"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://cdn.cxense.com/cx",
+      "related_domains": [
+        "pb.pl"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://data.digitalks.az/v1/scripts/3bb6070a-4445-46cf-a83e-108bee740784/track",
+      "related_domains": [
+        "sportinfo.az"
+      ],
+      "domains_count": 1
+    },
+    {
+      "script_prefix": "https://script.hotjar.com/modules",
+      "related_domains": [
+        "rackspace.com"
+      ],
+      "domains_count": 1
+    }
+  ],
+  "statistics": {
+    "total_unique_scripts": 331,
+    "first_party_count": 167,
+    "third_party_count": 164,
+    "first_party_proportion": "50.45%",
+    "third_party_proportion": "49.55%",
+    "average_domain_count_per_script": "4.39"
+  }
+}
