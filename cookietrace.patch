@@ -134,10 +134,10 @@ index 504a177e..275a42fa 100644
            NewBinaryOperation(Token::BinaryOpForAssignment(op), target, value,
 diff --git a/src/call_stack.cc b/src/call_stack.cc
 new file mode 100644
-index 00000000..baa38ce6
+index 00000000..92f3c219
 --- /dev/null
 +++ b/src/call_stack.cc
-@@ -0,0 +1,19 @@
+@@ -0,0 +1,48 @@
 +#include "src/call_stack.h"
 +#include <algorithm>  // for std::find
 +
@@ -153,17 +153,46 @@ index 00000000..baa38ce6
 +
 +std::list<std::string> forward_script_list;
 +
++std::unordered_map<uint32_t, std::vector<TimeoutNode*>> TimeoutNode::nodes_by_sfi_;
++
++int timeout_id = 0;
++
 +#pragma clang diagnostic pop
++
++
++void TimeoutNode::SetInnerSFI(uint32_t sfi) {
++  inner_sfi = sfi;
++  auto &vec = nodes_by_sfi_[sfi];
++  if((std::find(vec.begin(), vec.end(), this) == vec.end()) && 
++     vec.size() < kMaxNodesForSFI) {
++    vec.push_back(this);
++  }
++}
++
++void TimeoutNode::SetParentStack(std::list<dfg_metadata> p_stack) {
++  parent_stack = p_stack;
++}
++
++std::vector<TimeoutNode*> TimeoutNode::GetNodesFromInnerSFI(uint32_t inner_sfi) {
++  auto it = nodes_by_sfi_.find(inner_sfi);
++  if (it != nodes_by_sfi_.end()) return it->second;
++  return std::vector<TimeoutNode*>();
++}
++
++int GetTimeoutNodeId() {
++  timeout_id += 1;
++  return timeout_id;
++}
 +
 +}  // namespace internal
 +}  // namespace v8
 \ No newline at end of file
 diff --git a/src/call_stack.h b/src/call_stack.h
 new file mode 100644
-index 00000000..5de298ae
+index 00000000..a2bf8bdd
 --- /dev/null
 +++ b/src/call_stack.h
-@@ -0,0 +1,29 @@
+@@ -0,0 +1,67 @@
 +#ifndef V8_CALL_STACK_H_
 +#define V8_CALL_STACK_H_
 +
@@ -175,6 +204,8 @@ index 00000000..5de298ae
 +
 +#include "commons.h"
 +#include "handles/handles.h"
++#include "src/execution/frames.h"
++#include "src/codegen/unoptimized-compilation-info.h"
 +
 +// #include "src/runtime/runtime-backtrack.h"
 +class BacktrackScopeDFG;
@@ -188,6 +219,42 @@ index 00000000..5de298ae
 +extern std::set<std::pair<int, commons::AstNodeInfo>> backtrack_result;
 +
 +extern std::list<std::string> forward_script_list;
++
++extern int GetTimeoutNodeId();
++
++struct dfg_metadata {
++  UnoptimizedCompilationInfo* info;
++  void* fp;
++  Handle<FixedArray> paras;
++  uint32_t sfi_hash;
++  std::string func_name;
++  Script script;
++};
++
++class TimeoutNode {
++ public:
++  TimeoutNode(int id) : task_id(id), inner_sfi(0) {}
++  ~TimeoutNode();
++
++  void SetInnerSFI(uint32_t inner_sfi);
++  void SetParentStack(std::list<dfg_metadata> parent_stack);
++
++  std::list<dfg_metadata> GetParentStack() const { return parent_stack; }
++
++//   static TimeoutNode* GetNodeFromTask(int task_id);
++  static std::vector<TimeoutNode*> GetNodesFromInnerSFI(uint32_t inner_sfi);
++
++  int task_id;
++  uint32_t inner_sfi;
++  std::list<dfg_metadata> parent_stack;
++  static constexpr int kMaxNodesForSFI = 10;
++  static constexpr int kMaxBacktrackParentDepth = 100;
++
++ private:
++  // sfi not unqiue, may have multiple timeout nodes
++  static std::unordered_map<uint32_t, std::vector<TimeoutNode*>> nodes_by_sfi_;
++};
++
 +
 +}  // namespace internal
 +}  // namespace v8
@@ -210,10 +277,10 @@ index 8f8ee0fa..e7de0d74 100644
          bool LinkedList::empty() { return (size_ == 0); }
  
 diff --git a/src/commons.h b/src/commons.h
-index 35da7387..1f4777a1 100644
+index 35da7387..279110c1 100644
 --- a/src/commons.h
 +++ b/src/commons.h
-@@ -2,12 +2,53 @@
+@@ -2,12 +2,58 @@
  #define V8_COMMONS_H_
  
  #include "src/base/logging.h"
@@ -233,6 +300,9 @@ index 35da7387..1f4777a1 100644
 +        template <typename T1, typename T2>
 +        using Generic_CallbackWithResult = void (*)(T1, T2, void*, void*);
 +
++        template <typename T1, typename T2>
++        using Generic_CallbackMutable = bool (*)(T1, T2&, T2, unsigned long, unsigned long);
++
 +        struct AstNodeInfo {
 +            void* fp;
 +            int position;
@@ -241,13 +311,15 @@ index 35da7387..1f4777a1 100644
 +            int function_start_position;
 +            int function_end_position;
 +            bool recur;
++            int track_depth;
++            bool is_forward_tracking;
 +
-+            AstNodeInfo() : fp(nullptr), position(0), type(0), addr(0), function_start_position(0), function_end_position(0), recur(false) {}
++            AstNodeInfo() : fp(nullptr), position(0), type(0), addr(0), function_start_position(0), function_end_position(0), recur(false), track_depth(0), is_forward_tracking(false) {}
 +
 +            AstNodeInfo(void* fp, int position, int type, unsigned long addr,
 +                        int function_start_position, int function_end_position,
-+                        bool recur = false)
-+                : fp(fp), position(position), type(type), addr(addr), function_start_position(function_start_position), function_end_position(function_end_position), recur(recur) {}
++                        bool recur = false, int track_depth = 0, bool is_forward_tracking = false)
++                : fp(fp), position(position), type(type), addr(addr), function_start_position(function_start_position), function_end_position(function_end_position), recur(recur), track_depth(track_depth), is_forward_tracking(is_forward_tracking) {}
 +
 +            bool operator==(const AstNodeInfo& other) const {
 +                if (fp == other.fp && position == other.position && type == other.type &&
@@ -267,7 +339,7 @@ index 35da7387..1f4777a1 100644
  // Doubly-linked list.
          class LinkedList {
          public:
-@@ -39,6 +80,9 @@ namespace v8 {
+@@ -39,6 +85,9 @@ namespace v8 {
  
              void iterate(IterateCallback callback, void *data) const;
  
@@ -277,7 +349,7 @@ index 35da7387..1f4777a1 100644
              int size() { return size_; }
  
          private:
-@@ -57,8 +101,102 @@ namespace v8 {
+@@ -57,8 +106,104 @@ namespace v8 {
              int size_;
          };
  
@@ -315,6 +387,8 @@ index 35da7387..1f4777a1 100644
 +            void clear();
 +
 +            void iterate(Generic_Callback<T1, T2> callback, void* data) const;
++
++            void iterateMutable(Generic_CallbackMutable<T1, T2> callback, T2 data, unsigned long true_addr, unsigned long false_addr);
 +
 +            void iterateWithResult(Generic_CallbackWithResult<T1, T2> callback,
 +                                   void* data, void* result) const;
@@ -380,7 +454,7 @@ index 35da7387..1f4777a1 100644
          class HashTable {
          public:
              HashTable();
-@@ -92,6 +230,319 @@ namespace v8 {
+@@ -92,6 +237,336 @@ namespace v8 {
              int size_;      // Total number of keys.
          };
  
@@ -499,6 +573,23 @@ index 35da7387..1f4777a1 100644
 +                                            void* data) const {
 +            for (ListNode* cur = fake_head_.next; cur != &fake_tail_; cur = cur->next)
 +              callback(cur->key, cur->value, data);
++        }
++
++        template <typename T1, typename T2>
++        void RawLinkedList<T1, T2>::iterateMutable(Generic_CallbackMutable<T1, T2> callback,
++                                                   T2 data, unsigned long true_addr, unsigned long false_addr) {
++            for (ListNode* cur = fake_head_.next; cur != &fake_tail_;){
++              ListNode* next = cur->next;
++              bool to_delete = callback(cur->key, cur->value, data, true_addr, false_addr);
++              if(to_delete){
++                cur->prev->next = cur->next;
++                cur->next->prev = cur->prev;
++                delete cur;
++                cur = next;
++                continue;
++              }
++              cur = next;
++            }
 +        }
 +
 +        template <typename T1, typename T2>
@@ -700,6 +791,18 @@ index 35da7387..1f4777a1 100644
      }  // namespace commons
  }  // namespace v8
  
+diff --git a/src/execution/execution.cc b/src/execution/execution.cc
+index b76a601b..97b50464 100644
+--- a/src/execution/execution.cc
++++ b/src/execution/execution.cc
+@@ -10,6 +10,7 @@
+ #include "src/execution/isolate-inl.h"
+ #include "src/execution/vm-state-inl.h"
+ #include "src/logging/runtime-call-stats-scope.h"
++#include <iostream>
+ 
+ #if V8_ENABLE_WEBASSEMBLY
+ #include "src/compiler/wasm-compiler.h"  // Only for static asserts.
 diff --git a/src/execution/frames.cc b/src/execution/frames.cc
 index 0ca10a21..64e4784f 100644
 --- a/src/execution/frames.cc
@@ -761,7 +864,7 @@ index c72b7ace..84979369 100644
    inline explicit CommonFrameWithJSLinkage(StackFrameIteratorBase* iterator);
  
 diff --git a/src/execution/isolate.cc b/src/execution/isolate.cc
-index e596385e..4142073e 100644
+index e596385e..a398973f 100644
 --- a/src/execution/isolate.cc
 +++ b/src/execution/isolate.cc
 @@ -119,6 +119,13 @@
@@ -1127,7 +1230,7 @@ index e596385e..4142073e 100644
  
  // ======= Extension JavaScript contexts start ==========
          void Isolate::MarkAsExtensionContext(Handle<Context> context,
-@@ -2503,6 +2726,56 @@ Handle<String> Isolate::GetCurrentStackTrace(){
+@@ -2503,6 +2726,101 @@ Handle<String> Isolate::GetCurrentStackTrace(){
  }
  // xqg end
  
@@ -1140,6 +1243,7 @@ index e596385e..4142073e 100644
 +  trace_data.reserve(limit);
 +
 +  int frames_seen = 0;
++  SharedFunctionInfo stack_bottom_shared;
 +  for (StackTraceFrameIterator it(this); !it.done() && (frames_seen < limit);
 +       it.Advance()) {
 +    StackFrame* frame = it.frame();
@@ -1153,6 +1257,7 @@ index e596385e..4142073e 100644
 +      for (int i = static_cast<int>(frames.size()) - 1;
 +           i >= 0 && frames_seen < limit; i--) {
 +        Handle<JSFunction> fun = frames[i].function();
++        // std::cout << frames.size() << " in current iteration, function: " << fun << std::endl;
 +      
 +      Script script = Script::cast(fun->shared().script());
 +
@@ -1161,7 +1266,8 @@ index e596385e..4142073e 100644
 +            !this->context().HasSameSecurityTokenAs(fun->context()))
 +          continue;
 +
-+        trace_data.emplace_back(handle(script, this));
++        FrameData trace(handle(script, this), SharedFunctionInfo::DebugName(handle(fun->shared(),this))->ToCString().get(), false);
++        trace_data.emplace_back(trace);
 +
 +        UnoptimizedCompilationInfo* info = this->GetCompilationInfo(fun);
 +
@@ -1173,10 +1279,52 @@ index e596385e..4142073e 100644
 +        if (dfg != nullptr) {
 +
 +        }
++        stack_bottom_shared = fun->shared();
 +        frames_seen++;
 +      }
 +    }
 +  }
++
++  // parent stack
++  if (!stack_bottom_shared.is_null()){
++    uint32_t sfi_hash = stack_bottom_shared.Hash();
++    // TimeoutNode* node = TimeoutNode::GetNodeFromInnerSFI(sfi_hash);
++    // std::cout << "get node, nullptr? " << (node == nullptr) << std::endl;
++    // TimeoutNode* node;
++    int parent_depth = 0;
++    std::vector<TimeoutNode*> nodes = TimeoutNode::GetNodesFromInnerSFI(sfi_hash);
++    std::unordered_set<TimeoutNode*> visited;
++
++    for (size_t idx = 0; idx < nodes.size() && parent_depth < TimeoutNode::kMaxBacktrackParentDepth; ++idx) {
++
++      TimeoutNode* node = nodes[idx];
++      if (node == nullptr) continue;
++
++      if (visited.find(node) != visited.end()) continue;
++      bool async_call_site  = true;
++      visited.insert(node);
++      const std::list<dfg_metadata> parent_stack = node->GetParentStack();
++      for( const dfg_metadata& meta : parent_stack) {
++        std::cout << "parent frame function: " << meta.func_name << std::endl;
++        BacktrackScopeDFG* dfg = this->GetBacktrackScopeDFG(
++            meta.info, meta.info->scope()->start_position(),
++            meta.fp, meta.paras);
++        call_stack.push_back(dfg);
++        FrameData trace(handle(meta.script, this), meta.func_name, async_call_site);
++        async_call_site = false;
++        trace_data.emplace_back(trace);
++        sfi_hash = meta.sfi_hash;
++      }
++
++      std::cout << "---next round\n";
++      ++parent_depth;
++      std::vector<TimeoutNode*> more = TimeoutNode::GetNodesFromInnerSFI(sfi_hash);
++      if (!more.empty()) {
++        nodes.insert(nodes.end(), more.begin(), more.end());
++      }
++    }
++  }
++  
 +  return trace_data;
 +}
 +
@@ -1184,7 +1332,7 @@ index e596385e..4142073e 100644
  Handle<FixedArray> Isolate::GetDetailedStackTrace(
      Handle<JSReceiver> error_object) {
    Handle<Object> error_stack = JSReceiver::GetDataProperty(
-@@ -2595,6 +2868,16 @@ class StackFrameBuilder {
+@@ -2595,6 +2913,16 @@ class StackFrameBuilder {
      return true;
    }
  
@@ -1201,7 +1349,7 @@ index e596385e..4142073e 100644
    Handle<FixedArray> Build() {
      return FixedArray::ShrinkOrEmpty(isolate_, frames_, index_);
    }
-@@ -3707,6 +3990,8 @@ void Isolate::PrintCurrentStackTrace(FILE* out) {
+@@ -3707,6 +4035,8 @@ void Isolate::PrintCurrentStackTrace(FILE* out) {
              for (int i = 0; i < frames->length(); ++i) {
                  Handle<CallSiteInfo> frame(CallSiteInfo::cast(frames->get(i)), this);
                  SerializeCallSiteInfo(this, frame, &builder);
@@ -1211,7 +1359,7 @@ index e596385e..4142073e 100644
  
              Handle<String> stack_trace = builder.Finish().ToHandleChecked();
 diff --git a/src/execution/isolate.h b/src/execution/isolate.h
-index af3de732..70f53968 100644
+index af3de732..8c500316 100644
 --- a/src/execution/isolate.h
 +++ b/src/execution/isolate.h
 @@ -11,6 +11,7 @@
@@ -1248,7 +1396,7 @@ index af3de732..70f53968 100644
  class Extension;
  // xqg end add class
  
-@@ -954,10 +959,20 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -954,10 +959,23 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
    enum PrintStackMode { kPrintStackConcise, kPrintStackVerbose };
    void PrintCurrentStackTrace(std::ostream& out);
    void PrintCurrentStackTrace(FILE* out); // xqg
@@ -1260,16 +1408,19 @@ index af3de732..70f53968 100644
 +  
 +  struct FrameData{
 +    Handle<Script> script;
++    std::string function_name;
++    bool async;
 +
-+      FrameData(Handle<Script> sc)
-+      :script(sc) {}
++      FrameData(Handle<Script> sc, std::string fn_name, bool async_flag)
++      : script(sc), function_name(fn_name), async(async_flag) {}
 +  };
++  // std::vector<StackFrame*> GetParentStackFrames(uint32_t inner_sfi);
 +  std::vector<FrameData> CaptureBacktrackStackTrace(
 +      int frame_limit, StackTrace::StackTraceOptions options);
    // Stores a stack trace in a stack-allocated temporary buffer which will
    // end up in the minidump for debugging purposes.
    V8_NOINLINE void PushStackTraceAndDie(void* ptr1 = nullptr,
-@@ -970,6 +985,7 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -970,6 +988,7 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
                                      void* ptr5 = nullptr, void* ptr6 = nullptr);
    Handle<FixedArray> CaptureDetailedStackTrace(
        int limit, StackTrace::StackTraceOptions options);
@@ -1277,7 +1428,7 @@ index af3de732..70f53968 100644
    MaybeHandle<JSObject> CaptureAndSetErrorStack(Handle<JSObject> error_object,
                                                  FrameSkipMode mode,
                                                  Handle<Object> caller);
-@@ -1946,8 +1962,16 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -1946,8 +1965,16 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
  
      UnoptimizedCompilationInfo *GetCompilationInfo(Handle<JSFunction> function);
      ScopeDFG *GetScopeDFG(UnoptimizedCompilationInfo *info, long position);
@@ -1294,7 +1445,7 @@ index af3de732..70f53968 100644
  
      // OBJ taint table operations.   done !!!
  
-@@ -1990,6 +2014,17 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -1990,6 +2017,17 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
      void AddToObjectMap(void *fp, int position, int type, Handle<Object> object);
      Handle<Object> LookupObjectMap(void *fp, int position, int type); // ok
      void DropObjectMap(void *fp); // ok
@@ -1312,7 +1463,7 @@ index af3de732..70f53968 100644
  
      // Extension JavaScript contexts. done !!!
  
-@@ -2054,6 +2089,26 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -2054,6 +2092,26 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
      // End taint analysis stuff.
      //
      // xqg end 2
@@ -1339,7 +1490,7 @@ index af3de732..70f53968 100644
  
    void EnableMemorySavingsMode() { memory_savings_mode_active_ = true; }
  
-@@ -2513,6 +2568,11 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -2513,6 +2571,11 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
  
    bool log_object_relocation_ = false;
  
@@ -1351,7 +1502,7 @@ index af3de732..70f53968 100644
  #ifdef V8_EXTERNAL_CODE_SPACE
    // Base address of the pointer compression cage containing external code
    // space, when external code space is enabled.
-@@ -2719,9 +2779,15 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -2719,9 +2782,15 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
      void DisposeCompilationInfo(UnoptimizedCompilationInfo *info); // ok
      static void AstCacheValueDestructor(Isolate *isolate, void *value); // ok
      static void IterateScopeDFGDestructor(void *key, void *value, void *data); // ok
@@ -1367,7 +1518,7 @@ index af3de732..70f53968 100644
  
      void MakeASTPermanent(Handle<JSFunction> function); // ok
  
-@@ -2733,7 +2799,28 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -2733,7 +2802,28 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
  
      // Cascade value destructor from |ast_cache_|.
      commons::HashTable scope_dfg_cache_;
@@ -1396,7 +1547,7 @@ index af3de732..70f53968 100644
  
      static void TaintTableValueDestructor(Isolate *isolate, void *value); // ok
      V8GCHashTable *taint_table_;
-@@ -2742,8 +2829,18 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
+@@ -2742,8 +2832,18 @@ class V8_EXPORT_PRIVATE Isolate final : private HiddenFactory {
  
      commons::HashTable ast_taint_table_;
  
@@ -1582,7 +1733,7 @@ index 00000000..19f940bf
 +
 +#endif  // V8_FUNCTION_MAP_H_
 diff --git a/src/interpreter/bytecode-generator.cc b/src/interpreter/bytecode-generator.cc
-index a50c8c6c..95ec2559 100644
+index a50c8c6c..d1489d42 100644
 --- a/src/interpreter/bytecode-generator.cc
 +++ b/src/interpreter/bytecode-generator.cc
 @@ -18,6 +18,8 @@
@@ -1621,7 +1772,16 @@ index a50c8c6c..95ec2559 100644
  
          generator_->builder()->LoadAccumulatorWithRegister(acc_init);
          generator_->register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -1479,7 +1483,7 @@ void BytecodeGenerator::GenerateBytecodeBody() {
+@@ -1443,6 +1447,8 @@ void BytecodeGenerator::GenerateBytecodeBody() {
+     // Create a generator object if necessary and initialize the
+     // {.generator_object} variable.
+     FunctionLiteral* literal = info()->literal();
++    // MaybeHandle<String> function_name = literal->GetName(local_isolate_->GetMainThreadIsolateUnsafe());
++    // std::cout << "now in GenerateBytecodeBody, function_name: " << function_name.ToHandleChecked() << std::endl;
+     if (IsResumableFunction(literal->kind())) {
+         BuildGeneratorObjectVariableInitialization();
+     }
+@@ -1479,7 +1485,7 @@ void BytecodeGenerator::GenerateBytecodeBody() {
          }
      }
      // xqg start
@@ -1630,7 +1790,7 @@ index a50c8c6c..95ec2559 100644
      // xqg end
  
      // Visit statements in the function body.
-@@ -1811,7 +1815,7 @@ void BytecodeGenerator::VisitReturnStatement(ReturnStatement* stmt) {
+@@ -1811,7 +1817,7 @@ void BytecodeGenerator::VisitReturnStatement(ReturnStatement* stmt) {
          builder()
                  ->JumpIfNotSmi(&replace_smi_done)
                  .StoreAccumulatorInRegister(temp1)
@@ -1639,7 +1799,7 @@ index a50c8c6c..95ec2559 100644
                  .Bind(&replace_smi_done);
  
          register_allocator()->ReleaseRegister(temp1);
-@@ -1819,20 +1823,22 @@ void BytecodeGenerator::VisitReturnStatement(ReturnStatement* stmt) {
+@@ -1819,20 +1825,22 @@ void BytecodeGenerator::VisitReturnStatement(ReturnStatement* stmt) {
  
      // xqg start return statement
      int init_reg_index = register_allocator()->next_register_index();
@@ -1665,7 +1825,7 @@ index a50c8c6c..95ec2559 100644
      int return_position = stmt->end_position();
      if (return_position == ReturnStatement::kFunctionLiteralReturnPosition) {
          return_position = info()->literal()->return_position();
-@@ -3052,6 +3058,7 @@ void BytecodeGenerator::VisitConditional(Conditional* expr) {
+@@ -3052,6 +3060,7 @@ void BytecodeGenerator::VisitConditional(Conditional* expr) {
  
  void BytecodeGenerator::VisitLiteral(Literal* expr) {
      if (execution_result()->IsEffect()) return;
@@ -1673,7 +1833,7 @@ index a50c8c6c..95ec2559 100644
      switch (expr->type()) {
          case Literal::kSmi:
              builder()->LoadLiteral(expr->AsSmiLiteral());
-@@ -3080,6 +3087,22 @@ void BytecodeGenerator::VisitLiteral(Literal* expr) {
+@@ -3080,6 +3089,22 @@ void BytecodeGenerator::VisitLiteral(Literal* expr) {
              builder()->LoadLiteral(expr->AsBigInt());
              break;
      }
@@ -1696,7 +1856,7 @@ index a50c8c6c..95ec2559 100644
  }
  
  void BytecodeGenerator::VisitRegExpLiteral(RegExpLiteral* expr) {
-@@ -3181,7 +3204,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
+@@ -3181,7 +3206,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
                      .StoreAccumulatorInRegister(temp_args[2])
                      .LoadLiteral(Smi::FromInt(property_index))
                      .StoreAccumulatorInRegister(temp_args[3])
@@ -1705,7 +1865,7 @@ index a50c8c6c..95ec2559 100644
  
              builder()->LoadAccumulatorWithRegister(acc_init);
              register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -3219,7 +3242,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
+@@ -3219,7 +3244,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
                      builder()
                              ->JumpIfNotSmi(&replace_smi_done)
                              .StoreAccumulatorInRegister(temp1)
@@ -1714,7 +1874,7 @@ index a50c8c6c..95ec2559 100644
                              .Bind(&replace_smi_done);
  
                      register_allocator()->ReleaseRegister(temp1);
-@@ -3236,7 +3259,8 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
+@@ -3236,7 +3261,8 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
                          .StoreAccumulatorInRegister(temp_args[2])
                          .LoadLiteral(Smi::FromInt(property_index))
                          .StoreAccumulatorInRegister(temp_args[3])
@@ -1724,7 +1884,7 @@ index a50c8c6c..95ec2559 100644
  
                  builder()->LoadAccumulatorWithRegister(acc_init);
                  register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -3374,7 +3398,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
+@@ -3374,7 +3400,7 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
                      builder()
                              ->JumpIfNotSmi(&replace_smi_done)
                              .StoreAccumulatorInRegister(temp1)
@@ -1733,7 +1893,7 @@ index a50c8c6c..95ec2559 100644
                              .Bind(&replace_smi_done);
  
                      register_allocator()->ReleaseRegister(temp1);
-@@ -3392,7 +3416,8 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
+@@ -3392,7 +3418,8 @@ void BytecodeGenerator::VisitObjectLiteral(ObjectLiteral* expr) {
                          .StoreAccumulatorInRegister(temp_args[2])
                          .LoadLiteral(Smi::FromInt(property_index))
                          .StoreAccumulatorInRegister(temp_args[3])
@@ -1743,7 +1903,7 @@ index a50c8c6c..95ec2559 100644
  
                  builder()->LoadAccumulatorWithRegister(acc_init);
                  register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -3707,7 +3732,7 @@ void BytecodeGenerator::BuildCreateArrayLiteral(
+@@ -3707,7 +3734,7 @@ void BytecodeGenerator::BuildCreateArrayLiteral(
      // xqg start
      if (expr != nullptr){
          int init_reg_index = register_allocator()->next_register_index();
@@ -1752,7 +1912,7 @@ index a50c8c6c..95ec2559 100644
          Register acc_init = register_allocator()->NewRegister();
          builder()->StoreAccumulatorInRegister(acc_init);
  
-@@ -3717,11 +3742,12 @@ void BytecodeGenerator::BuildCreateArrayLiteral(
+@@ -3717,11 +3744,12 @@ void BytecodeGenerator::BuildCreateArrayLiteral(
          builder()->LoadLiteral(Smi::FromInt(expr->position()));
          builder()->StoreAccumulatorInRegister(temp_args[2]);
  
@@ -1770,7 +1930,7 @@ index a50c8c6c..95ec2559 100644
  
          builder()->LoadAccumulatorWithRegister(acc_init);
          register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -3756,6 +3782,36 @@ void BytecodeGenerator::SetVariableInRegister(Variable* var, Register reg) {
+@@ -3756,6 +3784,36 @@ void BytecodeGenerator::SetVariableInRegister(Variable* var, Register reg) {
      }
  }
  
@@ -1807,7 +1967,7 @@ index a50c8c6c..95ec2559 100644
  // xqg start
  void BytecodeGenerator::BuildVariableLoad(VariableProxy* proxy,
                                            HoleCheckMode hole_check_mode,
-@@ -3766,7 +3822,7 @@ void BytecodeGenerator::BuildVariableLoad(VariableProxy* proxy,
+@@ -3766,7 +3824,7 @@ void BytecodeGenerator::BuildVariableLoad(VariableProxy* proxy,
      // xqg visit proxy call load
      {
          int init_reg_index = register_allocator()->next_register_index();
@@ -1816,7 +1976,7 @@ index a50c8c6c..95ec2559 100644
          Register acc_init = register_allocator()->NewRegister();
          builder()->StoreAccumulatorInRegister(acc_init);
  
-@@ -3775,7 +3831,10 @@ void BytecodeGenerator::BuildVariableLoad(VariableProxy* proxy,
+@@ -3775,7 +3833,10 @@ void BytecodeGenerator::BuildVariableLoad(VariableProxy* proxy,
                  .StoreAccumulatorInRegister(temp_args[1])
                  .LoadLiteral(Smi::FromInt(proxy->position()))
                  .StoreAccumulatorInRegister(temp_args[2])
@@ -1828,7 +1988,7 @@ index a50c8c6c..95ec2559 100644
  
          builder()->LoadAccumulatorWithRegister(acc_init);
          register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -3928,7 +3987,7 @@ void BytecodeGenerator::BuildReturn(int source_position) {
+@@ -3928,7 +3989,7 @@ void BytecodeGenerator::BuildReturn(int source_position) {
  
      builder()->LoadLiteral(Smi::FromInt(current_scope()->start_position()))
              .StoreAccumulatorInRegister(temp_arg)
@@ -1837,7 +1997,7 @@ index a50c8c6c..95ec2559 100644
  
      builder()->LoadAccumulatorWithRegister(acc_init);
  
-@@ -4009,28 +4068,33 @@ void BytecodeGenerator::BuildVariableAssignment(
+@@ -4009,28 +4070,33 @@ void BytecodeGenerator::BuildVariableAssignment(
          builder()
                  ->JumpIfNotSmi(&replace_smi_done)
                  .StoreAccumulatorInRegister(temp1)
@@ -1877,7 +2037,7 @@ index a50c8c6c..95ec2559 100644
  }
  // xqg end
  
-@@ -4880,23 +4944,27 @@ void BytecodeGenerator::VisitAssignment(Assignment* expr) {
+@@ -4880,23 +4946,27 @@ void BytecodeGenerator::VisitAssignment(Assignment* expr) {
              builder()
                      ->JumpIfNotSmi(&replace_smi_done)
                      .StoreAccumulatorInRegister(temp1)
@@ -1911,7 +2071,7 @@ index a50c8c6c..95ec2559 100644
  
          builder()->LoadAccumulatorWithRegister(acc_init);
          register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -4905,18 +4973,103 @@ void BytecodeGenerator::VisitAssignment(Assignment* expr) {
+@@ -4905,18 +4975,103 @@ void BytecodeGenerator::VisitAssignment(Assignment* expr) {
  
      builder()->SetExpressionPosition(expr);
      BuildAssignment(lhs_data, expr->op(), expr->lookup_hoisting_mode());
@@ -2016,7 +2176,7 @@ index a50c8c6c..95ec2559 100644
              break;
          }
          case NAMED_PROPERTY: {
-@@ -4994,6 +5147,7 @@ void BytecodeGenerator::VisitCompoundAssignment(CompoundAssignment* expr) {
+@@ -4994,6 +5149,7 @@ void BytecodeGenerator::VisitCompoundAssignment(CompoundAssignment* expr) {
          builder()->StoreAccumulatorInRegister(old_value);
          VisitForAccumulatorValue(expr->value());
          builder()->BinaryOperation(binop->op(), old_value, feedback_index(slot));
@@ -2024,7 +2184,7 @@ index a50c8c6c..95ec2559 100644
      }
  
      // xqg start
-@@ -5004,31 +5158,53 @@ void BytecodeGenerator::VisitCompoundAssignment(CompoundAssignment* expr) {
+@@ -5004,31 +5160,53 @@ void BytecodeGenerator::VisitCompoundAssignment(CompoundAssignment* expr) {
              builder()
                      ->JumpIfNotSmi(&replace_smi_done)
                      .StoreAccumulatorInRegister(temp1)
@@ -2086,7 +2246,7 @@ index a50c8c6c..95ec2559 100644
      builder()->Bind(&short_circuit);
  }
  
-@@ -5513,16 +5689,21 @@ void BytecodeGenerator::VisitPropertyLoad(Register obj, Property* property) {
+@@ -5513,16 +5691,21 @@ void BytecodeGenerator::VisitPropertyLoad(Register obj, Property* property) {
      }
      // xqg start property
      int init_reg_index = register_allocator()->next_register_index();
@@ -2113,7 +2273,7 @@ index a50c8c6c..95ec2559 100644
  
      builder()->LoadAccumulatorWithRegister(acc_init);
      register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -5794,7 +5975,7 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -5794,7 +5977,7 @@ void BytecodeGenerator::VisitCall(Call* expr) {
      const Call::SpreadPosition spread_position = expr->spread_position();
  
      // xqg start
@@ -2122,7 +2282,7 @@ index a50c8c6c..95ec2559 100644
      Register acc_init = register_allocator()->NewRegister();
      // xqg end
  
-@@ -5829,11 +6010,14 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -5829,11 +6012,14 @@ void BytecodeGenerator::VisitCall(Call* expr) {
              builder()->StoreAccumulatorInRegister(acc_init);
  
              builder()->StoreAccumulatorInRegister(temp_args[0])
@@ -2140,7 +2300,7 @@ index a50c8c6c..95ec2559 100644
  
              builder()->LoadAccumulatorWithRegister(acc_init);
              // xqg end VisitProperty
-@@ -5896,13 +6080,16 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -5896,13 +6082,16 @@ void BytecodeGenerator::VisitCall(Call* expr) {
              builder()->StoreAccumulatorInRegister(callee);
              // xqg start property
              builder()->StoreAccumulatorInRegister(acc_init);
@@ -2161,7 +2321,7 @@ index a50c8c6c..95ec2559 100644
  
              builder()->LoadAccumulatorWithRegister(acc_init);
              // xqg end property
-@@ -5916,12 +6103,16 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -5916,12 +6105,16 @@ void BytecodeGenerator::VisitCall(Call* expr) {
              // xqg start property
              builder()->StoreAccumulatorInRegister(acc_init);
  
@@ -2182,7 +2342,7 @@ index a50c8c6c..95ec2559 100644
  
              builder()->LoadAccumulatorWithRegister(acc_init);
              // xqg end property
-@@ -5940,12 +6131,14 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -5940,12 +6133,14 @@ void BytecodeGenerator::VisitCall(Call* expr) {
              // xqg start property optional chain
              builder()->StoreAccumulatorInRegister(acc_init);
  
@@ -2199,7 +2359,7 @@ index a50c8c6c..95ec2559 100644
  
              builder()->LoadAccumulatorWithRegister(acc_init);
              // xqg end property optional chain
-@@ -6066,7 +6259,10 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -6066,7 +6261,10 @@ void BytecodeGenerator::VisitCall(Call* expr) {
                          .StoreAccumulatorInRegister(now);
              }
          }
@@ -2211,7 +2371,7 @@ index a50c8c6c..95ec2559 100644
          builder()->LoadAccumulatorWithRegister(acc_init);
      }
      // xqg end call args
-@@ -6096,14 +6292,17 @@ void BytecodeGenerator::VisitCall(Call* expr) {
+@@ -6096,14 +6294,17 @@ void BytecodeGenerator::VisitCall(Call* expr) {
      // xqg start return from call
      {
          int init_reg_index = register_allocator()->next_register_index();
@@ -2232,7 +2392,7 @@ index a50c8c6c..95ec2559 100644
  
          builder()->LoadAccumulatorWithRegister(acc_init);
          register_allocator()->ReleaseRegisters(init_reg_index);
-@@ -6274,14 +6473,17 @@ void BytecodeGenerator::VisitCallSuper(Call* expr) {
+@@ -6274,14 +6475,17 @@ void BytecodeGenerator::VisitCallSuper(Call* expr) {
      // xqg start return from call
      {
          int init_reg_index = register_allocator()->next_register_index();
@@ -2268,7 +2428,7 @@ index 8857fb48..14fd7f4e 100644
    void BuildVariableLoad(VariableProxy* proxy, HoleCheckMode hole_check_mode,
                           TypeofMode typeof_mode = TypeofMode::kNotInside);
 diff --git a/src/objects/objects.cc b/src/objects/objects.cc
-index ba0b2ac7..5b6110e7 100644
+index ba0b2ac7..040446ee 100644
 --- a/src/objects/objects.cc
 +++ b/src/objects/objects.cc
 @@ -9,6 +9,8 @@
@@ -2292,7 +2452,7 @@ index ba0b2ac7..5b6110e7 100644
  #if V8_ENABLE_WEBASSEMBLY
  #include "src/wasm/wasm-objects.h"
  #endif  // V8_ENABLE_WEBASSEMBLY
-@@ -2741,6 +2748,130 @@ Maybe<bool> Object::SetPropertyInternal(LookupIterator* it,
+@@ -2741,6 +2748,133 @@ Maybe<bool> Object::SetPropertyInternal(LookupIterator* it,
    // interceptor calls.
    AssertNoContextChange ncc(it->isolate());
  
@@ -2326,7 +2486,7 @@ index ba0b2ac7..5b6110e7 100644
 +        Name::ToFunctionName(it->isolate(), it->GetName()).ToHandleChecked();
 +    if (std::string(name_string->ToCString().get()) == std::string("cookie")) {
 +      is_writing_document_cookie = true;
-+      // std::cout << "WRITING DOCUMENT.COOKIE!!!" << std::endl;
++      std::cout << "WRITING DOCUMENT.COOKIE!!!" << std::endl;
 +    }
 +  }
 +
@@ -2346,6 +2506,7 @@ index ba0b2ac7..5b6110e7 100644
 +    if(!cookie_string.is_null()){
 +      v8::internal::String cookie_raw_string = *(cookie_string);
 +      std::string cookie_cpp_str(cookie_raw_string.ToCString().get());
++      std::cout << "cookie value: " << cookie_cpp_str << std::endl;
 +
 +      // truncate the prefix
 +      size_t posDigit = cookie_cpp_str.find_first_of("0123456789");
@@ -2388,25 +2549,27 @@ index ba0b2ac7..5b6110e7 100644
 +      std::unordered_set<std::string> participated_scripts;
 +      for(const auto& entry:stack_trace){
 +        Handle<Script> script = entry.script;
++        std::string fun_name = entry.function_name;
 +        Object script_url = script->GetNameOrSourceURL();
++        std::string url_cpp;
 +        if (!script_url.IsNull()) {
 +          internal::String url_raw_string = internal::String::cast(script_url);
-+          std::string cpp_str(url_raw_string.ToCString().get());
-+          path_json["stack_trace"].push_back(cpp_str);
-+          participated_scripts.insert(cpp_str);
-+        } else {
-+          path_json["stack_trace"].push_back(""); 
++          url_cpp = url_raw_string.ToCString().get();
 +        }
++        std::string combined = fun_name + ", " + (entry.async ? "true" : "false") + ", " + url_cpp;
++          
++          path_json["stack_trace"].push_back(combined);
++          participated_scripts.insert(url_cpp);
 +      }
 +
-+      path_json["participated_scripts"] = nlohmann::json::array();
-+      path_json["participated_scripts_callstack"] = nlohmann::json::array();
++      path_json["total_participated_scripts"] = nlohmann::json::array();
++      path_json["callstack_participated_scripts"] = nlohmann::json::array();
 +      for(const auto& script : participated_scripts){
-+        path_json["participated_scripts"].push_back(script);
-+        path_json["participated_scripts_callstack"].push_back(script);
++        path_json["total_participated_scripts"].push_back(script);
++        path_json["callstack_participated_scripts"].push_back(script);
 +      }
 +
-+      std::string filename = "/data/backtrack/results_new/" +
++      std::string filename = "/data/backtrack/yangyi-experiments/results_new/" +
 +                              std::string(v8_flags.accessing_domain) + "_" +
 +                              std::string(v8_flags.instance_id) + "_path.json";
 +      std::ofstream outfile(filename);
@@ -2423,7 +2586,7 @@ index ba0b2ac7..5b6110e7 100644
    do {
      switch (it->state()) {
        case LookupIterator::NOT_FOUND:
-@@ -6889,7 +7020,6 @@ void JSWeakCollection::Set(Handle<JSWeakCollection> weak_collection,
+@@ -6889,7 +7023,6 @@ void JSWeakCollection::Set(Handle<JSWeakCollection> weak_collection,
  
  bool JSWeakCollection::Delete(Handle<JSWeakCollection> weak_collection,
                                Handle<Object> key, int32_t hash, bool is_pointer_map) {
@@ -2447,10 +2610,10 @@ index 3195fea3..01cab8a3 100644
  //
 diff --git a/src/runtime/runtime-backtrack.cc b/src/runtime/runtime-backtrack.cc
 new file mode 100644
-index 00000000..e44c1f82
+index 00000000..0a860d35
 --- /dev/null
 +++ b/src/runtime/runtime-backtrack.cc
-@@ -0,0 +1,707 @@
+@@ -0,0 +1,757 @@
 +#include "src/runtime/runtime-backtrack.h"
 +
 +#include <iostream>
@@ -2550,6 +2713,7 @@ index 00000000..e44c1f82
 +  IGNORE_IF_HONEYPAGE(isolate, UNDEFINED_VALUE_HEAP);
 +  JavaScriptFrameIterator it(isolate);
 +  Handle<JSFunction> function(it.frame()->function(), isolate);
++  // std::cout << "now in Runtime_BacktrackAnalysis_OnFunctionEnter function: " << function << std::endl;
 +
 +  bool ignore_builtin = true;
 +  if (ignore_builtin && !function->shared().IsUserJavaScript()) {
@@ -2594,10 +2758,56 @@ index 00000000..e44c1f82
 +  Handle<JSFunction> callee;
 +  // if (!args[0].IsUndefined()){
 +  if (obj->IsJSFunction()){
-+    // Handle<JSFunction> callee(JSFunction::cast(args[0]), isolate);
++    Handle<JSFunction> callee(JSFunction::cast(args[0]), isolate);
 +    callee = Handle<JSFunction>(JSFunction::cast(args[0]), isolate);
-+    // std::cout << "function: " << callee->shared() << std::endl;
++    // std::cout << "Runtime_BacktrackAnalysis_OnVisitCallArguments, "
++    //           << "\n  context function: " << function
++    //           << "\n  callee function: " << callee->shared() << std::endl;
 +    AddToCallerMap(expr_position->value(), callee->shared().Hash(), (void*)it.frame()->fp());
++
++    // setTimeout is not UserJavaScript
++    if (callee->shared().IsUserJavaScript()) return UNDEFINED_VALUE_HEAP;
++    
++    Handle<SharedFunctionInfo> shared = handle(callee->shared(), isolate);
++    std::string cpp_str = SharedFunctionInfo::DebugName(shared)->ToCString().get();
++    // std::cout << cpp_str << ", equal to SetTimeout? " << (cpp_str == std::string("setTimeout")) << std::endl;
++    if(!(cpp_str == std::string("setTimeout"))) return UNDEFINED_VALUE_HEAP;
++
++    // first_arg, i.e. arguments[4], is the function to be called back in setTimeout
++    CONVERT_ARG_HANDLE_CHECKED(Object, first_arg, 4);
++    if(first_arg->IsJSFunction()){
++      int id = GetTimeoutNodeId();
++      std::list<dfg_metadata> stack_frames;
++      for (StackTraceFrameIterator itt(isolate); !itt.done(); itt.Advance()) {
++        StackFrame* frame = itt.frame();
++        if( frame == nullptr || !(frame->is_java_script())) continue;
++        std::vector<FrameSummary::JavaScriptFrameSummary> frames;
++        JavaScriptFrame::cast(frame)->Summarize_new(&frames);
++        for (int i = static_cast<int>(frames.size()) - 1; i >= 0; i--) {
++          Handle<JSFunction> fun = frames[i].function();
++
++          dfg_metadata meta;
++          meta.info = isolate->GetCompilationInfo(fun);
++          meta.fp = reinterpret_cast<void*>(JavaScriptFrame::cast(frame)->fp());
++          meta.paras = JavaScriptFrame::cast(frame)->GetParameters();
++          meta.sfi_hash = fun->shared().Hash();
++          meta.func_name = SharedFunctionInfo::DebugName(handle(fun->shared(),isolate))->ToCString().get();
++          meta.script = Script::cast(fun->shared().script());
++
++          stack_frames.push_back(meta);
++
++        }
++        // std::cout << "  parent frame function: " << frames.front().function() << std::endl;
++      }
++      // std::cout << "stack_frame_length: " << stack_frames.size() << std::endl;
++
++      TimeoutNode* node = new TimeoutNode(id);
++      node->SetParentStack(stack_frames);
++      Handle<JSFunction> inner_function = Handle<JSFunction>(JSFunction::cast(args[4]), isolate);
++      node->SetInnerSFI(inner_function->shared().Hash());
++      // std::cout << "inner_sfi: " << inner_function->shared().Hash() << std::endl;
++
++    }
 +  }
 +
 +  return UNDEFINED_VALUE_HEAP;
@@ -2753,6 +2963,7 @@ index 00000000..e44c1f82
 +  CONVERT_ARG_HANDLE_CHECKED(Smi, expr_position, 3);
 +
 +  if (isolate->search_doc_cookie_objects(reinterpret_cast<Object*>(obj->ptr()))) {
++    // std::cout << "now in Runtime_BacktrackAnalysis_OnFinishAssignment " << std::endl;
 +
 +    JavaScriptFrameIterator it(isolate);
 +    Handle<JSFunction> function = Handle<JSFunction>(it.frame()->function(), isolate);
@@ -2844,17 +3055,21 @@ index 00000000..e44c1f82
 +                }
 +              }
 +
++              std::cout << "---now in dfg for function: " << dfg->function_name() << std::endl;
++
 +              // 2. deal with forward tracking in current dfg
 +              std::list<commons::AstNodeInfo> unique_result;
 +              std::list<commons::AstNodeInfo> caller_info_list = dfg->GetCallerInfo();
 +              for(auto caller_info : caller_info_list){
 +                std::list<commons::AstNodeInfo> forward_tracking_result = dfg->ForwardTracking(caller_info, &cur_result);
-+                for (const auto &node : forward_tracking_result) {
++                for (auto &node : forward_tracking_result) {
 +                  bool not_in_cur = (std::find(cur_result.begin(), cur_result.end(), node)
 +                                     == cur_result.end());
 +                  bool not_in_unique = (std::find(unique_result.begin(), unique_result.end(), node)
 +                                        == unique_result.end());
 +                  if (not_in_cur && not_in_unique) {
++                    // std::cout << "forward tracked node: " << node.position << ", from caller node: " << caller_info.position << std::endl;
++                    node.is_forward_tracking = true;
 +                    unique_result.push_back(node);
 +                  }
 +                }
@@ -2879,19 +3094,20 @@ index 00000000..e44c1f82
 +        auto time_point2 = std::chrono::system_clock::now();
 +        timestamps.push_back(std::chrono::duration<double>(time_point2.time_since_epoch()).count());
 +
-+        std::list<commons::AstNodeInfo> unique_result;
++        std::list<commons::AstNodeInfo> final_unique_result;
 +        std::set<commons::AstNodeInfo> seen;
 +        std::list<commons::AstNodeInfo>::iterator final_it;
 +        for (final_it = result.begin(); final_it != result.end(); ++final_it) {
 +          if(seen.find(*final_it) == seen.end()){
-+            unique_result.push_back(*final_it); 
++            final_unique_result.push_back(*final_it); 
 +            seen.insert(*final_it);
++            // std::cout << "----final node: " << final_it->position << ", " << final_it->track_depth << std::endl;
 +          }
 +        }
 +
 +        // write [final result] to json file
-+        const std::string dir = "/data/backtrack/results_new/";
-+        WriteAstInfoToJson(dir, unique_result, isolate, timestamps);
++        const std::string dir = "/data/backtrack/yangyi-experiments/results_new/";
++        WriteAstInfoToJson(dir, final_unique_result, isolate, timestamps);
 +
 +
 +        call_stack.clear();
@@ -3158,10 +3374,10 @@ index 00000000..e44c1f82
 \ No newline at end of file
 diff --git a/src/runtime/runtime-backtrack.h b/src/runtime/runtime-backtrack.h
 new file mode 100644
-index 00000000..5d6d9229
+index 00000000..2e489987
 --- /dev/null
 +++ b/src/runtime/runtime-backtrack.h
-@@ -0,0 +1,1776 @@
+@@ -0,0 +1,1811 @@
 +#ifndef V8_RUNTIME_BACKTRACK_H_
 +#define V8_RUNTIME_BACKTRACK_H_
 +
@@ -3304,6 +3520,8 @@ index 00000000..5d6d9229
 +    obj["function_end_position"] = node.function_end_position;
 +    obj["script_name"] = isolate->LookupScriptMap(node.position, node.fp);
 +    obj["string_value"] = isolate->LookupStringMap(node.position, node.fp);
++    obj["is_forward_tracking"] = node.is_forward_tracking;
++    obj["track_depth"] = node.track_depth;
 +    script_set.insert(isolate->LookupScriptMap(node.position, node.fp));
 +
 +    std::string s = obj.value("string_value", "");
@@ -3346,16 +3564,16 @@ index 00000000..5d6d9229
 +  path_json["forward_added_scripts"] = nlohmann::json::array();
 +  for(std::string script:unique_forward_scripts){
 +    bool exists = false;
-+    for (const auto& existing : path_json["participated_scripts"]) {
++    for (const auto& existing : path_json["total_participated_scripts"]) {
 +        if (existing == script) {
 +            exists = true;
 +            break;
 +        }
 +    }
 +    if (!exists) {
-+        path_json["participated_scripts"].push_back(script);
++        path_json["total_participated_scripts"].push_back(script);
 +    }
-+    path_json["forward_added_scripts"].push_back(script);
++    path_json["forward_participated_scripts"].push_back(script);
 +  }
 +
 +  path_json["timestamps"] = timestamp_vec;
@@ -3906,6 +4124,13 @@ index 00000000..5d6d9229
 +  void AddEdge(AstNode* from, AstNode* to) {
 +    CHECK(from != to);
 +
++    // std::cout << "\nNow in addedge, adding to: " << to << ", from: " << from
++    //       << std::endl;
++    // std::cout << "=== TO ASTNode ===" << std::endl;
++    // to->Print(isolate_);
++    // std::cout << "=== FROM ASTNode ===" << std::endl;
++    // from->Print(isolate_);
++
 +    JavaScriptFrameIterator it(isolate_);
 +    void* frame_pointer = fp();
 +    if(to->position() == -1) return;
@@ -4015,8 +4240,9 @@ index 00000000..5d6d9229
 +        }
 +        RecordAddedEdges(new_obj, stored_obj);
 +        new_addr = reinterpret_cast<unsigned long>(*(new_obj.location()));
-+        // std::cout << "from_obj: " << new_obj << std::endl;
++        // std::cout << "from_obj: " << new_obj << ", " << new_addr << std::endl;
 +      }
++      // std::cout << "to_obj: " << stored_obj << ", " << stored_addr << std::endl;
 +      if (new_addr != stored_addr ||
 +          (new_addr == stored_addr &&
 +           from->IsCall())) {  // we do not want recursive search
@@ -4052,16 +4278,31 @@ index 00000000..5d6d9229
 +  }
 +
 +  template <typename T1, typename T2>
++  static bool UpdateNodeInfo(T1 key, T2& value, T2 data, unsigned long true_addr, unsigned long false_addr) {
++    if (value.track_depth < data.track_depth + 1) {
++      value.track_depth = data.track_depth + 1;
++    }
++    // value.is_forward_tracking = value.is_forward_tracking || data.is_forward_tracking;
++    // std::cout << "  rev_node position: " << value.position << ", type: " << value.type << std::endl;
++    if(value.addr == true_addr || value.addr == false_addr){
++      return true;
++    }
++    return false;
++  }
++
++  template <typename T1, typename T2>
 +  static void IterateBacktrackDFG(T1 key, T2 value, void* data, void* result) {
 +    BacktrackScopeDFG* dfg = reinterpret_cast<BacktrackScopeDFG*>(data);
 +    dfg->BacktrackDFG(key, value, result);
 +  }
 +
-+  // obj is target addr, value is target AstNodeInfo
++  // T1 obj is target addr, T2 value is target AstNodeInfo
 +  template <typename T1, typename T2>
 +  void BacktrackDFG(T1 obj, T2 value, void* result) {
++    // std::cout << "---BacktrackDFG called for addr: " << obj << ", position: " << value.position << ", type: " << value.type << std::endl;
 +
 +    if (obj != 0 && !value.recur) {
++      // get predecessor nodes
 +      commons::RawLinkedList<T1, T2>* rev_adj_list =
 +          reinterpret_cast<commons::RawLinkedList<T1, T2>*>(
 +              reversed_nodes_.get(obj));
@@ -4076,6 +4317,10 @@ index 00000000..5d6d9229
 +
 +      if (rev_adj_list != NULL) {
 +        // track its rev_adj_list
++        // std::cout << "found rev_adj_list:" << std::endl;
++        unsigned long true_addr = reinterpret_cast<unsigned long>(*isolate()->factory()->true_value().location());
++        unsigned long false_addr = reinterpret_cast<unsigned long>(*isolate()->factory()->false_value().location());
++        rev_adj_list->iterateMutable(UpdateNodeInfo, value, true_addr, false_addr);
 +        commons::Generic_CallbackWithResult<unsigned long, commons::AstNodeInfo>
 +            iterateCallbackPtr =
 +                IterateBacktrackDFG<unsigned long, commons::AstNodeInfo>;
@@ -4103,6 +4348,7 @@ index 00000000..5d6d9229
 +        //   reinterpret_cast<std::list<T2>*>(result)->push_back(value);
 +      }
 +    }
++    // std::cout << "---BacktrackDFG finished for addr: " << obj << ", position: " << value.position << ", type: " << value.type << std::endl;
 +  }
 +
 +  template <typename T2>
@@ -4110,15 +4356,17 @@ index 00000000..5d6d9229
 +    // std::cout << "now in addtosearchlist" << std::endl;
 +    unsigned long true_addr = reinterpret_cast<unsigned long>(*isolate()->factory()->true_value().location());
 +    unsigned long false_addr = reinterpret_cast<unsigned long>(*isolate()->factory()->false_value().location());
-+    if((std::find(reinterpret_cast<std::list<T2>*>(result_list)->begin(), reinterpret_cast<std::list<T2>*>(result_list)->end(), node_info) 
-+              == reinterpret_cast<std::list<T2>*>(result_list)->end())
-+            && (node_info.addr != true_addr)
-+            && (node_info.addr != false_addr))
-+        reinterpret_cast<std::list<T2>*>(result_list)->push_back(node_info);
++    auto it = std::find(reinterpret_cast<std::list<T2>*>(result_list)->begin(), reinterpret_cast<std::list<T2>*>(result_list)->end(), node_info);
++    if(it != reinterpret_cast<std::list<T2>*>(result_list)->end()){
++      it->is_forward_tracking = node_info.is_forward_tracking;
++      it->track_depth = std::max(it->track_depth, node_info.track_depth);
++    }else if((node_info.addr != true_addr) && (node_info.addr != false_addr))
++      reinterpret_cast<std::list<T2>*>(result_list)->push_back(node_info);
 +  }
 +
 +  template <typename T2>
 +  std::list<T2> ForwardTracking(T2 value, std::list<T2>* result) {
++    // std::cout << "ForwardTracking called for position: " << value.position << std::endl;
 +    int position = value.position;
 +    std::list<T2> forward_tracking_result;
 +    if(IsSearchedCallerPosition(position))
@@ -4212,9 +4460,12 @@ index 00000000..5d6d9229
 +  }
 +
 +  void AddCallerInfo(commons::AstNodeInfo node){
-+    if(std::find(caller_info_list_.begin(), caller_info_list_.end(), node) == 
-+              caller_info_list_.end())
++    node.is_forward_tracking = true;
++    auto it = std::find(caller_info_list_.begin(), caller_info_list_.end(), node);
++    if(it == caller_info_list_.end())
 +      caller_info_list_.push_back(node);
++    else it->is_forward_tracking = true;
++    // std::cout << "node " << node.position << " added to caller info list" << std::endl;
 +  }
 +  std::list<commons::AstNodeInfo> GetCallerInfo(){
 +    return caller_info_list_;
