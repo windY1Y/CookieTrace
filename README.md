@@ -1,6 +1,6 @@
 # CookieTrace
 
-This repository contains the artifacts of our submission #511 to CCS'26. Below we document the repository layout and the purpose of the main files and folders included in this repo.
+This repository contains the artifacts of our submission #609 to NDSS'26. Below we document the repository layout and the purpose of the main files and folders included in this repo.
 
 CookieTrace is a browser-based data flow backtracking analysis framework, used to track the cookies to their originating scripts.
 
