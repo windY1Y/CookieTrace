@@ -2,6 +2,7 @@
 """Container runtime. Only its own children and declared output directory are touched."""
 import argparse
 import hashlib
+import html
 import http.server
 import json
 import math
@@ -22,14 +23,7 @@ OUTPUT = Path('/ct-output')
 RAW = Path('/data/backtrack/yangyi-experiments/results_new')
 DEMO_NAME = 'ct_demo_cookie'
 DEMO_VALUE = 'ct_demo_value'
-DEMO_JS = b'''function writeDemoCookie() {
-  var name = "ct_demo_cookie";
-  var value = "ct_demo_value";
-  document.cookie = name + "=" + value + "; path=/";
-  document.getElementById("status").textContent = "Cookie written";
-}
-writeDemoCookie();
-'''
+DEMO_ROOT = Path(__file__).resolve().parent/'examples'
 
 
 def write_json(path, data):
@@ -122,12 +116,14 @@ def start_xvfb(log):
 
 
 class DemoHandler(http.server.BaseHTTPRequestHandler):
+    demo_case = 'direct'
+
     def do_GET(self):
         if self.path == '/demo.html':
-            content = b'<!doctype html><meta charset="utf-8"><title>CookieTrace local demo</title><p id="status">Starting</p><script src="/demo.js"></script>'
+            content = (DEMO_ROOT/(self.demo_case+'.html')).read_bytes()
             mime = 'text/html; charset=utf-8'
         elif self.path == '/demo.js':
-            content, mime = DEMO_JS, 'application/javascript'
+            content, mime = (DEMO_ROOT/(self.demo_case+'.js')).read_bytes(), 'application/javascript'
         else:
             self.send_error(404); return
         self.send_response(200)
@@ -138,6 +134,39 @@ class DemoHandler(http.server.BaseHTTPRequestHandler):
 
     def log_message(self, fmt, *args):
         pass
+
+
+def write_report(output, status, result, demo_case=None):
+    """Render only this run's observed data; escape all browser-controlled strings."""
+    esc = lambda value: html.escape(str(value), quote=True)
+    sources = result['sources'] if result else []
+    trace = result['trace'] if result else {}
+    cookie = trace.get('cookie', 'No validated cookie result')
+    lines = ['CookieTrace result', 'Status: '+str(status['status']),
+             'Details: '+str(status.get('message', '')), 'Cookie: '+cookie,
+             'Source records: '+str(len(sources))]
+    if demo_case:
+        lines += ['Demo: '+demo_case, 'Expected cookie: '+DEMO_NAME+'='+DEMO_VALUE,
+                  'Expected literals: '+DEMO_NAME+', '+DEMO_VALUE]
+    rows = []
+    for source in sources:
+        lines.append(f"- {source['string_value']!r} | {source['script_name']} | position {source['position']}")
+        rows.append('<tr><td><code>'+esc(source['string_value'])+'</code></td><td>'+esc(source['script_name'])+'</td><td>'+esc(source['position'])+'</td></tr>')
+    (output/'summary.txt').write_text('\n'.join(lines)+'\n', encoding='utf-8')
+    expectation = ('<h2>Expected demo output</h2><p><code>'+DEMO_NAME+'='+DEMO_VALUE+
+                   '</code></p><p>The trace should include the cookie name and value literals.</p>') if demo_case else ''
+    links = ['<a href="status.json">Status JSON</a>', '<a href="browser.log">Browser log</a>']
+    if result:
+        links += ['<a href="sources.json">Source JSON</a>', '<a href="paths.json">Path JSON</a>']
+    document = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>CookieTrace result</title><style>body{font:16px/1.6 system-ui,sans-serif;max-width:1100px;margin:40px auto;padding:0 24px;color:#183044}h1,h2{line-height:1.2}table{border-collapse:collapse;width:100%}td,th{padding:12px;border:1px solid #ced8df;text-align:left;overflow-wrap:anywhere}code{white-space:pre-wrap}a{color:#075f97}.status{padding:16px;background:#edf4f7;border-radius:8px}</style>
+<h1>CookieTrace result</h1>'''
+    document += '<p class="status"><strong>'+esc(status['status'])+'</strong><br>'+esc(status.get('message',''))+'</p>'
+    document += expectation+'<h2>Observed cookie</h2><p><code>'+esc(cookie)+'</code></p>'
+    document += '<h2>Observed source records</h2><table><tr><th>Literal</th><th>Script</th><th>Position</th></tr>'
+    document += ''.join(rows) or '<tr><td colspan="3">No validated source records were produced.</td></tr>'
+    document += '</table><h2>Run files</h2><p>'+' | '.join(links)+'</p></html>'
+    (output/'report.html').write_text(document, encoding='utf-8')
 
 
 def read_result(raw, run_id, target, prefix, demo=False):
@@ -229,6 +258,7 @@ def browser_command(a, chrome, profile, url):
 def run(a):
     started = time.monotonic()
     status = {'status': 'failed', 'exit_code': 2, 'run_id': a.run_id}
+    result = None
     browser = xvfb = server = None
     temp = None
     files = []
@@ -254,7 +284,8 @@ def run(a):
         prefix = DEMO_NAME if a.demo else a.cookie_prefix
         url = a.url
         if a.demo:
-            server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), DemoHandler)
+            handler = type('SelectedDemoHandler', (DemoHandler,), {'demo_case': getattr(a, 'demo_case', 'direct')})
+            server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), handler)
             threading.Thread(target=server.serve_forever, daemon=True).start()
             url = f'http://127.0.0.1:{server.server_port}/demo.html'
         env = os.environ.copy(); env['DISPLAY'] = display
@@ -296,6 +327,8 @@ def run(a):
         status['elapsed_seconds'] = round(time.monotonic()-started, 3)
         try:
             write_json(OUTPUT/'status.json', status)
+            if not a.check:
+                write_report(OUTPUT, status, result, getattr(a, 'demo_case', 'direct') if a.demo else None)
         except OSError as exc:
             print(f'Cannot write status.json: {exc}', file=sys.stderr)
         print(json.dumps(status), flush=True)
@@ -306,6 +339,7 @@ def main():
     mode = p.add_mutually_exclusive_group(required=True)
     mode.add_argument('--check', action='store_true')
     mode.add_argument('--demo', action='store_true')
+    p.add_argument('--demo-case', choices=['direct', 'function'], default='direct')
     mode.add_argument('--url')
     p.add_argument('--run-id', required=True)
     p.add_argument('--cookie-prefix')

@@ -8,3 +8,4 @@
 *.gz binary
 .gitattributes text eol=lf
 .gitignore text eol=lf
+*.html text eol=lf

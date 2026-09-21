@@ -20,10 +20,10 @@ CookieTrace/
     REPRODUCING.md
     run.sh
     launcher.py
-    check_effectiveness.py
     docker/
       Dockerfile
       runtime.py
+      examples/          # readable local HTML and JavaScript fixtures
     browser/
       sys/
         chrome
@@ -70,6 +70,28 @@ bash ae/run.sh --demo
 
 A successful demo exits with code 0 and writes `status.json` with `status: success`, plus `sources.json` and `paths.json`. The checker verifies the demo cookie `ct_demo_cookie=ct_demo_value`, the expected name/value literals, and completed trace metadata. Inspect these outputs as well as the exit code. The demo does not establish the paper's accuracy or performance claims.
 
+## Local examples and readable results
+
+The HTML and JavaScript fixtures are in `ae/docker/examples/`:
+
+| Case | Files | What it exercises |
+|---|---|---|
+| `direct` (default) | `direct.html`, `direct.js` | Cookie assignment from name and value literals |
+| `function` | `function.html`, `function.js` | A cookie value returned by a helper function |
+
+After downloading the browser and building the runtime, run:
+
+```bash
+bash ae/run.sh
+bash ae/run.sh --demo --demo-case function
+```
+
+Calling `run.sh` without arguments runs the default demo. The launcher starts an internal local HTTP server automatically, serves the chosen HTML/JS fixture, and stops it when the run ends. No URL, cookie argument, external website, or separate web server is needed. Both fixtures write `ct_demo_cookie=ct_demo_value`; the trace checker looks for the cookie name and value literals in the generated source records.
+
+At the end, the terminal prints the run directory and the path to **report.html**. Open that file in a normal browser to inspect the actual observed cookie, literal sources, script names, and positions. **summary.txt** contains the same concise results for terminal inspection. Raw `sources.json`, `paths.json`, and logs remain alongside the report. A failed run is displayed as a failure; expected demo values are labeled separately from actual observations.
+
+Rebuild the runtime with `bash ae/run.sh --build` after updating from the previous launcher version. This version uses the `cookietrace-ae:debian12-v2` runtime tag and packages the fixture files into the image. The prebuilt Chromium download is unchanged.
+
 ## Run a target website
 
 ```bash
@@ -98,15 +120,9 @@ Outputs include status/configuration records, browser logs, raw engine JSON and,
 
 Exit codes: 0 success; 2 setup/configuration error; 3 browser exited without a valid result; 4 browser failure; 124 timeout; 130 interruption. A timeout is not evidence that the cookie has no sources. The launcher stops only its own container.
 
-## Paper results
+## E2: effectiveness tables
 
-```bash
-python3 ae/check_effectiveness.py .
-```
-
-This recomputes accuracy summaries from the two released effectiveness CSVs, excluding their `Total` rows. It does not execute CookieTrace or validate source-level ground truth. See [REPRODUCING.md](REPRODUCING.md) for all claims and experiment protocols, including the definitions of micro and macro precision.
-
-The launcher's `elapsed_seconds` measures its runtime until a valid trace is obtained, including setup/cleanup. It is **not** the page-load metric in Figure 4. It must not be used as a replacement for the paper's load-time measurement.
+The paper's effectiveness results were calculated from `statistics/effectiveness_original.csv` and `statistics/effectiveness_deduplicated.csv`. These files contain the per-cookie ground-truth and detection counts used for the original and deduplicated evaluations. Review the supplied tables alongside Tables II-III in the paper. E2 requires no browser rerun, data recollection, or analysis command.
 
 ## Analysis dependencies
 

@@ -68,6 +68,7 @@ class HostTests(unittest.TestCase):
                   ['--demo', '--timeout', 'nan'], ['--demo', '--timeout', '1'],
                   ['--demo', '--proxy', 'http://proxy:1234'],
                   ['--demo', '--cookie-name', 'a'] ]
+        cases.append(['--check', '--demo-case', 'function'])
         for argv in cases:
             with self.subTest(argv=argv), self.assertRaises(ValueError):
                 launcher.validate(launcher.parser().parse_args(argv))
@@ -113,6 +114,25 @@ class HostTests(unittest.TestCase):
 
 
 class ResultTests(unittest.TestCase):
+    def test_report_escapes_browser_text_and_shows_actual_values(self):
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder)
+            result = {'sources': [{'position': 7, 'script_name': '<script>bad()</script>',
+                       'string_value': '<img src=x onerror=bad()>'}], 'trace': {'cookie': 'target=value'}}
+            runtime.write_report(output, {'status': 'success', 'message': 'Validated'}, result, 'direct')
+            html = (output/'report.html').read_text()
+            self.assertIn('&lt;script&gt;', html)
+            self.assertNotIn('<script>bad()', html)
+            self.assertIn('target=value', html)
+            self.assertIn('position 7', (output/'summary.txt').read_text())
+
+    def test_failed_report_does_not_invent_sources(self):
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder)
+            runtime.write_report(output, {'status': 'timeout', 'message': 'No trace'}, None, 'function')
+            self.assertIn('No validated source records', (output/'report.html').read_text())
+            self.assertNotIn('href="sources.json"', (output/'report.html').read_text())
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.raw = Path(self.temp.name)
@@ -198,6 +218,19 @@ class LifecycleTests(unittest.TestCase):
         try:
             js = urlopen(f'http://127.0.0.1:{server.server_port}/demo.js', timeout=2).read()
             self.assertIn(b'document.cookie', js)
+            page = urlopen(f'http://127.0.0.1:{server.server_port}/demo.html', timeout=2).read()
+            self.assertIn(b'Direct cookie assignment', page)
+        finally:
+            server.shutdown(); server.server_close(); thread.join()
+
+    def test_function_demo_http_server(self):
+        handler = type('FunctionDemo', (runtime.DemoHandler,), {'demo_case': 'function'})
+        server = runtime.http.server.ThreadingHTTPServer(('127.0.0.1', 0), handler)
+        thread = threading.Thread(target=server.serve_forever, daemon=True); thread.start()
+        try:
+            base = f'http://127.0.0.1:{server.server_port}'
+            self.assertIn(b'getCookieValue()', urlopen(base+'/demo.js', timeout=2).read())
+            self.assertIn(b'Cookie value returned', urlopen(base+'/demo.html', timeout=2).read())
         finally:
             server.shutdown(); server.server_close(); thread.join()
 
@@ -228,6 +261,8 @@ time.sleep(60)
              patch.dict(os.environ, {'CT_TEST_RAW':str(raw)}), patch('builtins.print'):
             self.assertEqual(runtime.run(a), 0)
         self.assertTrue((output/'sources.json').is_file())
+        self.assertTrue((output/'report.html').is_file())
+        self.assertIn('ct_demo_cookie=ct_demo_value', (output/'summary.txt').read_text())
         self.assertEqual(json.loads((output/'status.json').read_text())['status'], 'success')
         self.assertIsNotNone(fake_xvfb.poll())
 

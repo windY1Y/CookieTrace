@@ -27,13 +27,14 @@ def parser():
     action.add_argument('--build', action='store_true', help='Build runtime image only; does not copy Chromium into it')
     action.add_argument('--check', action='store_true', help='Check browser bundle and runtime shared libraries')
     action.add_argument('--demo', action='store_true', help='Run a built-in local cookie example, without external network')
+    p.add_argument('--demo-case', choices=['direct', 'function'], help='Local fixture to use with --demo (default: direct)')
     action.add_argument('--url', help='HTTP(S) URL, or a hostname (https:// is added)')
     target = p.add_mutually_exclusive_group()
     target.add_argument('--cookie-name', help='Full cookie name; output name is checked exactly')
     target.add_argument('--cookie-prefix', help='Legacy engine prefix: part of name before its first digit')
     p.add_argument('--browser-dir', type=Path, default=ROOT/'browser'/'sys', help='Directory containing chrome and its resources')
     p.add_argument('--output-dir', type=Path, default=ROOT/'results', help='Parent directory; a unique run subdirectory is always created')
-    p.add_argument('--image', default='cookietrace-ae:debian12-v1')
+    p.add_argument('--image', default='cookietrace-ae:debian12-v2')
     p.add_argument('--base-image', default='debian:12-slim', help='For --build; may be pinned to a digest')
     p.add_argument('--timeout', type=float, default=120, help='Seconds allowed for browser analysis')
     p.add_argument('--settle-seconds', type=float, default=2, help='Require completed JSON files to remain unchanged this long')
@@ -68,6 +69,8 @@ def engine_prefix(name):
 
 
 def validate(a):
+    if a.demo_case and not a.demo:
+        raise ValueError('--demo-case requires --demo.')
     if a.url and not (a.cookie_name or a.cookie_prefix):
         raise ValueError('--url requires --cookie-name or --cookie-prefix.')
     if not a.url and (a.cookie_name or a.cookie_prefix):
@@ -152,7 +155,7 @@ def create_command(a, run_dir, run_id, image):
     if a.check:
         command += ['--check']
     elif a.demo:
-        command += ['--demo']
+        command += ['--demo', '--demo-case', a.demo_case or 'direct']
     else:
         command += ['--url', a.url, '--cookie-prefix', a.prefix]
         if a.target:
@@ -256,6 +259,9 @@ def execute(a):
                 child.kill(); child.wait(timeout=5)
         metadata['launcher_exit_code'] = code
         metadata_path.write_text(json.dumps(metadata, indent=2)+'\n', encoding='utf-8')
+        if (run_dir/'report.html').is_file():
+            print(f'Open result report: {run_dir / "report.html"}', flush=True)
+            print(f'Text summary: {run_dir / "summary.txt"}', flush=True)
     return code
 
 

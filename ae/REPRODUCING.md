@@ -8,7 +8,6 @@ All commands below are run from the CookieTrace repository root. Paths in upperc
 |---|---|---|
 | `measure/single_site.sh` | Launch CookieTrace for a website and target cookie | Single-site data collection |
 | `ae/run.sh` | Build the runtime image; check the browser; run the local demo or one target in an isolated container | E1; portable single-site collection |
-| `ae/check_effectiveness.py` | Recompute TP/FP/FN-based metrics from the two effectiveness CSVs | E2; CookieTrace source-accuracy entries in Tables II-III |
 | `data_processing/summarize_overhead.py` | Join browser timestamps, instrumented load-time records, and vanilla measurements; compute stage intervals and slowdown | E3; Figure 4 analysis |
 | `data_processing/compute_avg_time.py` | Average numeric fields in the per-site overhead JSON | E3; overall performance summaries |
 | `ae/analysis/char_new.py` | Summarize paired source/path records, forward dependence, depths, functions, and dataset categories | E4; underlying source-characterization statistics |
@@ -22,7 +21,7 @@ All commands below are run from the CookieTrace repository root. Paths in upperc
 
 `collboration.py` retains its original filename spelling. Its participation input is distinct from the `source_scripts` field consumed by source-script analysis.
 
-## E1: run CookieTrace
+## E1: run the local CookieTrace examples
 
 Preparation and execution:
 
@@ -30,9 +29,10 @@ Preparation and execution:
 bash ae/run.sh --build
 bash ae/run.sh --check
 bash ae/run.sh --demo
+bash ae/run.sh --demo --demo-case function
 ```
 
-`--build` builds the Debian runtime, not Chromium. A successful demo returns 0 and writes `status: success`, the target cookie `ct_demo_cookie=ct_demo_value`, and validated source/path JSON. Each run has a unique directory under `ae/results/`; keep its logs and raw files with the results.
+`--build` builds the Debian runtime, not Chromium. A successful demo returns 0 and writes `status: success`, the target cookie `ct_demo_cookie=ct_demo_value`, and validated source/path JSON. Each run has a unique directory under `ae/results/`; open `report.html` for a readable result table, or inspect `summary.txt` in a terminal. The fixture source files are in `ae/docker/examples/`; keep the logs and raw files with the results.
 
 For one live target:
 
@@ -42,27 +42,11 @@ bash ae/run.sh --url https://YOUR-SITE --cookie-name YOUR_COOKIE --timeout 600
 
 The original entry is `bash measure/single_site.sh DOMAIN SCRIPT_PLACEHOLDER COOKIE_PREFIX`. Its browser/profile/proxy paths are configured inside the script. The portable launcher offers explicit path/proxy options and manages the engine's output-path mount. See `README.md` for cookie-prefix semantics, profiles, and completion checks.
 
-## E2: source effectiveness — Tables II-III
+## E2: effectiveness tables — Tables II-III
 
-Input: `statistics/effectiveness_original.csv` and `statistics/effectiveness_deduplicated.csv`.
+The paper's effectiveness results were calculated from `statistics/effectiveness_original.csv` and `statistics/effectiveness_deduplicated.csv`. The tables record the per-cookie ground-truth source counts and detection counts for the original and deduplicated evaluation sets.
 
-```bash
-python3 ae/check_effectiveness.py .
-```
-
-The checker excludes the final `Total` row, verifies its counts, and reports source-level micro and macro precision/recall.
-
-| Quantity | Original set | Deduplicated set |
-|---|---:|---:|
-| Cookie samples | 160 | 85 |
-| TP | 10,005 | 3,453 |
-| FP | 128 | 58 |
-| FN | 0 | 0 |
-| Micro precision | 98.7368% | 98.3480% |
-| Macro precision | 99.3242% | 99.4001% |
-| Recall | 100% | 100% |
-
-Micro precision is sum(TP)/(sum(TP)+sum(FP)); macro precision averages the per-cookie ratios. The paper's rounded 98.7% and 98.3% correspond to the micro-precision values above. This script checks the supplied count records. Single-site execution produces source/path traces for inspecting the contributing literals and script identities of an individual target.
+E2 is a review of these supplied tables and their relationship to the paper's effectiveness results. Evaluators do not need to launch CookieTrace, recollect websites, obtain the complete crawl, or run a calculation script for this step.
 
 ## E3: performance — Figure 4
 

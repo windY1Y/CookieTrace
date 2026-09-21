@@ -10,5 +10,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxss1 libvulkan1 xdg-utils \
     && rm -rf /var/lib/apt/lists/*
 COPY runtime.py /opt/cookietrace/runtime.py
+COPY examples/ /opt/cookietrace/examples/
 WORKDIR /tmp
 ENTRYPOINT ["python3", "/opt/cookietrace/runtime.py"]

@@ -5,4 +5,7 @@ if ! command -v python3 >/dev/null 2>&1; then
   echo 'Error: install Python 3.9+ on the Linux host.' >&2
   exit 2
 fi
+if [ "$#" -eq 0 ]; then
+  set -- --demo
+fi
 exec python3 "$SCRIPT_DIR/launcher.py" "$@"
