@@ -1,0 +1,4 @@
+browser/
+results/
+__pycache__/
+*.pyc

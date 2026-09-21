@@ -64,3 +64,7 @@ The three parameters are:
 
 
 
+
+## Artifact evaluation
+
+See [the AE instructions](ae/README.md) for runtime setup, browser checks, the local demo, and portable single-site execution. Place the custom browser runtime in `ae/browser/sys/` or specify its location with `--browser-dir`.
