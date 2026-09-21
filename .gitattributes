@@ -1,0 +1,10 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.pdf binary
+*.png binary
+*.gz binary
+.gitattributes text eol=lf
+.gitignore text eol=lf

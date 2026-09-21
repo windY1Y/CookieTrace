@@ -55,18 +55,15 @@ cleanup(){
 }
 trap cleanup SIGINT
 
-# 1) 启动 tail 监控（后台），不要 break 整个脚本
 tail -n0 -F "$LOGFILE" | \
 while IFS= read -r line; do
   if [[ "$line" == *"[Consent-O-Matic]"* ]]; then
     echo "[INFO] Detected consent event: $line"
     touch "$FLAGFILE"
-    # **不要 break**，让它继续监听
   fi
 done &
 TAIL_PID=$!
 
-# 2) 主流程阻塞，等 Chrome 退出
 wait "$CHROME_PID"
 echo "[INFO] Chrome exited, script end."
 

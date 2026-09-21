@@ -25,7 +25,7 @@ inputDirs.forEach(inputDir => {
     
     const jsonFiles = files.filter(file => file.endsWith('path.json'));
 
-    console.log(`正在处理目录 ${inputDir}，共 ${jsonFiles.length} 个 path.json 文件`);
+    console.log(`Processing directory ${inputDir}: ${jsonFiles.length} path.json files`);
 
     
     jsonFiles.forEach(file => {
@@ -36,14 +36,14 @@ inputDirs.forEach(inputDir => {
       try {
         fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       } catch (parseErr) {
-        console.error(`跳过错误文件 ${filePath}：JSON 解析失败`, parseErr.message);
+        console.error(`Skipping invalid file ${filePath}: JSON parsing failed`, parseErr.message);
         return;
       }
 
       
       const domain = file.split('_')[0];
       if (!domain) {
-        console.warn(`跳过文件 ${file}：无法提取域名`);
+        console.warn(`Skipping file ${file}: cannot extract domain`);
         return;
       }
 
@@ -65,17 +65,17 @@ inputDirs.forEach(inputDir => {
             source_dir: inputDir 
           };
           results.push(result);
-          console.log(`添加条目：域名 ${domain}（来自文件 ${file}）`);
+          console.log(`Adding domain ${domain} from file ${file}`);
         } else {
-          console.log(`跳过重复域名 ${domain}（已存在于 results 中）`);
+          console.log(`Skipping duplicate domain ${domain} already in results`);
         }
       } else {
-        console.log(`跳过文件 ${file}：有效脚本数量为 ${nonEmptyScripts.length}（需 >1）`);
+        console.log(`Skipping file ${file}: ${nonEmptyScripts.length} valid scripts (requires >1)`);
       }
     });
 
   } catch (dirErr) {
-    console.error(`处理目录 ${inputDir} 失败：`, dirErr.message);
+    console.error(`Failed to process directory ${inputDir}:`, dirErr.message);
   }
 });
 
@@ -83,6 +83,6 @@ inputDirs.forEach(inputDir => {
 fs.writeFileSync(outputFilePath, JSON.stringify(results, null, 2));
 
 
-console.log(`\n=== 处理完成 ===`);
-console.log(`共找到 ${results.length} 个符合条件的条目`);
-console.log(`结果已保存到：${path.resolve(outputFilePath)}`);
+console.log(`\n=== Processing complete ===`);
+console.log(`Found ${results.length} matching entries`);
+console.log(`Results saved to:${path.resolve(outputFilePath)}`);

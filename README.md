@@ -7,12 +7,12 @@ CookieTrace is a browser-based data flow backtracking analysis framework, used t
 - `cookietrace.patch`: Patch file for CookieTrace. We built the prototype based on [Arcanum](https://github.com/BEESLab/Arcanum). Arcanum includes two patch files, and CookieTrace is an implementation extending their `v8.patch`.
   - We integrated [nlohmann](https://github.com/nlohmann/json) into `v8/src/third_party` to output tracking results in JSON format. This addition accounts for approximately 20,000 lines in the patch (as shown in the final git diff). Our actual contributions comprise roughly 4,000 lines of code.
 - `measure/`: Automation scripts used to run the experiments.
-- `data_processing/`: Scripts used for processing the raw experiment output, including overhead computation, classification, characterizaiton.
+- `data_processing/`: Scripts used for processing the raw experiment output, including overhead computation, classification, characterization.
 - `statistics/`: Processed statistical results, effectiveness and characterization outputs, including analyses on both consent cookies and unnecessary cookies.
 
-## Setup and Build
+## Build from source (optional for AE)
 
-The following build steps work only on Debian, Ubuntu and macOS.
+The prebuilt AE runtime targets Linux x86-64. The following section describes the original source-build workflow; AE users can follow [ae/README.md](ae/README.md) to use the prebuilt runtime.
 
 Note: Steps 1–2 overlap with Arcanum’s own setup; if you prefer, follow Arcanum’s instructions and skip repeating them here.
 
@@ -40,9 +40,9 @@ gclient sync --with_branch_heads --with_tags
 
 4. Apply our patch to Arcanum, and recompile chromium.
 
-## Run CookieTrace
+## Legacy single-site runner
 
-We provide `measure\single_site.sh` to run CookieTrace on a single website, tracking the source of target cookie.
+We provide `measure/single_site.sh` to run CookieTrace on a single website, tracking the source of target cookie.
 
 You should modify `CHROME_BIN` at line 16, pointing to your compiled chromium.
 
@@ -68,3 +68,5 @@ The three parameters are:
 ## Artifact evaluation
 
 See [the AE instructions](ae/README.md) for runtime setup, browser checks, the local demo, and portable single-site execution. Place the custom browser runtime in `ae/browser/sys/` or specify its location with `--browser-dir`.
+
+The prebuilt instrumented Chromium is distributed as a [release asset](https://github.com/windY1Y/CookieTrace/releases/tag/ae-runtime-v1), with SHA-256 checksums and extraction instructions in the AE README.

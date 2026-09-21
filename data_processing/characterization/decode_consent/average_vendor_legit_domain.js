@@ -30,7 +30,7 @@ consentData.forEach(item => {
   totalDomainCount ++;
 });
 
-console.log(`所有的 domainCount 总和为: ${totalDomainCount}`);
-console.log(`所有 vendor 的数量为: ${totalVendorCount}`);
-console.log(`每个domain平均有多少个activated vendor: ${(totalVendorCount / totalDomainCount).toFixed(2)}`);
-console.log(`每个domain平均有多少个activated purpose: ${(totalPurposeCount / totalDomainCount).toFixed(2)}`);
+console.log(`Sum of domainCount: ${totalDomainCount}`);
+console.log(`Total vendor count: ${totalVendorCount}`);
+console.log(`Average activated vendors per domain: ${(totalVendorCount / totalDomainCount).toFixed(2)}`);
+console.log(`Average activated purposes per domain: ${(totalPurposeCount / totalDomainCount).toFixed(2)}`);
