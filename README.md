@@ -49,7 +49,7 @@ You should modify `CHROME_BIN` at line 16, pointing to your compiled chromium.
 Example Usage:
 
 ```
-./single_site example.com xx _gcl_au
+./single_site.sh example.com xx _gcl_au
 ```
 
 The three parameters are:
