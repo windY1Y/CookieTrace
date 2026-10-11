@@ -1,8 +1,10 @@
 # CookieTrace
 
-This repository contains the artifacts of our submission #609 to NDSS'27. Below we document the repository layout and the purpose of the main files and folders included in this repo.
+This repository contains the artifacts for our paper **“Chasing Cookies to the Source: In-browser Data Flow Backtracking for Cookie Compliance Triage”**, accepted at **NDSS 2027**.
 
-CookieTrace is a browser-based data flow backtracking analysis framework, used to track the cookies to their originating scripts.
+CookieTrace is a browser-based data flow backtracking framework that traces cookie writes to their underlying data sources and identifies the responsible scripts, supporting fine-grained cookie compliance analysis.
+
+Below, we describe the repository structure and the purpose of its main files and directories.
 
 - `cookietrace.patch`: Patch file for CookieTrace. We built the prototype based on [Arcanum](https://github.com/BEESLab/Arcanum). Arcanum includes two patch files, and CookieTrace is an implementation extending their `v8.patch`.
   - We integrated [nlohmann](https://github.com/nlohmann/json) into `v8/src/third_party` to output tracking results in JSON format. This addition accounts for approximately 20,000 lines in the patch (as shown in the final git diff). Our actual contributions comprise roughly 4,000 lines of code.
@@ -62,11 +64,3 @@ The three parameters are:
 
 
 
-
-
-
-## Artifact evaluation
-
-See [the AE instructions](ae/README.md) for runtime setup, browser checks, the local demo, and portable single-site execution. Place the custom browser runtime in `ae/browser/sys/` or specify its location with `--browser-dir`.
-
-The prebuilt instrumented Chromium is distributed as a [release asset](https://github.com/windY1Y/CookieTrace/releases/tag/ae-runtime-v1), with SHA-256 checksums and extraction instructions in the AE README.
