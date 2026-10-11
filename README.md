@@ -12,9 +12,7 @@ Below, we describe the repository structure and the purpose of its main files an
 - `data_processing/`: Scripts used for processing the raw experiment output, including overhead computation, classification, characterization.
 - `statistics/`: Processed statistical results, effectiveness and characterization outputs, including analyses on both consent cookies and unnecessary cookies.
 
-## Build from source (optional for AE)
-
-The prebuilt AE runtime targets Linux x86-64. The following section describes the original source-build workflow; AE users can follow [ae/README.md](ae/README.md) to use the prebuilt runtime.
+## Build from source
 
 Note: Steps 1–2 overlap with Arcanum’s own setup; if you prefer, follow Arcanum’s instructions and skip repeating them here.
 
