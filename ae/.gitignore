@@ -1,7 +1,0 @@
-browser/
-results/
-__pycache__/
-*.pyc
-
-.venv-analysis/
-browser-downloads/
